@@ -7,7 +7,6 @@
 
 # Site settings
 title: West Dunbartonshire Leisure 10K
-email: 
 description: > # this means to ignore newlines until "baseurl:"
   Enter the West Dunbartonshire Leisure 10K.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -17,3 +16,26 @@ url: "/" # the base hostname & protocol for your site
 gems: [bootstrap, autoprefixer-rails, jekyll-assets]
 markdown: kramdown
 exclude: ["README.md"]
+assets:
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+  prefix: "/assets"
+  digest: true
+  compress:
+    css: true
+    js: true
+  assets:
+    - app.scss
+    - "*.png"
+    - "*.jpeg"
+    - "*.gif"
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _assets/img
+    - _assets/js
