@@ -1,9 +1,10 @@
 - title: Vale of Leven 10K
   race_date: Thursday 10th
-  start_time: 10am
   entries_closing_date: Thursday 13th
   description: >
       Blah, blah.
   price:
     sa: 15
-    not_sa: 17
+    non-sa: 17
+  route: http://www.mapmyrun.com/routes/view/1018849713
+  entry_link: https://stuweb.co.uk
