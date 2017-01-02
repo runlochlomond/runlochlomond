@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+gem 'jekyll', '~>3.3.1'
+gem 'bootstrap', '4.0.0.alpha5'
