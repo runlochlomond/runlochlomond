@@ -1,24 +1,11 @@
 image: ruby:2.3
 
-test:
-  stage: test
-  script:
-  - export LC_ALL=en_US.UTF-8
-  - export LANG=en_US.UTF-8
-  - export LANGUAGE=en_US.UTF-8
-  - export LC_CTYPE=en_US.UTF-8
-  - gem install bundler
-  - bundle install
-  - jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
-
 pages:
   stage: deploy
   script:
+  - apt-get install -y locales
+  - echo "en_US UTF-8" > /etc/locale.gen
+  - locale-gen en_US.UTF-8
   - export LC_ALL=en_US.UTF-8
   - export LANG=en_US.UTF-8
   - export LANGUAGE=en_US.UTF-8
