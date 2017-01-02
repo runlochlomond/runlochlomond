@@ -3,6 +3,10 @@ image: ruby:2.3
 test:
   stage: test
   script:
+  - export LC_ALL=en_US.UTF-8
+  - export LANG=en_US.UTF-8
+  - export LANGUAGE=en_US.UTF-8
+  - export LC_CTYPE=en_US.UTF-8
   - gem install bundler
   - bundle install
   - jekyll build -d test
@@ -15,6 +19,10 @@ test:
 pages:
   stage: deploy
   script:
+  - export LC_ALL=en_US.UTF-8
+  - export LANG=en_US.UTF-8
+  - export LANGUAGE=en_US.UTF-8
+  - export LC_CTYPE=en_US.UTF-8
   - gem install bundler
   - bundle install
   - jekyll build -d public
