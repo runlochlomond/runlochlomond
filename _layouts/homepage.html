@@ -2,26 +2,40 @@
 layout: base
 ---
 <div class="row">
-    {{ content }}
-</div>
-<div class="row">
-    <h2>Races</h2>
-    {% for race in site.data.races %}
-    <div class="card">
-        <h2>{{ race.title }}</h2>
+    <div class="col-xs-12">
+        {{ content }}
     </div>
-    {% endfor %}
 </div>
 <div class="row">
-    <h2>Sponsors</h2>
-    {% for sponsor in site.data.sponsors %}
-    <ul>
-        <li>{{ sponsor.name }}</li>
-    </ul>
-    {% endfor %}
+    <div class="card-deck">
+        {% for race in site.data.races %}
+        <div class="card">
+            <div class="card-block">
+                <h4 class="card-title">{{ race.title }}</h4>
+                <h6 class="card-subtitle text-muted">{{ race.race_date }}</h6>
+            </div>
+            <div class="card-block">
+                <p class="card-text">{{ race.description }}</p>
+            </div>
+            <div class="card-block">
+                <a class="btn btn-block btn-outline-primary card-link" href="{{ race.entry_link }}">Enter via StuWeb</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </div>
 <div class="row">
-    <div class="six columns">
+    <div class="col-xs-12">
+        <h2>Sponsors</h2>
+        {% for sponsor in site.data.sponsors %}
+        <ul>
+            <li>{{ sponsor.name }}</li>
+        </ul>
+        {% endfor %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
         <h2>Previous Results</h2>
         {% for result in site.data.results %}
         <ul>
@@ -36,7 +50,7 @@ layout: base
         </ul>
         {% endfor %}
     </div>
-    <div class="six columns">
+    <div class="col-md-6">
         <h2>Previous Galleries</h2>
         {% for gallery in site.data.galleries %}
         <ul>
@@ -53,30 +67,28 @@ layout: base
     </div>
 </div>
 <div class="row">
-    <h2>FAQ</h2>
-    {% for faq in site.data.faq %}
-    <p>
-        <strong>{{ faq.question }}</strong>
-        {{ faq.answer }}
-    </p>
-    {% endfor %}
+    <div class="col-xs-12">
+        <h2>FAQ</h2>
+        <dl class="row">
+            {% for faq in site.data.faq %}
+            <dt class="col-sm-3">{{ faq.question }}</dt>
+            <dd class="col-sm-9">{{ faq.answer }}</dd>
+            {% endfor %}
+        </dl>
+    </div>
 </div>
 <div class="row">
-    <h2>Contact Us</h2>
-    <p>
-        <strong>Address</strong>
-        {{ site.data.contact.address }}
-    </p>
-    <p>
-        <strong>Phone Number</strong>
-        {{ site.data.contact.phone }}
-    </p>
-    <p>
-        <strong>Email</strong>
-        {{ site.data.contact.email }}
-    </p>
-    <p>
-        <strong>Working Hours</strong>
-        {{ site.data.contact.working_hrs }}
-    </p>
+    <div class="col-xs-12">
+        <h2>Contact Us</h2>
+        <dl class="row">
+            <dt class="col-sm-3">Address</dt>
+            <dd class="col-sm-9">{{ site.data.contact.address }}</dd>
+            <dt class="col-sm-3">Phone Number</dt>
+            <dd class="col-sm-9">{{ site.data.contact.phone }}</dd>
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">{{ site.data.contact.email }}</dd>
+            <dt class="col-sm-3">Working Hrs</dt>
+            <dd class="col-sm-9">{{ site.data.contact.working_hrs }}</dd>
+        </dl>
+    </div>
 </div>
