@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: default
+layout: page
 ---
 # Privacy Policy
 TBD
