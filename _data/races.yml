@@ -1,4 +1,9 @@
 - title: Vale of Leven 10K
-  date: Thursday 10th
+  race_date: Thursday 10th
+  start_time: 10am
+  entries_closing_date: Thursday 13th
   description: >
       Blah, blah.
+  price:
+    sa: 15
+    not_sa: 17
