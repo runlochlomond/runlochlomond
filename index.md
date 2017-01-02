@@ -1,5 +1,5 @@
 ---
+title: Homepage
 layout: homepage
 ---
-# Welcome!
-Test
+Enter the UK's longest running road race series today!
