@@ -16,11 +16,27 @@ layout: base
             </div>
             {% img '{{ race.image_link }}' class:'img-fluid' %}
             <div class="card-block">
-                <p class="card-text">{{ race.description }}</p>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p class="card-text">{{ race.description }}</p>
+                    </div>
+                    <div class="col-sm-5">
+                        <dl>
+                            <dt>Race Date</dt>
+                            <dd>{{ race.race_date }}</dd>
+                            <dt>Entry Close Date</dt>
+                            <dd>{{ race.entries_closing_date }}</dd>
+                            <dt>SA Affiliated Price</dt>
+                            <dd>£{{ race.price.sa }}</dd>
+                            <dt>Non-SA Affiliated Price</dt>
+                            <dd>£{{ race.price.non-sa }}</dd>
+                        </dl>                
+                    </div>
+                </div>
             </div>
             <div class="card-block">
                 <a class="btn btn btn-primary card-link" href="{{ race.entry_link }}">Enter via StuWeb</a>
-                <a class="card-link" href="{{ race.route }}">Check Route</a>
+                <a class="card-link" href="{{ race.route }}">View Route</a>
             </div>
         </div>
     </div>
