@@ -8,7 +8,7 @@
     <nav id="navigation" class="navbar navbar-dark bg-primary">
       <div class="container">
         <span class="navbar-brand">West Dunbartonshire Leisure 10K</span>
-        <ul class="nav navbar-nav float-xs-right">
+        <ul class="nav navbar-nav float-xs-left float-sm-right">
           {% assign sorted_pages = site.pages | sort: 'title' | sort: 'layout' %}
           {% for node in sorted_pages %}
             {% if node.include_in_nav %}
