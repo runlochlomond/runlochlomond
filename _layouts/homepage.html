@@ -14,11 +14,13 @@ layout: base
                 <h4 class="card-title">{{ race.title }}</h4>
                 <h6 class="card-subtitle text-muted">{{ race.race_date }}</h6>
             </div>
+            {% img '{{ race.image_link }}' class:'img-fluid' %}
             <div class="card-block">
                 <p class="card-text">{{ race.description }}</p>
             </div>
             <div class="card-block">
-                <a class="btn btn-block btn-outline-primary card-link" href="{{ race.entry_link }}">Enter via StuWeb</a>
+                <a class="btn btn btn-primary card-link" href="{{ race.entry_link }}">Enter via StuWeb</a>
+                <a class="card-link" href="{{ race.route }}">Check Route</a>
             </div>
         </div>
         {% endfor %}

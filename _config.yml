@@ -30,6 +30,7 @@ assets:
     - app.scss
     - "*.png"
     - "*.jpeg"
+    - "*.jpg"
     - "*.gif"
   sources:
     - _assets/css
