@@ -53,16 +53,12 @@ layout: base
         </dl>
     </div>
 </div>
-</div><div id="sponsors" class="section">
+</div><div id="sponsors" class="section text-xs-center">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 text-xs-center">
-                <p class="text-muted">Many thanks to our sponsors for making the series possible!</p>
-                {% for sponsor in site.data.sponsors %}
-                <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
-                {% endfor %}
-            </div>
-        </div>
+        <p class="text-muted">Many thanks to our sponsors for making the series possible!</p>
+        {% for sponsor in site.data.sponsors %}
+        <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
+        {% endfor %}
     </div>
 </div><div class="container">
 <div id="previous" class="section row">
