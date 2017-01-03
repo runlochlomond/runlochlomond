@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: Terms and Conditions
 layout: page
 include_in_nav: false
 ---
