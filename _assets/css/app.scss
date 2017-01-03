@@ -7,11 +7,17 @@ $text-muted: #8c95a9;
 @import "bootstrap";
 
 body {
+  background: linear-gradient(#fff, #f3f3f3);
   margin-top: 1em;
 }
 
 .container {
   max-width: 40em;
+}
+
+.section {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #logo {
@@ -24,9 +30,32 @@ body {
   border-radius: 0;
 }
 
-#races {
-  margin-top: 3em;
-  margin-bottom: 3em;
+#sponsors {
+  background-color: #fff;
+  
+  border-top: 0.1em solid #cecece;
+  border-bottom: 0.1em solid #cecece;
+
+  margin-top: 0em;
+  margin-bottom: 2em;
+
+  .container {
+    padding: 1em 0;
+  }
+
+  h5 {
+    margin-bottom: 1em;
+  }
+
+  img {
+    max-width: 10em;
+    margin: 0 1em 1em 1em;
+  }
+}
+
+#footer {
+  margin-top: 1em;
+  border-radius: 0;
 }
 
 .card {

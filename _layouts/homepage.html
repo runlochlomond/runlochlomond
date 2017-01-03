@@ -1,14 +1,14 @@
 ---
 layout: base
 ---
-<div class="row">
-    <div class="col-xs-12">
+<div id="intro" class="section row">
+    <article class="col-xs-12">
         {{ content }}
-    </div>
+    </article>
 </div>
-<div id="races" class="row">
-    <div class="card-deck">
-        {% for race in site.data.races %}
+<div id="races" class="section row">
+    {% for race in site.data.races %}
+    <div class="col-xs-12">
         <div class="card">
             <div class="card-block">
                 <h4 class="card-title">{{ race.title }}</h4>
@@ -23,52 +23,10 @@ layout: base
                 <a class="card-link" href="{{ race.route }}">Check Route</a>
             </div>
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
 </div>
-<div class="row">
-    <div class="col-xs-12">
-        <h2>Sponsors</h2>
-        {% for sponsor in site.data.sponsors %}
-        <ul>
-            <li>{{ sponsor.name }}</li>
-        </ul>
-        {% endfor %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-6">
-        <h2>Previous Results</h2>
-        {% for result in site.data.results %}
-        <ul>
-            <li>
-                {{ result.name }}
-                <ul>
-                    {% for event in result.results %}
-                    <li><a href="{{ event.link }}">{{ event.year }}</a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-        </ul>
-        {% endfor %}
-    </div>
-    <div class="col-md-6">
-        <h2>Previous Galleries</h2>
-        {% for gallery in site.data.galleries %}
-        <ul>
-            <li>
-                {{ gallery.name }}
-                <ul>
-                    {% for event in gallery.galleries %}
-                    <li><a href="{{ event.link }}">{{ event.year }}</a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-        </ul>
-        {% endfor %}
-    </div>
-</div>
-<div class="row">
+<div id="faq" class="section row">
     <div class="col-xs-12">
         <h2>FAQ</h2>
         <dl class="row">
@@ -79,7 +37,44 @@ layout: base
         </dl>
     </div>
 </div>
-<div class="row">
+</div><div id="sponsors" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-xs-center">
+                <p class="text-muted">Many thanks to our sponsors for making the series possible!</p>
+                {% for sponsor in site.data.sponsors %}
+                {% img '{{ sponsor.image_link }}' class:'img-fluid' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div><div class="container">
+<div id="previous" class="section row">
+    <div class="col-xs-12">
+        <h2>Results &amp; Galleries</h2>
+        {% for result in site.data.results %}
+        <dl>
+            <dt>{{ result.name }} Results</dt>
+            <dd>
+                {% for event in result.results %}
+                    <a class="btn btn-link" href="{{ event.link }}">{{ event.year }}</a>
+                {% endfor %}
+            </dd>
+        </dl>
+        {% endfor %}
+        {% for gallery in site.data.galleries %}
+        <dl>
+            <dt>{{ gallery.name }} Gallery</dt>
+            <dd>
+                {% for event in gallery.galleries %}
+                    <a class="btn btn-link" href="{{ event.link }}">{{ event.year }}</a>
+                {% endfor %}
+            </dd>
+        </dl>
+        {% endfor %}
+    </div>
+</div>
+<div id="contact-us" class="section row">
     <div class="col-xs-12">
         <h2>Contact Us</h2>
         <dl class="row">
