@@ -1,6 +1,7 @@
 ---
-title: About Us
+title: About
 layout: page
+include_in_nav: true
 ---
 # Polaroid Eyewear 10K Series – a great running tradition
 
