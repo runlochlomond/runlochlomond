@@ -45,10 +45,10 @@ layout: base
 <div id="faq" class="section row">
     <div class="col-xs-12">
         <h2>FAQ</h2>
-        <dl class="row">
+        <dl>
             {% for faq in site.data.faq %}
-            <dt class="col-sm-3">{{ faq.question }}</dt>
-            <dd class="col-sm-9">{{ faq.answer }}</dd>
+            <dt>{{ faq.question }}</dt>
+            <dd>{{ faq.answer }}</dd>
             {% endfor %}
         </dl>
     </div>
@@ -99,7 +99,7 @@ layout: base
             <dt class="col-sm-3">Phone Number</dt>
             <dd class="col-sm-9">{{ site.data.contact.phone }}</dd>
             <dt class="col-sm-3">Email</dt>
-            <dd class="col-sm-9">{{ site.data.contact.email }}</dd>
+            <dd class="col-sm-9"><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
             <dt class="col-sm-3">Working Hrs</dt>
             <dd class="col-sm-9">{{ site.data.contact.working_hrs }}</dd>
         </dl>
