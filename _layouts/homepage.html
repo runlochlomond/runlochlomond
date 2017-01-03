@@ -59,7 +59,7 @@ layout: base
             <div class="col-xs-12 text-xs-center">
                 <p class="text-muted">Many thanks to our sponsors for making the series possible!</p>
                 {% for sponsor in site.data.sponsors %}
-                {% img '{{ sponsor.image_link }}' class:'img-fluid' %}
+                <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
                 {% endfor %}
             </div>
         </div>
