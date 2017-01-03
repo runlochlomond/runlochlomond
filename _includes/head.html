@@ -4,7 +4,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{% asset_path apple-touch-icon-57x57.png %}" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% asset_path apple-touch-icon-114x114.png %}" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% asset_path apple-touch-icon-72x72.png %}" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% asset_path apple-touch-icon-144x144.png %}" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{% asset_path apple-touch-icon-120x120.png %}" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{% asset_path apple-touch-icon-152x152.png %}" />
+  <link rel="icon" type="image/png" href="{% asset_path favicon-32x32.png %}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{% asset_path favicon-16x16.png %}" sizes="16x16" />
+  <meta name="application-name" content="West Dunbartonshire Leisure 10K"/>
+  <meta name="msapplication-TileColor" content="#0088CC" />
+  <meta name="msapplication-TileImage" content="{% asset_path mstile-144x144.png %}" />
 
   {% css app %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

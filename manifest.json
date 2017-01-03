@@ -1,0 +1,11 @@
+{
+  "name": "West Dunbartonshire Leisure 10K",
+  "short_name": "WDL 10K",
+  "description": null,
+  "dir": "auto",
+  "lang": "en-US",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "background_color": "#0088cc"
+}
