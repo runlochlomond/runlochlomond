@@ -6,6 +6,6 @@ link:
     - url: https://google.co.uk
       text: Donate now!
       highlight: True
-    - url: https://google.co.uk
+    - url: /charity
       text: Find out more!
       highlight: False
