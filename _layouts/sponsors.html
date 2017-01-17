@@ -1,0 +1,17 @@
+---
+layout: base
+---
+{{ content }}
+{% for sponsor in site.data.sponsors %}
+<div class="row">
+    <div class="col-sm-6">
+        <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
+    </div>
+    <div class="col-sm-6">
+        <dl>
+            <dt>{{ sponsor.name }}</dt>
+            <dd>{{ sponsor.description }}</dd>
+        </dl>
+    </div>
+</div>
+{% endfor %}

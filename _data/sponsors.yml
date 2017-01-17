@@ -1,7 +1,9 @@
 ---
 - name: Arran Aromatics
   link: http://www.arranaromatics.com/
+  description: Lorem ipsum.
   image_link: arran_aromatics.jpg
 - name: Sweatshop
   link: https://sweatshop.com
+  description: Lorem ipsum.
   image_link: sweatshop.svg
