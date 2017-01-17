@@ -1,0 +1,29 @@
+---
+layout: base
+---
+{{ content }}
+<div id="previous" class="section row">
+    <div class="col-xs-12">
+        <h2>Results &amp; Galleries</h2>
+        {% for result in site.data.results %}
+        <dl>
+            <dt>{{ result.name }} Results</dt>
+            <dd>
+                {% for event in result.results %}
+                    <a class="btn btn-link" href="{{ event.link }}">{{ event.year }}</a>
+                {% endfor %}
+            </dd>
+        </dl>
+        {% endfor %}
+        {% for gallery in site.data.galleries %}
+        <dl>
+            <dt>{{ gallery.name }} Gallery</dt>
+            <dd>
+                {% for event in gallery.galleries %}
+                    <a class="btn btn-link" href="{{ event.link }}">{{ event.year }}</a>
+                {% endfor %}
+            </dd>
+        </dl>
+        {% endfor %}
+    </div>
+</div>
