@@ -1,15 +1,10 @@
+---
 - name: Arran Aromatics
   link: http://www.arranaromatics.com/
   image_link: arran_aromatics.jpg
-- name: Brooks
-  link: http://www.brooksrunning.com/uk/
-  image_link: brooks.png
 - name: Cameron Club
   link: http://www.qhotels.co.uk/our-locations/cameron-house/
   image_link: cameron_club.svg
-- name: Strathmore
-  link: http://strathmore-water.co.uk/
-  image_link: strathmore.svg
 - name: Sweatshop
   link: https://sweatshop.com
   image_link: sweatshop.svg
