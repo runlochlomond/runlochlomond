@@ -3,15 +3,18 @@
   {% include head.html %}
   <body>
     <div class="container limited">
-      {% img 'wd_leisure.jpg' id:'logo' class:'img-fluid d-block mx-auto' %}
+      <a href="/">{% img 'wd_leisure.jpg' id:'logo' class:'img-fluid d-block mx-auto' %}</a>
     </div>
     <nav id="navigation" class="navbar navbar-dark bg-primary">
       <div class="container limited">
-        <span class="navbar-brand">West Dunbartonshire Leisure 10K</span>
+        <span class="navbar-brand"><a href="/">West Dunbartonshire Leisure 10K</a></span>
         <ul class="nav navbar-nav float-xs-left float-sm-right">
-          {% assign sorted_pages = site.pages | sort: 'title' | sort: 'layout' %}
+          <li class="nav-item {% if page.url == '/' %}active{% endif %}">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          {% assign sorted_pages = site.pages | sort: 'title' %}
           {% for node in sorted_pages %}
-            {% if node.include_in_nav %}
+            {% if node.include_in_nav and node.url != '/' %}
               {% if page.url == node.url %}
                 <li class="nav-item active">
                   <a href="{{ node.url }}" class="nav-link">{{ node.title }}</a>
