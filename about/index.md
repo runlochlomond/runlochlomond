@@ -25,10 +25,10 @@ Current course records include Keith Anderson’s 29:31 in 1997, Yvonne Murray-M
 
 ## The Vale of Leven 10K  
 
-Last in the series is the Vale of Leven 10K, which now starts and finishes at Loch Lomond Shores at Balloch. This is Scotland’s Premier new visitor attraction. The race starts in Pier Road close to Loch Lomond Shores and then turns left on to Drymen road and over Balloch Bridge, within the first kilometre you enter Balloch Park with an approximate 1.5km climb. From there the trail is flat through Jamestown and then it is over the Bonhill bridge skirting the only roundabout in Scotland with a train station and a pub on it! and on up the last incline where you turn right onto Main street and from there it is flat through Alexandria passing the Lomond Galleries outlet centre then through the roundabout and past McDonalds on your left, you then take first left from the small roundabout and continue up Old Luss Road for a few hundred metres before turning right into Loch Lomond Shores with a fast down hill section to the finish.
+Last in the series is the Vale of Leven 10K, which now starts and finishes at the Moss of Balloch and includes a lovely run through Balloch Country park and along the cycle path on the banks of the river Leven.
 
 ## Fun Run Festival
 
-There is also a schools 2 mile fun run that 13 local primary schools participate in and benefit from in terms of prizes towards school funds and the Polatoddle which is a shorter event for the under 7's. The fun runs are supported and organised by West Dunbartonshire Sports Development.
+There is also a schools 2 mile fun run that up to 13 local primary schools have participated in, and benefit from in terms of prizes towards school funds.  The runs are graded from age from toddler to primary 7and have been supported and organised by West Dunbartonshire Leisure/Sports Development since their start.
 
 > “See you at the races.”
