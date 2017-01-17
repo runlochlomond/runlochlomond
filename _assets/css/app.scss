@@ -11,7 +11,7 @@ body {
   margin-top: 1em;
 }
 
-.container {
+.container.limited {
   max-width: 40em;
 }
 
@@ -58,7 +58,7 @@ body {
   border-radius: 0;
 }
 
-.card {
+.card.shadow {
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
   border: 0;
   background: white;

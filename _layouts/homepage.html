@@ -5,14 +5,28 @@ layout: base
     <article class="col-xs-12">
         {{ content }}
     </article>
+    <div class="col-xs-12">
+        <div class="card card-inverse card-danger text-center">
+            <div class="card-block">
+                <h4 class="card-title">{{ site.data.charity.title }}</h4>
+                <p class="card-text">{{ site.data.charity.description }}</p>
+                {% for link in site.data.charity.link %}
+                    <a href="{{ link.url }}" class="btn btn-danger">{% if link.highlight %}<strong>{% endif %}{{ link.text }}{% if link.highlight %}</strong>{% endif %}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 </div>
+</div><div class="container">
 <div id="races" class="section row">
     {% for race in site.data.races %}
-    <div class="col-xs-12">
-        <div class="card">
+    <div class="col-xs-12 col-md-{% if forloop.first %}7{% else %}5{% endif %}">
+        <div class="card shadow">
             <div class="card-block">
                 <h4 class="card-title">{{ race.title }}</h4>
-                <h6 class="card-subtitle text-muted">{{ race.race_date }}</h6>
+                {% if race.race_date %}
+                    <h6 class="card-subtitle text-muted">{{ race.race_date }}</h6>
+                {% endif %}
             </div>
             {% img '{{ race.image_link }}' class:'img-fluid' %}
             <div class="card-block">
@@ -22,29 +36,38 @@ layout: base
                     </div>
                     <div class="col-sm-5">
                         <dl>
-                            <dt>Race Date</dt>
-                            <dd>{{ race.race_date }}</dd>
-                            <dt>Entry Close Date</dt>
-                            <dd>{{ race.entries_closing_date }}</dd>
-                            <dt>SA Affiliated Price</dt>
-                            <dd>£{{ race.price.sa }}</dd>
-                            <dt>Non-SA Affiliated Price</dt>
-                            <dd>£{{ race.price.non-sa }}</dd>
+                            {% if race.race_date %}
+                                <dt>Race Date</dt>
+                                <dd>{{ race.race_date }}</dd>
+                            {% endif %}
+                            {% if race.entries_closing_date %}
+                                <dt>Entry Close Date</dt>
+                                <dd>{{ race.entries_closing_date }}</dd>
+                            {% endif %}
+                            {% if race.price.sa %}
+                                <dt>SA Affiliated Price</dt>
+                                <dd>£{{ race.price.sa }}</dd>
+                            {% endif %}
+                            {% if race.price.non-sa %}
+                                <dt>{% if race.price.sa %}Non-SA Affiliated {% endif %}Price</dt>
+                                <dd>£{{ race.price.non-sa }}</dd>
+                            {% endif %}
                         </dl>                
                     </div>
                 </div>
             </div>
             <div class="card-block">
-                <a class="btn btn btn-primary card-link" href="{{ race.entry_link }}">Enter via StuWeb</a>
-                <a class="card-link" href="{{ race.route }}">View Route</a>
+                <a class="btn btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
+                {% if race.route %}
+                    <a class="card-link" href="{{ race.route }}">View Route</a>
+                {% endif %}
             </div>
         </div>
     </div>
     {% endfor %}
-</div>
+</div></div><div class="container limited">
 <div id="faq" class="section row">
     <div class="col-xs-12">
-        <h2>FAQ</h2>
         <dl>
             {% for faq in site.data.faq %}
             <dt>{{ faq.question }}</dt>
@@ -60,32 +83,7 @@ layout: base
         <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
         {% endfor %}
     </div>
-</div><div class="container">
-<div id="previous" class="section row">
-    <div class="col-xs-12">
-        <h2>Results &amp; Galleries</h2>
-        {% for result in site.data.results %}
-        <dl>
-            <dt>{{ result.name }} Results</dt>
-            <dd>
-                {% for event in result.results %}
-                    <a class="btn btn-link" href="{{ event.link }}">{{ event.year }}</a>
-                {% endfor %}
-            </dd>
-        </dl>
-        {% endfor %}
-        {% for gallery in site.data.galleries %}
-        <dl>
-            <dt>{{ gallery.name }} Gallery</dt>
-            <dd>
-                {% for event in gallery.galleries %}
-                    <a class="btn btn-link" href="{{ event.link }}">{{ event.year }}</a>
-                {% endfor %}
-            </dd>
-        </dl>
-        {% endfor %}
-    </div>
-</div>
+</div><div class="container limited">
 <div id="contact-us" class="section row">
     <div class="col-xs-12">
         <h2>Contact Us</h2>
