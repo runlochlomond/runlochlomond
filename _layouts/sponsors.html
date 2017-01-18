@@ -2,18 +2,25 @@
 layout: base
 ---
 <div class="container limited">
+    <article>
     {{ content }}
-    {% for sponsor in site.data.sponsors %}
+    </article>
+    {% assign sponsors = site.data.sponsors | group_by: 'tier' %}
+    {% for tier in sponsors %}
+    <div class="sponsor-header row">
+        <div class="col-xs-12">
+            <h1 class="display-4">{{ tier.name }}</h1>
+        </div>
+    </div>
     <div class="row">
+        {% for sponsor in tier.items %}
         <div class="col-sm-6">
             <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
         </div>
         <div class="col-sm-6">
-            <dl>
-                <dt>{{ sponsor.name }}</dt>
-                <dd>{{ sponsor.description }}</dd>
-            </dl>
+            <p class="lead">{{ sponsor.description }}</p>
         </div>
+        {% endfor %}
     </div>
     {% endfor %}
 </div>
