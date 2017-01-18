@@ -28,6 +28,7 @@ assets:
     js: true
   assets:
     - app.scss
+    - app.js
     - "*.png"
     - "*.jpeg"
     - "*.svg"
