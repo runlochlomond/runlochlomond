@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import 'font-awesome-sprockets'; 
+@import 'font-awesome';
+
 $brand-primary: #0088cc;
 $body-color: #5a6170;
 $text-muted: #8c95a9;
@@ -71,4 +74,18 @@ body {
 
 #intro-title {
   margin-bottom: 0.5em;
+}
+
+.btn-facebook {
+    color: #fff;
+    border-color: #005f8f;
+    background-color: #3b5998;
+
+    i {
+      margin-right: 0.5em;
+    }
+
+    &:hover {
+      color: #fff;
+    }
 }
