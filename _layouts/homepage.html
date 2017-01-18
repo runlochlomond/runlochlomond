@@ -53,7 +53,10 @@ layout: base
 </div>
 <div id="sponsors" class="section text-xs-center">
     <div class="container">
-        <p class="text-muted">Many thanks to our sponsors for making the series possible!</p>
+        <p class="text-muted">
+            Many thanks to our sponsors for making the series possible!<br>
+            <a href="/sponsors">Find out more about our sponsors.</a>
+        </p>
         {% for sponsor in site.data.sponsors %}
         <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
         {% endfor %}
