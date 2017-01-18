@@ -25,7 +25,7 @@ layout: base
             <div class="card-block">
                 <h4 class="card-title">{{ race.title }}</h4>
                 {% if race.race_date %}
-                    <h6 class="card-subtitle text-muted">{{ race.race_date }}</h6>
+                    <h6 class="card-subtitle text-muted">{{ race.race_date | date: "%-d %B %Y %r" }}</h6>
                 {% endif %}
             </div>
             {% img '{{ race.image_link }}' class:'img-fluid' %}
@@ -38,11 +38,11 @@ layout: base
                         <dl>
                             {% if race.race_date %}
                                 <dt>Race Date</dt>
-                                <dd>{{ race.race_date }}</dd>
+                                <dd>{{ race.race_date | date: "%-d %B %Y %r" }}</dd>
                             {% endif %}
                             {% if race.entries_closing_date %}
                                 <dt>Entry Close Date</dt>
-                                <dd>{{ race.entries_closing_date }}</dd>
+                                <dd>{{ race.entries_closing_date | date: "%-d %B %Y %r" }}</dd>
                             {% endif %}
                             {% if race.price.sa %}
                                 <dt>SA Affiliated Price</dt>
