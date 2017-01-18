@@ -9,6 +9,7 @@
   price:
     sa: 15
     non-sa: 17
+  route: http://www.mapmyrun.com/routes/view/1018849713
   entry:
     link: https://www.stuweb.co.uk
     text: Enter via StuWeb
@@ -22,8 +23,7 @@
     finishing through the 10K finish line.   \n"
   price:
     non-sa: 5
-  route: http://www.mapmyrun.com/routes/view/1018849713
   entry:
     text: Find out more!
-    link: https://www.stuweb.co.uk
+    link: /fun-run
   image_link: kids.jpg
