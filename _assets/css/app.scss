@@ -37,7 +37,7 @@ body {
   border-bottom: 0.1em solid #cecece;
 
   margin-top: 0em;
-  margin-bottom: 2em;
+  margin-bottom: 0.75em;
 
   .container {
     padding: 1em 0;
@@ -67,4 +67,8 @@ body {
 .sponsor-header {
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+#intro-title {
+  margin-bottom: 0.5em;
 }
