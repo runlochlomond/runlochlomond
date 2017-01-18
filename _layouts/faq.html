@@ -1,14 +1,16 @@
 ---
 layout: base
 ---
-{{ content }}
-<div id="faq" class="section row">
-    <div class="col-xs-12">
-        <dl>
-            {% for faq in site.data.faq %}
-            <dt>{{ faq.question }}</dt>
-            <dd>{{ faq.answer }}</dd>
-            {% endfor %}
-        </dl>
+<div class="container limited">
+    {{ content }}
+    <div id="faq" class="section row">
+        <div class="col-xs-12">
+            <dl>
+                {% for faq in site.data.faq %}
+                <dt>{{ faq.question }}</dt>
+                <dd>{{ faq.answer }}</dd>
+                {% endfor %}
+            </dl>
+        </div>
     </div>
 </div>

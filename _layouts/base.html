@@ -2,11 +2,9 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="container limited">
-      <a href="/">{% img 'wd_leisure.jpg' id:'logo' class:'img-fluid d-block mx-auto' %}</a>
-    </div>
+    <a href="/">{% img 'wd_leisure.jpg' id:'logo' class:'img-fluid d-block mx-auto' %}</a>
     <nav id="navigation" class="navbar navbar-dark bg-primary">
-      <div class="container limited">
+      <div class="container">
         <a class="navbar-brand" href="/">West Dunbartonshire Leisure 10K</a>
         <ul class="nav navbar-nav float-xs-left float-sm-right">
           <li class="nav-item {% if page.url == '/' %}active{% endif %}">
@@ -29,9 +27,7 @@
         </ul>
       </div>
     </nav>
-    <div class="container limited">
-      {{ content }}
-    </div>
+    {{ content }}
     {% include footer.html %}
   </body>
 </html>

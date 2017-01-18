@@ -1,95 +1,95 @@
 ---
 layout: base
 ---
-<div id="intro" class="section row">
-    <article class="col-xs-12">
-        {{ content }}
-    </article>
-    <div class="col-xs-12">
-        <div class="card card-inverse card-danger text-center">
-            <div class="card-block">
-                <h4 class="card-title">{{ site.data.charity.title }}</h4>
-                <p class="card-text">{{ site.data.charity.description }}</p>
-                {% for link in site.data.charity.link %}
-                    <a href="{{ link.url }}" class="btn btn-danger">{% if link.highlight %}<strong>{% endif %}{{ link.text }}{% if link.highlight %}</strong>{% endif %}</a>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
-</div><div class="container">
-<div id="races" class="section row">
-    {% for race in site.data.races %}
-    <div class="col-xs-12 col-md-{% if forloop.first %}7{% else %}5{% endif %}">
-        <div class="card shadow">
-            <div class="card-block">
-                <h4 class="card-title">{{ race.title }}</h4>
-                {% if race.race_date %}
-                    <h6 class="card-subtitle text-muted">{{ race.race_date | date: "%-d %B %Y %r" }}</h6>
-                {% endif %}
-            </div>
-            {% img '{{ race.image_link }}' class:'img-fluid' %}
-            <div class="card-block">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <p class="card-text">{{ race.description }}</p>
-                    </div>
-                    <div class="col-sm-5">
-                        <dl>
-                            {% if race.race_date %}
-                                <dt>Race Date</dt>
-                                <dd>{{ race.race_date | date: "%-d %B %Y %r" }}</dd>
-                            {% endif %}
-                            {% if race.entries_closing_date %}
-                                <dt>Entry Close Date</dt>
-                                <dd>{{ race.entries_closing_date | date: "%-d %B %Y %r" }}</dd>
-                            {% endif %}
-                            {% if race.price.sa %}
-                                <dt>SA Affiliated Price</dt>
-                                <dd>£{{ race.price.sa }}</dd>
-                            {% endif %}
-                            {% if race.price.non-sa %}
-                                <dt>{% if race.price.sa %}Non-SA Affiliated {% endif %}Price</dt>
-                                <dd>£{{ race.price.non-sa }}</dd>
-                            {% endif %}
-                        </dl>                
+<div class="container">
+    <div id="races" class="section row">
+        {% for race in site.data.races %}
+        <div class="col-xs-12 col-md-{% if forloop.first %}7{% else %}5{% endif %}">
+            <div class="card shadow">
+                <div class="card-block">
+                    <h4 class="card-title">{{ race.title }}</h4>
+                    {% if race.race_date %}
+                        <h6 class="card-subtitle text-muted">{{ race.race_date | date: "%-d %B %Y %r" }}</h6>
+                    {% endif %}
+                </div>
+                {% img '{{ race.image_link }}' class:'img-fluid' magick:resize:640x425 %}
+                <div class="card-block">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <p class="card-text">{{ race.description }}</p>
+                        </div>
+                        <div class="col-sm-5">
+                            <dl>
+                                {% if race.race_date %}
+                                    <dt>Race Date</dt>
+                                    <dd>{{ race.race_date | date: "%-d %B %Y %r" }}</dd>
+                                {% endif %}
+                                {% if race.entries_closing_date %}
+                                    <dt>Entry Close Date</dt>
+                                    <dd>{{ race.entries_closing_date | date: "%-d %B %Y %r" }}</dd>
+                                {% endif %}
+                                {% if race.price.sa %}
+                                    <dt>SA Affiliated Price</dt>
+                                    <dd>£{{ race.price.sa }}</dd>
+                                {% endif %}
+                                {% if race.price.non-sa %}
+                                    <dt>{% if race.price.sa %}Non-SA Affiliated {% endif %}Price</dt>
+                                    <dd>£{{ race.price.non-sa }}</dd>
+                                {% endif %}
+                            </dl>                
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card-block">
-                <a class="btn btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
-                {% if race.route %}
-                    <a class="card-link" href="{{ race.route }}">View Route</a>
-                {% endif %}
+                <div class="card-block">
+                    <a class="btn btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
+                    {% if race.route %}
+                        <a class="card-link" href="{{ race.route }}">View Route</a>
+                    {% endif %}
+                </div>
             </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div></div><div class="container limited">
-<div class="section row">
-    <a href="/about" class="btn btn-outline-primary btn-block">View previous race results, galleries and history!</a>
-    <a href="/faq" class="btn btn-outline-primary btn-block">View frequently asked questions!</a>
 </div>
-</div><div id="sponsors" class="section text-xs-center">
+<div id="sponsors" class="section text-xs-center">
     <div class="container">
         <p class="text-muted">Many thanks to our sponsors for making the series possible!</p>
         {% for sponsor in site.data.sponsors %}
         <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
         {% endfor %}
     </div>
-</div><div class="container limited">
-<div id="contact-us" class="section row">
-    <div class="col-xs-12">
-        <h2>Contact Us</h2>
-        <dl class="row">
-            <dt class="col-sm-3">Address</dt>
-            <dd class="col-sm-9">{{ site.data.contact.address }}</dd>
-            <dt class="col-sm-3">Phone Number</dt>
-            <dd class="col-sm-9">{{ site.data.contact.phone }}</dd>
-            <dt class="col-sm-3">Email</dt>
-            <dd class="col-sm-9"><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
-            <dt class="col-sm-3">Working Hrs</dt>
-            <dd class="col-sm-9">{{ site.data.contact.working_hrs }}</dd>
-        </dl>
+</div>
+<div class="container">
+    <div id="intro" class="section row">
+        <div class="col-xs-12 col-md-7">
+            <article class="row">
+                <div class="col-xs-12">
+                    {{ content }}
+                </div>
+            </article>
+            <dl class="row">
+                <dt class="col-sm-3">Address</dt>
+                <dd class="col-sm-9">{{ site.data.contact.address }}</dd>
+                <dt class="col-sm-3">Phone Number</dt>
+                <dd class="col-sm-9">{{ site.data.contact.phone }}</dd>
+                <dt class="col-sm-3">Email</dt>
+                <dd class="col-sm-9"><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
+                <dt class="col-sm-3">Working Hrs</dt>
+                <dd class="col-sm-9">{{ site.data.contact.working_hrs }}</dd>
+            </dl>
+        </div>
+        <div class="col-xs-12 col-md-5">
+            <div class="card card-inverse card-danger text-center">
+                <div class="card-block">
+                    <h4 class="card-title">{{ site.data.charity.title }}</h4>
+                    <p class="card-text">{{ site.data.charity.description }}</p>
+                    {% for link in site.data.charity.link %}
+                        <a href="{{ link.url }}" class="btn btn-danger">{% if link.highlight %}<strong>{% endif %}{{ link.text }}{% if link.highlight %}</strong>{% endif %}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <a href="/about" class="btn btn-primary btn-block">View previous race results, galleries and history!</a>
+            <a href="/faq" class="btn btn-primary btn-block">View frequently asked questions!</a>
+        </div>
     </div>
 </div>
