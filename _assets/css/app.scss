@@ -90,3 +90,14 @@ body {
       background-color: darken(#3b5998, 5%);
     }
 }
+
+.btn-download {
+    color: #fff;
+    border: 0;
+    background-color: darken(#0088cc, 5%);
+
+    &:hover {
+      color: #fff;
+      background-color: darken(#0088cc, 10%);
+    }
+}

@@ -24,6 +24,11 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if site.data.booklet.show %}
+          <li class="nav-item">
+            <a href="{{ site.data.booklet.link }}" class="btn btn-download">{{ site.data.booklet.text }}</a>
+          </li>
+          {% endif %}
         </ul>
       </div>
     </nav>
