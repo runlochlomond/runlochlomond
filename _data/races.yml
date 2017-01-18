@@ -1,11 +1,7 @@
 ---
 - title: Vale of Leven 10K
-  race_date: 10th June 2017 10am
-  entries_closing_date: 9th June 2017
-  description: "West Dunbartonshire Leisure Sports Development Service are once again
-    organising a Fun Run for young runners alongside the Vale of Leven 10K. The event 
-    will take place in the Moss O’ Balloch site (G83 8LE) with all participations 
-    finishing through the 10K finish line.   \n"
+  race_date: '2017-06-10T10:00:00+00:00'
+  entries_closing_date: '2017-06-09T00:00:00+00:00'
   description: "West Dunbartonshire Leisure is proud to continue the Vale of Leven
     10K, which was the last and headline race in the 30 year Polaroid 10K Series.
     \ The event starts and finishes at the Moss of Balloch, and includes schools and
@@ -18,11 +14,11 @@
     text: Enter via StuWeb
   image_link: vale.jpg
 - title: Fun Run 2016
-  race_date: 10th June 2017 9am
-  entries_closing_date: 9th June 2017
+  race_date: '2017-06-10T09:00:00+01:00'
+  entries_closing_date: '2017-06-09T00:00:00+00:00'
   description: "West Dunbartonshire Leisure Sports Development Service are once again
-    organising a Fun Run for young runners alongside the Vale of Leven 10K. The event 
-    will take place in the Moss O’ Balloch site (G83 8LE) with all participations 
+    organising a Fun Run for young runners alongside the Vale of Leven 10K. The event
+    will take place in the Moss O’ Balloch site (G83 8LE) with all participations
     finishing through the 10K finish line.   \n"
   price:
     non-sa: 5
