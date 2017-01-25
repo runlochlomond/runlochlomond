@@ -3,11 +3,15 @@ title: About
 layout: about
 include_in_nav: true
 ---
+The West Dunbartonshire Leisure 10K is a continuation of the highly popular Polaroid Eyewear Vale of Leven 10K that they successfully organised over the last thirty years. West Dunbartonshire Leisure Trust is proud to be in a position to maintain the legacy of the Vale of Leven 10K Road Race left by Polaroid Eyewear.
+
+<span style="font-size: 18px; color: rgb(116, 116, 116); letter-spacing: 0.01em;">The event will take place on Saturday 10th June starting in the Moss O' Balloch site and will include the much loved school and pre-school age fun runs which are are open to all. The aim is to deliver a high quality, safe and well organised running experience that participants of all ages and abilities can enjoy.</span>
+
 # Polaroid Eyewear 10K Series – a great running tradition
 
 The Polaroid Eyewear 10K Series had grown since its first race in 1987 with around 100 runners, to up to 1,000 runners taking part in each race over the last of its 30 year run.
 
-The series comprised of four 10K road races in May and June and set in the towns of Helensburgh, Clydebank, Dumbarton and the Vale of Leven, which were local to the Polaroid Eyewear Global Manufacturing and Distribution facility. The aim of the series is to provide a safe, well organised series of community running events that participants of all ages and abilities can enjoy. 
+The series comprised of four 10K road races in May and June and set in the towns of Helensburgh, Clydebank, Dumbarton and the Vale of Leven, which were local to the Polaroid Eyewear Global Manufacturing and Distribution facility. The aim of the series is to provide a safe, well organised series of community running events that participants of all ages and abilities can enjoy.
 
 Following the decision to close Polaroid Eyewear, the series assets have been passed to West Dunbartonshire Leisure to ensure that these community centred sports events continue, and will be supported by ex-Polaroid volunteers. As ever, the series was about participation - ordinary runners enjoying well organised and friendly events in West Dunbartonshire.   We’d like you to enter this year, get motivated, crack on with the training and be part of this sensational event in the runner’s calendar.
 
@@ -23,7 +27,7 @@ Our first female winner in 1987 was Melissa Wylie, other winners have included l
 
 Current course records include Keith Anderson’s 29:31 in 1997, Yvonne Murray-Mooney holds the ladies record with 34.04 in 1998\. The men’s veteran record of 30:54 is held by Brian Kirkwood from 1995, however Tommy Murray was only 5 seconds outside it in 2001! The female veteran’s record is held by Sandra Branney in a time of 35:08 in 1993.
 
-## The Vale of Leven 10K  
+## The Vale of Leven 10K
 
 Last in the series is the Vale of Leven 10K, which now starts and finishes at the Moss of Balloch and includes a lovely run through Balloch Country park and along the cycle path on the banks of the river Leven.
 
