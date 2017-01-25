@@ -1,12 +1,22 @@
 ---
-layout: page
 title: Resources
+layout: page
 include_in_nav: true
 ---
 # Links
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus nibh sed dolor scelerisque, vitae porta mauris pharetra. Nunc et elit nec enim sollicitudin pellentesque. Aliquam eget euismod diam, at feugiat tortor. Nam sed ultrices est. Suspendisse sollicitudin id arcu quis imperdiet. Vestibulum feugiat neque vel quam aliquam, ut pharetra magna auctor. Donec enim ipsum, varius quis risus eget, eleifend malesuada enim. Duis a nunc mauris. Fusce cursus, sapien id dignissim pharetra, sapien metus elementum dui, nec consectetur mauris ante a nibh. Sed varius auctor augue, at iaculis lacus venenatis nec. Quisque ut dui efficitur lectus mattis mollis. Nam faucibus ante at sem dictum, ac cursus metus mattis. Proin condimentum, sapien ac scelerisque egestas, ipsum purus fringilla leo, vel varius neque ipsum id metus. Donec lacinia tellus odio, id cursus sapien pulvinar ac.
+
+For more information on local running opportunities please contact WD Leisure Sports Development.  There are lots of opportunities available from **jog**scotland programmes to local athletics clubs.
+
+Some additional information can be access via links below:
+
+www.wdleisure.net/sportsdevelopment
+
+www.jogscotland.org
+
+www.scottishathletics.org
 
 # Training Tips
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ultrices mollis urna vitae consequat. Nam a ullamcorper est. Etiam non hendrerit lorem. Sed vulputate tincidunt quam, at elementum odio suscipit nec. Etiam sed euismod felis. Nunc eget auctor dui, nec finibus elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque gravida nisl a suscipit iaculis. Curabitur luctus aliquet hendrerit. Sed leo diam, vehicula nec tincidunt id, condimentum non odio. Aenean pretium hendrerit condimentum. Vestibulum vehicula lacus vel nisl facilisis volutpat non vitae nisi. Nulla ultricies sem non nunc varius ultricies a ac mauris. Vivamus mi felis, sodales vitae mi vel, ornare convallis leo.
 
-Aliquam id vestibulum mi. Donec condimentum diam neque, in rutrum ex feugiat a. Integer mollis pretium dui. Vivamus eu metus volutpat, consectetur turpis id, scelerisque sapien. Integer non tempus arcu. Mauris pretium elementum ligula, et imperdiet velit consequat quis. Nunc ante enim, bibendum et viverra ac, fringilla et lorem. Donec elementum mauris a ultricies ultrices. Fusce convallis nisi eget nibh suscipit, a hendrerit purus tristique. Aliquam convallis id magna vitae euismod. Pellentesque tempor interdum nulla, congue tempus ligula congue tempor.
+If you are thinking about doing your first road race and don't know where or how to start training, then the below websites may be useful. It's important to find a training plan that suits you and fits into your weekly routine so be aware that there is no 'one size fits all' plan. You can also contact WD Leisure Sports Development for advice.
+
+www.runnersworld.com
