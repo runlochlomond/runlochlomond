@@ -3,6 +3,6 @@ title: Home
 layout: homepage
 include_in_nav: true
 ---
-The West Dunbartonshire Leisure 10K is a continuation of the Polaroid Eyewear 10K Series.
+The West Dunbartonshire Leisure 10K is a continuation of the highly popular Polaroid Eyewear Vale of Leven 10K that they successfully organised over the last thirty years.
 
-Initially we plan to continue the Vale of Leven 10K race in June, set in the Moss of Balloch, and this will include the much loved school and pre-school runs whiach are are open to all.   The aim is to start once again where the series began, and hopefully add events over the coming years to continue to a safe, well organised series of community running events that participants of all ages and abilities can enjoy in West Dunbartonshire.
+West Dunbartonshire Leisure Trust is proud to be in a position to maintain the legacy of the Vale of Leven 10K Road Race left by Polaroid Eyewear.  The event will take place on Saturday 10th June starting in the Moss O' Balloch site and will include the much loved school and pre-school age fun runs which are are open to all. The aim is to deliver a high quality, safe and well organised running experience that participants of all ages and abilities can enjoy.
