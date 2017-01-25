@@ -1,11 +1,11 @@
 ---
 - title: Vale of Leven 10K
-  race_date: '2017-06-10T10:00:00+00:00'
+  race_date: '2017-06-10T10:00:00+01:00'
   entries_closing_date: '2017-06-09T00:00:00+00:00'
-  description: "West Dunbartonshire Leisure is proud to continue the Vale of Leven
-    10K, which was the last and headline race in the 30 year Polaroid 10K Series.
-    \ The event starts and finishes at the Moss of Balloch, and includes schools and
-    pre-school age runs to ensure a run a for all the family.   \n"
+  description: 'The West Dunbartonshire Leisure 10K is a continuation of the highly
+    popular Polaroid Eyewear Vale of Leven 10K that they successfully organised over
+    the last thirty years. West Dunbartonshire Leisure Trust is proud to be in a position
+    to maintain the legacy of the Vale of Leven 10K Road Race left by Polaroid Eyewear.  '
   price:
     sa: 15
     non-sa: 17
@@ -25,5 +25,5 @@
     non-sa: 5
   entry:
     text: Find out more!
-    link: /fun-run
+    link: "/fun-run"
   image_link: kids.jpg
