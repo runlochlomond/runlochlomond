@@ -1,11 +1,80 @@
 ---
-layout: page
 title: Fun Run
+layout: page
 include_in_nav: false
 ---
 # Fun Run 2016
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus nibh sed dolor scelerisque, vitae porta mauris pharetra. Nunc et elit nec enim sollicitudin pellentesque. Aliquam eget euismod diam, at feugiat tortor. Nam sed ultrices est. Suspendisse sollicitudin id arcu quis imperdiet. Vestibulum feugiat neque vel quam aliquam, ut pharetra magna auctor. Donec enim ipsum, varius quis risus eget, eleifend malesuada enim. Duis a nunc mauris. Fusce cursus, sapien id dignissim pharetra, sapien metus elementum dui, nec consectetur mauris ante a nibh. Sed varius auctor augue, at iaculis lacus venenatis nec. Quisque ut dui efficitur lectus mattis mollis. Nam faucibus ante at sem dictum, ac cursus metus mattis. Proin condimentum, sapien ac scelerisque egestas, ipsum purus fringilla leo, vel varius neque ipsum id metus. Donec lacinia tellus odio, id cursus sapien pulvinar ac.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam ultrices mollis urna vitae consequat. Nam a ullamcorper est. Etiam non hendrerit lorem. Sed vulputate tincidunt quam, at elementum odio suscipit nec. Etiam sed euismod felis. Nunc eget auctor dui, nec finibus elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque gravida nisl a suscipit iaculis. Curabitur luctus aliquet hendrerit. Sed leo diam, vehicula nec tincidunt id, condimentum non odio. Aenean pretium hendrerit condimentum. Vestibulum vehicula lacus vel nisl facilisis volutpat non vitae nisi. Nulla ultricies sem non nunc varius ultricies a ac mauris. Vivamus mi felis, sodales vitae mi vel, ornare convallis leo.
+![]({{ site.baseurl }}/_assets/images/18575162826_dcdd5b78b3_c.jpg)
 
-Aliquam id vestibulum mi. Donec condimentum diam neque, in rutrum ex feugiat a. Integer mollis pretium dui. Vivamus eu metus volutpat, consectetur turpis id, scelerisque sapien. Integer non tempus arcu. Mauris pretium elementum ligula, et imperdiet velit consequat quis. Nunc ante enim, bibendum et viverra ac, fringilla et lorem. Donec elementum mauris a ultricies ultrices. Fusce convallis nisi eget nibh suscipit, a hendrerit purus tristique. Aliquam convallis id magna vitae euismod. Pellentesque tempor interdum nulla, congue tempus ligula congue tempor.
+Fun Run for Babies to primary 7
+
+(Registration Available on the Day)
+
+(Sponsers name)  Fun Run
+
+West Dunbartonshire Leisure Sports Development Service are once again organising a Fun Run for young runners alongside the Vale of Leven 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participations finishing through the 10K finish line.
+
+Please see the following for further information about the event.
+
+**When and where does the fun run start?**
+
+The fun run will start in the Moss O’ Balloch area. The fun run will be set off in waves, with the oldest age group (P7) going first. The first run will commence at 9am
+
+![]({{ site.baseurl }}/_assets/images/IMG_0622.JPG)
+
+**What is the age group for the event and can I run with my child?**
+
+The event is open to parents with babies (in buggies) up to primary 7 aged children. Children may be accompanied by an adult during the run
+
+**How long is the route for the run and is it safe?**
+
+The course distance is approx. 1mile for the older age groups and there is a shorter route for younger participants. The route is all off road and goes through Balloch Castle Country Park. The route will be heavily marshalled. It’s all about having fun and inspiring our young people to get and stay active!
+
+![]({{ site.baseurl }}/_assets/images/18415267269_91ecb3a22e_z.jpg)
+
+**My child is already registered via their school, do I need to register again on the day?**
+
+Anyone who has pre-registered via their school and already has a race number does not need to register again on the day. Pre-registered participants should go to the holding area for their age group (this will be marked on the day)
+
+**I’ve not pre-registered my child, can I register on the day of the event?**
+
+Yes. Any children who have not already registered via their school need to register at the WD Leisure Gazebo between 08:00 to 08:45 on the day.
+
+**I’m pre-registered. Where should my child go when they arrive?**
+
+Please ensure you arrive ready to take part no later than 08:45\. Holding areas will be in place for the various age groups. Your child will be directed to the relevant area designated for your child’s age group and they should wait there with the supervisors prior to taking part in a mass warm up and walking to the starting line(s). The age groups will be Parent baby, toddlers, P1-3, P4, P5, P6 and P7).
+
+![]({{ site.baseurl }}/_assets/images/13393463_1193654310659156_1728099293_n.png)
+
+**Is there an entry fee?**
+
+Yes. The entry fee is £1\. Pre-registered children have already paid this so the £1 entry is only valid for those registering on the day.
+
+**Is there parking available at the event?**
+
+For the safety of all participants there will be no parking at the event site (Moss O’Balloch) and as a result you may need to consider some extra time to travel to the venue. Balloch train and bus stations are situated very close to the event site and as a result we would advise participants to use public transport if possible.
+
+**Other important information**
+
+- A mass warm up will take place after 08.45 for all young children to get ready for the fun run.
+
+- After the warm up the children will be taken to the starting line for their age group
+
+- Each age group will be set off in waves (oldest to youngest)
+
+- All participants will receive a goody bag
+
+- Parents will be able to see their children finish and walk with them to get their goodie bag
+
+Please note that times may vary slightly, but to avoid disappointment please ensure that you are registered before 08.45\.
+
+For further information contact Gayle Brown at WD Leisure Sports Development via:
+
+sportsdevelopment@west-dunbarton.gov.uk or 01389 753557
+
+“The atmosphere generated by the children provides a fantastic buzz and creates the feeling of being involved in a festival of running! It’s always a fun packed family day that’s filled with excitement, happy faces and good sportsmanship.”
+
+Alan Crawford, Sports Development Manager, West Dunbartonshire Leisure Trust
+
+![]({{ site.baseurl }}/_assets/images/WD-Leisure-Logo_landscape.jpg)
