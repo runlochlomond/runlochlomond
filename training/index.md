@@ -11,9 +11,9 @@ Some additional information can be access via links below:
 
 <span style="letter-spacing: 0.01em;">[West Dunbartonshire Leisure Sports Development](www.wdleisure.net/sportsdevelopment)</span>
 
-www.jogscotland.org
+[jogscotland](www.jogscotland.org)
 
-www.scottishathletics.org
+<span style="letter-spacing: 0.01em;">[scottishathletics](www.scottishathletics.org)</span>
 
 # Training Tips
 
