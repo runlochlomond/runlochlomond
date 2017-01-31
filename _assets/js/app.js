@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
             var date = new Date(matchedClass);
             el.innerHTML = countdown(null, date, unitsToHide).toString();
         }
-
-        setInterval(setTime, 1000);
     }
 
     setInterval(setTime, 1000);
