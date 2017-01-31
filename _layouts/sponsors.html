@@ -15,7 +15,8 @@ layout: base
     <div class="row">
         {% for sponsor in tier.items %}
         <div class="col-sm-6">
-            <a href="{{ sponsor.link }}">{% img '{{ sponsor.image_link }}' class:'img-fluid' %}</a>
+            {% assign proper_link = sponsor.image_link | file_name %}
+            <a href="{{ sponsor.link }}">{% img '{{ proper_link }}' class:'img-fluid' %}</a>
         </div>
         <div class="col-sm-6">
             <p class="lead">{{ sponsor.description }}</p>
