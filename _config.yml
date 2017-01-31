@@ -42,6 +42,7 @@ assets:
     - _assets/fonts
     - _assets/img
     - _assets/js
+    - images/
   features:
     automatic_img_size: true
     automatic_img_alt : true

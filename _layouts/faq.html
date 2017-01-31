@@ -3,7 +3,7 @@ layout: base
 ---
 <div class="container limited">
     <article>
-    {{ content }}
+    {{ content | replace: '<img', '<img class="img-fluid"' }}
     </article>
     <div class="section row">
         <div class="col-12">

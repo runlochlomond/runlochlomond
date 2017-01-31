@@ -75,7 +75,7 @@ layout: base
         <div class="col-12 col-md-7">
             <article class="row">
                 <div class="col-12">
-                    {{ content }}
+                    {{ content | replace: '<img', '<img class="img-fluid"' }}
                 </div>
             </article>
             <dl class="row">

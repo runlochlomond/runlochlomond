@@ -11,7 +11,7 @@ Some additional information can be access via links below:
 
 [West Dunbartonshire Leisure](http://www.west-dunbarton.gov.uk/leisure-parks-events/west-dunbartonshire-leisure/sports-development/) 
 
-![]({{ site.baseurl }}/_assets/images/WD-Leisure-Logo_landscape-3.jpg)
+![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape-3.jpg)
 
 <span style="color: rgb(40, 40, 40); font-size: 2.8rem; letter-spacing: 0.01em;">Training Tips</span>
 

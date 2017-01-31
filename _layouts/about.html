@@ -2,7 +2,7 @@
 layout: base
 ---
 <div class="container limited">
-    {{ content }}
+    {{ content | replace: '<img', '<img class="img-fluid"' }}
     <div id="previous" class="section row">
         <div class="col-12">
             <h2>Results &amp; Galleries</h2>

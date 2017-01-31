@@ -2,5 +2,5 @@
 layout: base
 ---
 <div class="container limited">
-    {{ content }}
+    {{ content | replace: '<img', '<img class="img-fluid"' }}
 </div>

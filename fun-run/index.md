@@ -5,7 +5,7 @@ include_in_nav: false
 ---
 ## **WD Leisure Fun Run **
 
-![]({{ site.baseurl }}/_assets/images/18575162826_dcdd5b78b3_c.jpg)
+![]({{ site.baseurl }}/images/18575162826_dcdd5b78b3_c.jpg)
 
 **<u>Fun Run for babies to primary 7 aged children</u>**
 
@@ -17,7 +17,7 @@ Please see the following for further information about the event.
 
 The fun run will start in the Moss O’ Balloch area. The fun run will be set off in waves, with the oldest age group (P7) going first. The first run will commence at 9am
 
-![]({{ site.baseurl }}/_assets/images/IMG_0622.JPG)
+![]({{ site.baseurl }}/images/IMG_0622.JPG)
 
 **What is the age group for the event and can I run with my child?**
 
@@ -27,7 +27,7 @@ The event is open to parents with babies (in buggies) up to primary 7 aged child
 
 The course distance is approx. 1mile for the older age groups and there is a shorter route for younger participants. The route is all off road and goes through Balloch Castle Country Park. The route will be heavily marshalled. It’s all about having fun and inspiring our young people to get and stay active!
 
-![]({{ site.baseurl }}/_assets/images/18415267269_91ecb3a22e_z.jpg){:style="float: none;"}
+![]({{ site.baseurl }}/images/18415267269_91ecb3a22e_z.jpg){:style="float: none;"}
 
 **My child is already registered via their school, do I need to register again on the day?**
 
@@ -41,7 +41,7 @@ Yes. Any children who have not already registered via their school need to regis
 
 Please ensure you arrive ready to take part no later than 08:45\. Holding areas will be in place for the various age groups. Your child will be directed to the relevant area designated for your child’s age group and they should wait there with the supervisors prior to taking part in a mass warm up and walking to the starting line(s). The age groups will be Parent baby, toddlers, P1-3, P4, P5, P6 and P7).
 
-![]({{ site.baseurl }}/_assets/images/13393463_1193654310659156_1728099293_n.png)
+![]({{ site.baseurl }}/images/13393463_1193654310659156_1728099293_n.png)
 
 **Is there an entry fee?**
 
@@ -69,4 +69,4 @@ For further information contact Gayle Brown at WD Leisure Sports Development via
 
 wdleisure-10k@west-dunbarton.gov.uk or 01389 753557
 
-![]({{ site.baseurl }}/_assets/images/WD-Leisure-Logo_landscape.jpg)
+![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape.jpg)
