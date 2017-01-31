@@ -9,11 +9,7 @@ For more information on local running opportunities please contact WD Leisure Sp
 
 Some additional information can be access via links below:
 
-<span style="letter-spacing: 0.01em;">[West Dunbartonshire Leisure Sports Development](www.wdleisure.net/sportsdevelopment)</span>
-
-[jogscotland](www.jogscotland.org)
-
-<span style="letter-spacing: 0.01em;">[scottishathletics](www.scottishathletics.org)</span>
+![]({{ site.baseurl }}/_assets/images/WD-Leisure-Logo_landscape-2.jpg)![]({{ site.baseurl }}/_assets/images/7d51d4cab5154ce1ac44fa05d3da1c32.jpg)![]({{ site.baseurl }}/_assets/images/SAL-logo-1414x936.png)
 
 # Training Tips
 
