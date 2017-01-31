@@ -3,9 +3,15 @@ title: About
 layout: about
 include_in_nav: true
 ---
-The West Dunbartonshire Leisure 10K is a continuation of the highly popular Polaroid Eyewear Vale of Leven 10K that they successfully organised over the last thirty years. West Dunbartonshire Leisure Trust is proud to be in a position to maintain the legacy of the Vale of Leven 10K Road Race left by Polaroid Eyewear.
+The West Dunbartonshire Leisure 10K is a continuation of the highly popular Polaroid Eyewear **Vale of Leven 10K**, which has been successfully organised and delivered for the last thirty years. West Dunbartonshire Leisure Trust is proud to be in a position to maintain the event and build on the legacy left by Polaroid Eyewear. 
 
-<span style="font-size: 18px; color: rgb(116, 116, 116); letter-spacing: 0.01em;">The event will take place on Saturday 10th June starting in the Moss O' Balloch site and will include the much loved school and pre-school age fun runs which are are open to all. The aim is to deliver a high quality, safe and well organised running experience that participants of all ages and abilities can enjoy.</span>
+<span style="letter-spacing: 0.01em;">The event will take place on</span> **Saturday 10th June** <span style="letter-spacing: 0.01em;">starting in the Moss O' Balloch site and will include the much loved school and pre-school age fun runs which are are open to all. The aim is to deliver a high quality, safe and well organised running experience that participants of all ages and abilities can enjoy.</span>  
+
+### <span style="font-size: 18px; color: rgb(116, 116, 116); letter-spacing: 0.01em;">**West Dunbartonshire Leisure Trust (WDLT)**</span>
+
+<span style="letter-spacing: 0.18px;">WDLT is a charitable trust that has the responsibility to deliver leisure and sport services on behalf of West Dunbartonshire Council. Our Sports Development team has organised and delivered the Children's Fun run for the last eighteen years with over six hundred children and their parents and grandparents enjoying running the route and finishing through the 10K inflatable gantry. Polaroid Eyewear supported all participating pupils with goodie bags and also provided a donation to all schools that had pupils taking part. With the closure of Polaroid, it would have been very sad to see the cancellation of the Vale of Leven 10K and Fun Run, especially after the strong partnership that existed between the two organisations.  </span>
+
+Polaroid managed the '10K series', however the four events will no longer continue in the same format. There are plans for the Helensburgh and Dumbarton 10K's to be delivered by their respective Athletics Clubs. The Clydebank 10K has had to be cancelled for 2017 mainly due to issues with the course. <span style="letter-spacing: 0.18px;"></span> 
 
 # Polaroid Eyewear 10K Series – a great running tradition
 
@@ -13,7 +19,7 @@ The Polaroid Eyewear 10K Series had grown since its first race in 1987 with arou
 
 The series comprised of four 10K road races in May and June and set in the towns of Helensburgh, Clydebank, Dumbarton and the Vale of Leven, which were local to the Polaroid Eyewear Global Manufacturing and Distribution facility. The aim of the series is to provide a safe, well organised series of community running events that participants of all ages and abilities can enjoy.
 
-Following the decision to close Polaroid Eyewear, the series assets have been passed to West Dunbartonshire Leisure to ensure that these community centred sports events continue, and will be supported by ex-Polaroid volunteers. As ever, the series was about participation - ordinary runners enjoying well organised and friendly events in West Dunbartonshire.   We’d like you to enter this year, get motivated, crack on with the training and be part of this sensational event in the runner’s calendar.
+Following the decision to close Polaroid Eyewear, the series assets have been passed to West Dunbartonshire Leisure Trust who are leading on the delivery of our Vale of Leven 10K. The event will continue to be supported by ex-Polaroid volunteers. As ever, the series was about participation - ordinary runners enjoying well organised and friendly events in West Dunbartonshire.   We’d like you to enter this year, get motivated, crack on with the training and be part of this sensational event in the runner’s calendar.
 
 ## Series History and Background
 
@@ -29,10 +35,10 @@ Current course records include Keith Anderson’s 29:31 in 1997, Yvonne Murray-M
 
 ## The Vale of Leven 10K
 
-Last in the series is the Vale of Leven 10K, which now starts and finishes at the Moss of Balloch and includes a lovely run through Balloch Country park and along the cycle path on the banks of the river Leven.
+Last in the series is the Vale of Leven 10K, which now starts and finishes at the Moss of Balloch and includes a lovely run through Balloch Country park and along the cycle path on the banks of the River Leven.
 
 ## Fun Run Festival
 
-There is also a schools 2 mile fun run that up to 13 local primary schools have participated in, and benefit from in terms of prizes towards school funds.  The runs are graded from age from toddler to primary 7and have been supported and organised by West Dunbartonshire Leisure/Sports Development since their start.
+There is also a schools fun run that up to 13 local primary schools have participated in, and benefit from in terms of prizes towards school funds.  The runs are graded from age from toddler to primary 7 and have been supported and organised by West Dunbartonshire Leisure/Sports Development since their start.
 
 > “See you at the races.”
