@@ -1,4 +1,9 @@
 ---
+- name: The co-operative
+  link: http://www.co-operativefood.co.uk/
+  tier: Gold
+  description: ''
+  image_link: "/_assets/images/Food HFYFL JPEG.JPG"
 - name: Arran Aromatics
   link: http://www.arranaromatics.com/
   tier: Bronze
