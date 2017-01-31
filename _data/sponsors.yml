@@ -2,12 +2,6 @@
 - name: Arran Aromatics
   link: http://www.arranaromatics.com/
   tier: Gold
-  description: >
+  description: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis erat in ex efficitur porttitor. Nunc fermentum consectetur lorem. Donec convallis cursus sem, vehicula semper odio elementum ac.
   image_link: arran_aromatics.jpg
-- name: Sweatshop
-  link: https://sweatshop.com
-  tier: Silver
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis erat in ex efficitur porttitor. Nunc fermentum consectetur lorem. Donec convallis cursus sem, vehicula semper odio elementum ac.
-  image_link: sweatshop.svg
