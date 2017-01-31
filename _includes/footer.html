@@ -1,14 +1,16 @@
 <nav id="footer" class="navbar navbar-dark bg-inverse">
-    <div class="container">
-        <ul class="nav navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="/legal/terms-and-conditions">Terms and Conditions</a>
+    <div class="container{% if page.url != '/' %} limited{% endif %}">
+        <ul class="navbar-nav float-none float-md-left">
+            {% assign terms = '/legal/terms-and-conditions' %}
+            {% assign privacy = '/legal/privacy-policy' %}
+            <li class="nav-item{% if page.url == terms %} active{% endif %}">
+                <a class="nav-link" href="{{ terms }}">Terms and Conditions</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/legal/privacy-policy">Privacy Policy</a>
+            <li class="nav-item{% if page.url == terms %} active{% endif %}">
+                <a class="nav-link" href="{{ privacy }}">Privacy Policy</a>
             </li>
         </ul>
-        <ul class="nav navbar-nav float-xs-left float-sm-right">
+        <ul class="navbar-nav float-none float-md-right">
             <li class="nav-item">
                 <a class="nav-link" href="https://davidtw.co">Created by David Wood</a>
             </li>

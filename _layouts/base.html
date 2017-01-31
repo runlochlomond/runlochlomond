@@ -2,31 +2,30 @@
 <html>
   {% include head.html %}
   <body>
-    <a href="/">{% img 'wd_leisure.jpg' id:'logo' class:'img-fluid d-block mx-auto' %}</a>
-    <nav id="navigation" class="navbar navbar-dark bg-primary">
+    <div id="logo" class="row align-items-center justify-content-center">
+      {% assign logo = site.data.navigation.logo.logo | file_name %}
+      <a class="col-5 col-sm-2" href="/">{% img '{{ logo }}' class:'logo img-fluid' %}</a>
+      {% assign wdl_logo = site.data.navigation.logo.wdl_logo | file_name %}
+      <a class="col-5 col-sm-2" href="{{ site.data.navigation.logo.wdl_link }}">{% img '{{ wdl_logo }}' class:'logo img-fluid' %}</a>
+    </div>
+    <nav id="navigation" class="navbar navbar-inverse bg-primary">
       <div class="container{% if page.url != '/' %} limited{% endif %}">
-        <a class="navbar-brand" href="/">West Dunbartonshire Leisure 10K</a>
-        <ul class="nav navbar-nav float-xs-left float-sm-right">
-          <li class="nav-item {% if page.url == '/' %}active{% endif %}">
+        <a class="navbar-brand" href="/">{{ site.data.navigation.title }}</a>
+        <ul class="navbar-nav float-center float-md-right">
+          <li class="nav-item{% if page.url == '/' %} active{% endif %}">
             <a href="/" class="nav-link">Home</a>
           </li>
           {% assign sorted_pages = site.pages | sort: 'title' %}
           {% for node in sorted_pages %}
             {% if node.include_in_nav and node.url != '/' %}
-              {% if page.url == node.url %}
-                <li class="nav-item active">
-                  <a href="{{ node.url }}" class="nav-link">{{ node.title }}</a>
-                </li>
-              {% else %}
-                <li class="nav-item">
-                  <a class="nav-link" href="{{ node.url }}">{{ node.title }}</a>
-                </li>
-              {% endif %}
+            <li class="nav-item{% if page.url == node.url %} active{% endif %}">
+              <a href="{{ node.url }}" class="nav-link">{{ node.title }}</a>
+            </li>
             {% endif %}
           {% endfor %}
-          {% if site.data.booklet.show %}
+          {% if site.data.navigation.options.show %}
           <li class="nav-item">
-            <a href="{{ site.data.booklet.link }}" class="btn btn-download">{{ site.data.booklet.text }}</a>
+            <a href="{{ site.data.navigation.options.link }}" class="btn btn-download">{{ site.data.navigation.options.text }}</a>
           </li>
           {% endif %}
         </ul>

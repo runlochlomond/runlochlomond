@@ -2,9 +2,9 @@
 layout: base
 ---
 <div class="container">
-    <div id="races" class="section row">
+    <div id="races" class="section row justify-content-center align-items-start">
         {% for race in site.data.races %}
-        <div class="col-xs-12 col-md-{% if forloop.first %}7{% else %}5{% endif %}">
+        <div class="col-12 col-md-{% if forloop.first %}7{% else %}5{% endif %}">
             <div class="card shadow">
                 <div class="card-block">
                     <h4 class="card-title">{{ race.title }}</h4>
@@ -52,24 +52,30 @@ layout: base
         {% endfor %}
     </div>
 </div>
-<div id="sponsors" class="section text-xs-center">
+<div id="sponsors" class="section">
     <div class="container">
-        <p class="text-muted">
-            Many thanks to our sponsors for making the series possible!<br>
-            <a href="/sponsors">Find out more about our sponsors.</a>
-        </p>
-        {% for sponsor in site.data.sponsors %}
-        {% assign proper_link = sponsor.image_link | file_name %}
-        <a href="{{ sponsor.link }}">{% img '{{ proper_link }}' class:'img-fluid' %}</a>
-        {% endfor %}
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12">
+                <p class="text-center text-muted">
+                    Many thanks to our sponsors for making the series possible!<br>
+                    <a href="/sponsors">Find out more about our sponsors.</a>
+                </p>
+            </div>
+            {% for sponsor in site.data.sponsors %}
+            <div class="col-3">
+                {% assign proper_link = sponsor.image_link | file_name %}
+                <a href="{{ sponsor.link }}">{% img '{{ proper_link }}' class:'img-fluid' %}</a>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
 <div class="container">
     <div id="intro" class="section row">
-        <div class="col-xs-12"><h1 id="intro-title" class="display-4">What is the West Dunbartonshire Leisure 10K?</h1></div>
-        <div class="col-xs-12 col-md-7">
+        <div class="col-12"><h1 id="intro-title" class="display-4">What is the West Dunbartonshire Leisure 10K?</h1></div>
+        <div class="col-12 col-md-7">
             <article class="row">
-                <div class="col-xs-12">
+                <div class="col-12">
                     {{ content }}
                 </div>
             </article>
@@ -84,8 +90,8 @@ layout: base
                 <dd class="col-sm-9">{{ site.data.contact.working_hrs }}</dd>
             </dl>
         </div>
-        <div class="col-xs-12 col-md-5">
-            <div class="card card-inverse card-danger text-center">
+        <div class="col-12 col-md-5">
+            <div id="charity" class="card card-inverse card-danger text-center">
                 <div class="card-block">
                     <h4 class="card-title">{{ site.data.charity.title }}</h4>
                     <p class="card-text">{{ site.data.charity.description }}</p>

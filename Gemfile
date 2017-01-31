@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'jekyll', '~>3.3.1'
-gem 'bootstrap', '4.0.0.alpha5'
+gem 'bootstrap', '4.0.0.alpha6'
 gem 'autoprefixer-rails'
 gem 'jekyll-assets'
 gem 'mini_magick'

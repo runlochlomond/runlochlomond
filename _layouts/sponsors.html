@@ -8,7 +8,7 @@ layout: base
     {% assign sponsors = site.data.sponsors | group_by: 'tier' %}
     {% for tier in sponsors %}
     <div class="sponsor-header row">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h1 class="display-4">{{ tier.name }}</h1>
         </div>
     </div>
