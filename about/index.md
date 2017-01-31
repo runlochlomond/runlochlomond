@@ -7,7 +7,7 @@ The West Dunbartonshire Leisure 10K is a continuation of the highly popular Pola
 
 <span style="letter-spacing: 0.01em;">The event will take place on</span> **Saturday 10th June** <span style="letter-spacing: 0.01em;">starting in the Moss O' Balloch site and will include the much loved school and pre-school age fun runs which are are open to all. The aim is to deliver a high quality, safe and well organised running experience that participants of all ages and abilities can enjoy.</span>  
 
-### <span style="font-size: 18px; color: rgb(116, 116, 116); letter-spacing: 0.01em;">**West Dunbartonshire Leisure Trust (WDLT)**</span>
+### <span style="font-size: 26px; color: rgb(116, 116, 116); letter-spacing: 0.01em;">**West Dunbartonshire Leisure Trust (WDLT)**</span>
 
 <span style="letter-spacing: 0.18px;">WDLT is a charitable trust that has the responsibility to deliver leisure and sport services on behalf of West Dunbartonshire Council. Our Sports Development team has organised and delivered the Children's Fun run for the last eighteen years with over six hundred children and their parents and grandparents enjoying running the route and finishing through the 10K inflatable gantry. Polaroid Eyewear supported all participating pupils with goodie bags and also provided a donation to all schools that had pupils taking part. With the closure of Polaroid, it would have been very sad to see the cancellation of the Vale of Leven 10K and Fun Run, especially after the strong partnership that existed between the two organisations.  </span>
 
