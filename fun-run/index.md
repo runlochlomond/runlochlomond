@@ -3,7 +3,7 @@ title: Fun Run
 layout: page
 include_in_nav: false
 ---
-## **WD Leisure Fun Run **
+## WD Leisure Fun Run
 
 ![]({{ site.baseurl }}/images/18575162826_dcdd5b78b3_c.jpg)
 
