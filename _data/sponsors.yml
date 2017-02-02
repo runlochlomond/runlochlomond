@@ -1,13 +1,2 @@
----
-- name: The co-operative
-  link: http://www.co-operativefood.co.uk/
-  tier: Gold
-  description: |-
-    A co-operative (co-op) is a different kind of business. Our Co-op is owned by individual members and other co-ops, not big investors, and our members get a chance to have a say in how we’re run.
-    Alexandria Co-op has provided the Fun Run with water and bananas for the last 3 years.
-  image_link: "/_assets/images/Food HFYFL JPEG.JPG"
-- name: Arran Aromatics
-  link: http://www.arranaromatics.com/
-  tier: Bronze
-  description: 'ARRAN Sense of Scotland Ltd,  Cosmetic and toiletry products. '
-  image_link: arran_aromatics.jpg
+--- 
+...
