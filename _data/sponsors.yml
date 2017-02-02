@@ -2,10 +2,17 @@
 - name: The co-operative
   link: http://www.co-operativefood.co.uk/
   tier: Gold
-  description: Elit elit consectetur officia ad et est Lorem elit nulla labore eu aute ipsum est.
+  description: |-
+    A co-operative (co-op) is a different kind of business. Our Co-op is owned by individual members and other co-ops, not big investors, and our members get a chance to have a say in how we’re run.
+    Alexandria Co-op has provided the Fun Run with water and bananas for the last 3 years.
   image_link: "/_assets/images/Food HFYFL JPEG.JPG"
 - name: Arran Aromatics
   link: http://www.arranaromatics.com/
   tier: Bronze
-  description: Sit adipisicing adipisicing qui deserunt nostrud in in officia tempor.
+  description: ARRAN Sense of Scotland Ltd, share our customers, and indeed the public’s,
+    concern over ingredients used in cosmetic and toiletry products. ARRAN Sense of
+    Scotland policy is to ensure that all ingredients used in our products are of
+    the highest quality, and are safe for their intended purpose. To ensure that we
+    continue to meet this policy objective, all of the ingredients we use are subject
+    to a regular review of their usage.
   image_link: arran_aromatics.jpg
