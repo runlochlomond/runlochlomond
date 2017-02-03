@@ -1,21 +1,8 @@
 ---
-- question: Is there parking?
-  answer: The Vale of Leven 10k is easy to travel to by train, as the Moss of Balloch
-    is a short walk from Balloch train station.  arking is available at nearby Lomond
-    Shores and other public parking in Balloch.  Please be considerate to our neighbours
-    and businesses when parking for the event.
-- question: Is food served?
-  answer: No. However, there are many local cafes within walking distance.
-- question: What do I need to bring?
-  answer: 'Please come ready to run and enjoy yourself! Your race number will be posted
-    to you as long as you enter approximately one week before the event, after that
-    we will have a late entry stall for pick up or to help with lost numbers. Please
-    note that the chip in the number makes the number one of our significant costs,
-    so if you lose or forget your number we will ask for a £1 donation to cover the
-    cost of replacement.  '
-- question: How do I get my time?
-  answer: Your time will be delivered via text at after the race and is also shown
-    on a screen at the StuWeb area on the day.  Results are posted on line at www.stuweb.co.uk
-    and also on this website.
-- question: Is VAT included in the price?
-  answer: Yes. VAT is automatically added.
+- question: "\tWhen is the online entry closing date?"
+  answer: Friday 9th June 2017
+- question: "\tHow much is it to enter?"
+  answer: "£15 for runners affiliated with Scottish Athletics / £17 for runners not
+    affiliated with Scottish Athletics"
+- question: How do i enter?
+  answer: Please select ‘home’ and click enter via StuWeb
