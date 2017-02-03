@@ -1,7 +1,7 @@
 ---
 title: Fun Run
 layout: page
-include_in_nav: false
+include_in_nav: true
 ---
 ## WD Leisure Fun Run
 
