@@ -7,17 +7,27 @@ layout: base
     </article>
     <div class="section row">
         <div class="col-12">
-            <ul>
-                {% for faq in site.data.faq %}
-                <li><a href="#faq-{{ faq.question | slugify }}">{{ faq.question }}</a></li>
+            <div class="row">
+                {% assign faqs = site.data.faq | group_by: 'category' %}
+                {% for faqItem in faqs %}
+                    <div class="col-12 col-md-4">
+                        <strong>{{ faqItem.name }}</strong>
+                        <ul>
+                            {% for faq in faqItem.items %}
+                                <li><a href="#faq-{{ faq.question | slugify }}">{{ faq.question }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 {% endfor %}
-            </ul>
+
+            </div>
+            
         </div>
         <div class="col-12">
             <dl>
                 {% for faq in site.data.faq %}
-                <dt id="faq-{{ faq.question | slugify }}">{{ faq.question }}</dt>
-                <dd>{{ faq.answer }}</dd>
+                    <dt id="faq-{{ faq.question | slugify }}"><em>{{ faq.category }}: </em> {{ faq.question }}</dt>
+                    <dd>{{ faq.answer }}</dd>
                 {% endfor %}
             </dl>
         </div>
