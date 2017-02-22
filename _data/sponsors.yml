@@ -3,8 +3,8 @@
   link: http://www.run4it.com/
   tier: Gold
   description: Running shoes and athletic apparel, plus a specialist fitting service.
-  image_link: ''
-  hidden: false
+  image_link: "/images/Logo-Blue-with-web.png"
+  hidden: true
 - name: The co-operative
   link: http://www.co-operativefood.co.uk/
   tier: Gold
