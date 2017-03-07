@@ -1,4 +1,12 @@
 ---
+- name: Loch Lomond Shores
+  link: http://www.lochlomondshores.com/
+  tier: Gold
+  description: Loch Lomond Shores is Scotland’s most spectacular visitor destination,
+    combining the beautiful environment with an outstanding mixture of leisure and
+    shopping experiences overlooking the majesty of Loch Lomond at Balloch.
+  image_link: "/images/LLS LOGO .jpeg"
+  hidden: false
 - name: Run4it
   link: http://www.run4it.com/
   tier: Gold
