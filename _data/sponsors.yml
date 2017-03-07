@@ -1,4 +1,10 @@
 ---
+- name: Run4it
+  link: http://www.run4it.com/
+  tier: Gold
+  description: Running shoes and athletic apparel, plus a specialist fitting service.
+  image_link: "/images/Logo-Blue-with-web.png"
+  hidden: false
 - name: Loch Lomond Shores
   link: http://www.lochlomondshores.com/
   tier: Gold
@@ -6,12 +12,6 @@
     combining the beautiful environment with an outstanding mixture of leisure and
     shopping experiences overlooking the majesty of Loch Lomond at Balloch.
   image_link: "/images/LLS LOGO .jpeg"
-  hidden: false
-- name: Run4it
-  link: http://www.run4it.com/
-  tier: Gold
-  description: Running shoes and athletic apparel, plus a specialist fitting service.
-  image_link: "/images/Logo-Blue-with-web.png"
   hidden: false
 - name: The Co-operative
   link: http://www.co-operativefood.co.uk/
