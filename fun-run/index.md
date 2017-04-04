@@ -12,6 +12,7 @@ include_in_nav: true
 
 
 **
+
 <u>Fun Run for babies to primary 7 aged children</u>**
 
 <span style="letter-spacing: 0.01em;">West Dunbartonshire Leisure Trust is once again organising a Fun Run for young runners alongside the Vale of Leven 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participants finishing through the 10K finishing gantry.</span>
@@ -73,7 +74,22 @@ For further information contact Gayle Brown at WD Leisure Sports Development via
 
 wdleisure-10k@west-dunbarton.gov.uk or 01389 753557
 
-Thank you to our Fun Run sponsors:
+Thank you to our Fun Run sponsors:![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape-4.jpg)
+<p class=""></p>![]({{ site.baseurl }}/images/Food%20HFYFL%20JPEG-3.JPG)
 
-![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape.jpg)![]({{ site.baseurl }}/images/Food%20HFYFL%20JPEG-2.JPG)
+
+![]({{ site.baseurl }}/images/Davies%202017%20Logo.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
