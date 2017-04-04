@@ -3,11 +3,16 @@ title: Fun Run
 layout: page
 include_in_nav: true
 ---
+
+
 ## WD Leisure Fun Run
 
 ![]({{ site.baseurl }}/images/18575162826_dcdd5b78b3_c.jpg)
 
-**<u>Fun Run for babies to primary 7 aged children</u>**
+
+
+**
+<u>Fun Run for babies to primary 7 aged children</u>**
 
 <span style="letter-spacing: 0.01em;">West Dunbartonshire Leisure Trust is once again organising a Fun Run for young runners alongside the Vale of Leven 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participants finishing through the 10K finishing gantry.</span>
 
@@ -18,6 +23,8 @@ Please see the following for further information about the event.
 The fun run will start in the Moss O’ Balloch area. The fun run will be set off in waves, with the oldest age group (P7) going first. The first run will commence at 9am
 
 ![]({{ site.baseurl }}/images/IMG_0622.JPG)
+
+
 
 **What is the age group for the event and can I run with my child?**
 
@@ -39,29 +46,26 @@ Yes. Any children who have not already registered via their school need to regis
 
 **I’m pre-registered. Where should my child go when they arrive?**
 
-Please ensure you arrive ready to take part no later than 08:45\. Holding areas will be in place for the various age groups. Your child will be directed to the relevant area designated for your child’s age group and they should wait there with the supervisors prior to taking part in a mass warm up and walking to the starting line(s). The age groups will be Parent baby, toddlers, P1-3, P4, P5, P6 and P7).
+Please ensure you arrive ready to take part no later than 08:45. Holding areas will be in place for the various age groups. Your child will be directed to the relevant area designated for your child’s age group and they should wait there with the supervisors prior to taking part in a mass warm up and walking to the starting line(s). The age groups will be Parent baby, toddlers, P1-3, P4, P5, P6 and P7).
 
 ![]({{ site.baseurl }}/images/13393463_1193654310659156_1728099293_n.png)
 
+
+
 **Is there an entry fee?**
 
-Yes. The entry fee is £1\. Pre-registered children have already paid this so the £1 entry is only valid for those registering on the day.
+Yes. The entry fee is £2.
 
 **Is there parking available at the event?**
 
 For the safety of all participants there will be no parking at the event site (Moss O’Balloch) and as a result you may need to consider some extra time to travel to the venue. Balloch train and bus stations are situated very close to the event site and as a result we would advise participants to use public transport if possible.
 
 **Other important information**
-
-*   A mass warm up will take place after 08.45 for all young children to get ready for the fun run.
-
-*   After the warm up the children will be taken to the starting line for their age group
-
-*   Each age group will be set off in waves (oldest to youngest)
-
-*   All participants will receive a goody bag
-
-*   Parents will be able to see their children finish and walk with them to get their goodie bag
+* <p>A mass warm up will take place after 08.45 for all young children to get ready for the fun run.</p>
+* <p>After the warm up the children will be taken to the starting line for their age group</p>
+* <p>Each age group will be set off in waves (oldest to youngest)</p>
+* <p>All participants will receive a goody bag</p>
+* <p>Parents will be able to see their children finish and walk with them to get their goodie bag</p>
 
 Please note that times may vary slightly, but to avoid disappointment please ensure that you are registered before 08.45.
 
@@ -72,3 +76,4 @@ wdleisure-10k@west-dunbarton.gov.uk or 01389 753557
 Thank you to our Fun Run sponsors:
 
 ![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape.jpg)![]({{ site.baseurl }}/images/Food%20HFYFL%20JPEG-2.JPG)
+
