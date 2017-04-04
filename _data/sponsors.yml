@@ -1,13 +1,19 @@
 ---
+- name: 'Chivas Brothers '
+  link: www.chivasbrothers.com
+  tier: Gold
+  description: ''
+  image_link: "/images/Chivas Brothers Logo.jpg"
+  hidden: false
 - name: Run4it
   link: http://www.run4it.com/
-  tier: Gold
+  tier: Silver
   description: Running shoes and athletic apparel, plus a specialist fitting service.
   image_link: "/images/Logo-Blue-with-web.png"
   hidden: false
 - name: Loch Lomond Shores
   link: http://www.lochlomondshores.com/
-  tier: Gold
+  tier: Silver
   description: Loch Lomond Shores is Scotland’s most spectacular visitor destination,
     combining the beautiful environment with an outstanding mixture of leisure and
     shopping experiences overlooking the majesty of Loch Lomond at Balloch.
