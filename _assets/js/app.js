@@ -1,6 +1,6 @@
 //= require countdown.min.js
 
-document.addEventListener("DOMContentLoaded", function(event) { 
+document.addEventListener("DOMContentLoaded", function(event) {
     setTime = function() {
         var elements = document.getElementsByClassName('countdown');
         var unitsToHide = ~(countdown.MONTHS | countdown.WEEKS | countdown.MILLISECONDS);
@@ -18,8 +18,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
             };
 
             matchedClass = matchedClass.replace('countdown-', '');
+            var today = new Date();
             var date = new Date(matchedClass);
-            el.innerHTML = countdown(null, date, unitsToHide).toString();
+            if (date <= today) {
+                el.innerHTML = 'Next year\'s race dates to be announced.';
+            } else {
+                el.innerHTML = countdown(null, date, unitsToHide).toString();
+            }
         }
     }
 
