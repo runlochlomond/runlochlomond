@@ -3,17 +3,13 @@ title: Fun Run
 layout: page
 include_in_nav: true
 ---
-
-
 ## WD Leisure Fun Run
 
-![]({{ site.baseurl }}/images/18575162826_dcdd5b78b3_c.jpg)
+![]({{ site.baseurl }}/images/VOL - 10K -234.jpg)
 
+\*\*
 
-
-**
-
-<u>Fun Run for babies to primary 7 aged children</u>**
+<u>Fun Run for babies to primary 7 aged children</u>\*\*
 
 <span style="letter-spacing: 0.01em;">West Dunbartonshire Leisure Trust is once again organising a Fun Run for young runners alongside the Vale of Leven 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participants finishing through the 10K finishing gantry.</span>
 
@@ -25,8 +21,6 @@ The fun run will start in the Moss O’ Balloch area. The fun run will be set of
 
 ![]({{ site.baseurl }}/images/IMG_0622.JPG)
 
-
-
 **What is the age group for the event and can I run with my child?**
 
 The event is open to parents with babies (in buggies) up to primary 7 aged children. Children may be accompanied by an adult during the run
@@ -35,7 +29,7 @@ The event is open to parents with babies (in buggies) up to primary 7 aged child
 
 The course distance is approx. 1mile for the older age groups and there is a shorter route for younger participants. The route is all off road and goes through Balloch Castle Country Park. The route will be heavily marshalled. It’s all about having fun and inspiring our young people to get and stay active!
 
-![]({{ site.baseurl }}/images/18415267269_91ecb3a22e_z.jpg){:style="float: none;"}
+![]({{ site.baseurl }}/images/on the line.jpg){:style="float: none;"}
 
 **My child is already registered via their school, do I need to register again on the day?**
 
@@ -51,8 +45,6 @@ Please ensure you arrive ready to take part no later than 08:45. Holding areas w
 
 ![]({{ site.baseurl }}/images/13393463_1193654310659156_1728099293_n.png)
 
-
-
 **Is there an entry fee?**
 
 Yes. The entry fee is £2.
@@ -62,11 +54,14 @@ Yes. The entry fee is £2.
 For the safety of all participants there will be no parking at the event site (Moss O’Balloch) and as a result you may need to consider some extra time to travel to the venue. Balloch train and bus stations are situated very close to the event site and as a result we would advise participants to use public transport if possible.
 
 **Other important information**
+
 * <p>A mass warm up will take place after 08.45 for all young children to get ready for the fun run.</p>
 * <p>After the warm up the children will be taken to the starting line for their age group</p>
 * <p>Each age group will be set off in waves (oldest to youngest)</p>
 * <p>All participants will receive a goody bag</p>
 * <p>Parents will be able to see their children finish and walk with them to get their goodie bag</p>
+
+![]({{ site.baseurl }}/images/VOL - 10K -265.jpg)
 
 Please note that times may vary slightly, but to avoid disappointment please ensure that you are registered before 08.45.
 
@@ -77,19 +72,4 @@ wdleisure-10k@west-dunbarton.gov.uk or 01389 753557
 Thank you to our Fun Run sponsors:![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape-4.jpg)
 <p class=""></p>![]({{ site.baseurl }}/images/Food%20HFYFL%20JPEG-3.JPG)
 
-
 ![]({{ site.baseurl }}/images/Davies%202017%20Logo.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
