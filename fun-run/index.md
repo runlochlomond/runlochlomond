@@ -41,7 +41,9 @@ Yes. Any children who have not already registered via their school need to regis
 
 Please ensure you arrive ready to take part no later than 08:45. Holding areas will be in place for the various age groups. Your child will be directed to the relevant area designated for your child’s age group and they should wait there with the supervisors prior to taking part in a mass warm up and walking to the starting line(s). The age groups will be Parent baby, toddlers, P1-3, P4, P5, P6 and P7).
 
-![]({{ site.baseurl }}/images/13393463_1193654310659156_1728099293_n.png)
+![]({{ site.baseurl }}/images/VOL - 10K -66_preview.jpeg)
+
+![]({{ site.baseurl }}/images/run run.jpeg)
 
 **Is there an entry fee?**
 
