@@ -7,9 +7,7 @@ include_in_nav: true
 
 ![]({{ site.baseurl }}/images/VOL - 10K -234.jpg)
 
-\*\*
-
-<u>Fun Run for babies to primary 7 aged children</u>\*\*
+<u>Fun Run for babies to primary 7 aged children</u>
 
 <span style="letter-spacing: 0.01em;">West Dunbartonshire Leisure Trust is once again organising a Fun Run for young runners alongside the Vale of Leven 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participants finishing through the 10K finishing gantry.</span>
 
