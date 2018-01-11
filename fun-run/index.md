@@ -70,6 +70,4 @@ For further information contact Gayle Brown at WD Leisure Sports Development via
 wdleisure-10k@west-dunbarton.gov.uk or 01389 753557
 
 Thank you to our Fun Run sponsors:![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape-4.jpg)
-<p class=""></p>![]({{ site.baseurl }}/images/Food%20HFYFL%20JPEG-3.JPG)
-
-![]({{ site.baseurl }}/images/Davies%202017%20Logo.jpg)
+<p class=""></p>
