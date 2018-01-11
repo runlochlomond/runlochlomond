@@ -11,8 +11,8 @@
     non-sa: '17.50'
   route: https://www.plotaroute.com/route/418093
   entry:
-    link: http://www.stuweb.co.uk/event/2781
-    text: Enter via StuWeb
+    link: ''
+    text: ''
   image_link: "/images/10K 1.jpg"
 - title: Fun Run 2017
   race_date: 2018-06-02 10:00:00 +0100
