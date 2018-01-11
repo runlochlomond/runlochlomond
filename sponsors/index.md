@@ -3,4 +3,8 @@ title: Sponsors
 layout: sponsors
 include_in_nav: false
 ---
-A huge thanks to last years sponsors who made the race possible.
+We are currently looking for new sponsors for the 2018 race. 
+
+If interested please contact:
+
+wdleisure-10k@west-dunbarton.gov.uk
