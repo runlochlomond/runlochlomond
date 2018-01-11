@@ -42,7 +42,11 @@ layout: base
                     </div>
                 </div>
                 <div class="card-block">
-                    <a class="btn btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
+                    {% if race.entry.link != '' %}
+                        <a class="btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
+                    {% else %}
+                        <span class="text-muted card-link">Entry opens soon!</span>
+                    {% endif %}
                     {% if race.route %}
                         <a class="card-link" href="{{ race.route }}">View Route</a>
                     {% endif %}
@@ -52,27 +56,31 @@ layout: base
         {% endfor %}
     </div>
 </div>
-<div id="sponsors" class="section">
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <p class="text-center text-muted">
-                    Many thanks to our sponsors for making the series possible!<br>
-                    <a href="/sponsors">Find out more about our sponsors.</a>
-                </p>
+{% assign sponsors = site.data.sponsors | where:"hidden", false %}
+{% if sponsors.length > 0 %}
+    <div id="sponsors" class="section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <p class="text-center text-muted">
+                        Many thanks to our sponsors for making the series possible!<br>
+                        <a href="/sponsors">Find out more about our sponsors.</a>
+                    </p>
+                </div>
+                {% for sponsor in sponsors %}
+                <div class="col-3">
+                    {% assign proper_link = sponsor.image_link | file_name %}
+                    <a href="{{ sponsor.link }}">{% img '{{ proper_link }}' class:'img-fluid' %}</a>
+                </div>
+                {% else %}
+                We don't have any sponsors at the moment!
+                {% endfor %}
             </div>
-            {% assign sponsors = site.data.sponsors | where:"hidden", false %}
-            {% for sponsor in sponsors %}
-            <div class="col-3">
-                {% assign proper_link = sponsor.image_link | file_name %}
-                <a href="{{ sponsor.link }}">{% img '{{ proper_link }}' class:'img-fluid' %}</a>
-            </div>
-            {% else %}
-            We don't have any sponsors at the moment!
-            {% endfor %}
         </div>
     </div>
-</div>
+{% else %}
+    <div class="padding-break"></div>
+{% endif %}
 <div class="container">
     <div id="intro" class="section row">
         <div class="col-12 col-md-7">
