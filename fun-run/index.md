@@ -25,7 +25,7 @@ The event is open to parents with babies (in buggies) up to primary 7 aged child
 
 **How long is the route for the run and is it safe?**
 
-The course distance is approx. 1mile for the older age groups and there is a shorter route for younger participants. The route is all off road and goes through Balloch Castle Country Park. The route will be heavily marshalled. It’s all about having fun and inspiring our young people to get and stay active!
+The course distance is approx. 1mile for the older age groups and there is a shorter route for younger participants. The route is all off road and goes through Balloch Castle Country Park. The route will be heavily marshalled. It’s all about having fun and inspiring our young people to get fit and stay active!
 
 ![]({{ site.baseurl }}/images/on the line.jpg){:style="float: none;"}
 
