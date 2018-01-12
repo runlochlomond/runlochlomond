@@ -58,16 +58,15 @@ For the safety of all participants there will be no parking at the event site (M
 * <p>A mass warm up will take place after 08.45 for all young children to get ready for the fun run.</p>
 * <p>After the warm up the children will be taken to the starting line for their age group</p>
 * <p>Each age group will be set off in waves (oldest to youngest)</p>
-* <p>All participants will receive a goody bag</p>
-* <p>Parents will be able to see their children finish and walk with them to get their goodie bag</p>
+* <p>Parents will be able to see their children finish and walk with them to receive their goodie bag</p>
 
 ![]({{ site.baseurl }}/images/VOL - 10K -265.jpg)
 
 Please note that times may vary slightly, but to avoid disappointment please ensure that you are registered before 08.45.
 
-For further information contact Gayle Brown at WD Leisure Sports Development via:
+For further information contact WD Leisure Sports Development via:
 
 wdleisure-10k@west-dunbarton.gov.uk or 01389 753557
 
-Thank you to our Fun Run sponsors:![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape-4.jpg)
+![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape-4.jpg)
 <p class=""></p>
