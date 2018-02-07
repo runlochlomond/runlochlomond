@@ -3,9 +3,6 @@ title: Run for Charity!
 description: |
   West Dunbartonshire Leisure encourages runners to run for our chosen local charity CHAS.
 link:
-- url: https://www.justgiving.com/chas
-  text: Donate now!
-  highlight: true
 - url: http://www.chas.org.uk/
-  text: Find out more!
+  text: Donate now/Find out more
   highlight: true
