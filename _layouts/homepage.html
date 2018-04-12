@@ -2,107 +2,170 @@
 layout: base
 ---
 <div class="container">
-    <div id="races" class="section row justify-content-center align-items-start">
+    <div id="races" class="card-deck">
         {% for race in site.data.races %}
-        <div class="col-12 col-md-{% if forloop.first %}7{% else %}5{% endif %}">
-            <div class="card shadow">
-                <div class="card-block">
-                    <h4 class="card-title">{{ race.title }}</h4>
-                    {% if race.race_date %}
-                        <h6 class="card-subtitle text-muted countdown countdown-{{ race.race_date }}">Countdown loading...</h6>
-                    {% endif %}
+        <div class="card shadow">
+            <div class="card-body-no-flex">
+                <h4 class="card-title">{{ race.title }}</h4>
+                {% if race.race_date %}
+                    <h6 class="card-subtitle text-muted countdown countdown-{{ race.race_date }}">Countdown loading...</h6>
+                {% endif %}
+            </div>
+            {% if race.sponsor_bar %}
+                <div class="card-body card-sponsor-line bg-primary text-center text-white">
+                    <h6 class="card-text"><strong>{{ race.sponsor_bar }}</strong></h6>
                 </div>
-                {% assign proper_link = race.image_link | file_name %}
-                {% img '{{ proper_link }}' class:'img-fluid' magick:resize:640x425 %}
-                <div class="card-block">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <p class="card-text">{{ race.description }}</p>
-                        </div>
-                        <div class="col-sm-5">
-                            <dl>
-                                {% if race.race_date %}
-                                    <dt>Race Date</dt>
-                                    <dd>{{ race.race_date | date: "%-d %B %Y %r" }}</dd>
-                                {% endif %}
-                                {% if race.entries_closing_date %}
-                                    <dt>Entry Close Date</dt>
-                                    <dd>{{ race.entries_closing_date | date: "%-d %B %Y %r" }}</dd>
-                                {% endif %}
-                                {% if race.price.sa %}
-                                    <dt>SA Affiliated Price</dt>
-                                    <dd>£{{ race.price.sa }}</dd>
-                                {% endif %}
-                                {% if race.price.non-sa %}
-                                    <dt>{% if race.price.sa %}Non-SA Affiliated {% endif %}Price</dt>
-                                    <dd>£{{ race.price.non-sa }}</dd>
-                                {% endif %}
-                            </dl>
-                        </div>
+            {% endif %}
+            {% assign proper_link = race.image_link | file_name %}
+            {% asset '{{ proper_link }}' class='card-img-top img-fluid' magick:resize=540x425 %}
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p class="card-text">{{ race.description }}</p>
+                    </div>
+                    <div class="col-sm-5">
+                        <dl>
+                            {% if race.race_date %}
+                                <dt>Race Date</dt>
+                                <dd>{{ race.race_date | date: "%-d %B %Y %r" }}</dd>
+                            {% endif %}
+                            {% if race.entries_closing_date %}
+                                <dt>Entry Close Date</dt>
+                                <dd>{{ race.entries_closing_date | date: "%-d %B %Y %r" }}</dd>
+                            {% endif %}
+                            {% if race.price.sa %}
+                                <dt>SA Affiliated Price</dt>
+                                <dd>£{{ race.price.sa }}</dd>
+                            {% endif %}
+                            {% if race.price.non-sa %}
+                                <dt>{% if race.price.sa %}Non-SA Affiliated {% endif %}Price</dt>
+                                <dd>£{{ race.price.non-sa }}</dd>
+                            {% endif %}
+                            {% if race.minimum_age %}
+                                <dt>Minimum Age</dt>
+                                <dd>{{ race.minimum_age }} yrs old on day of race</dd>
+                            {% endif %}
+                        </dl>
                     </div>
                 </div>
-                <div class="card-block">
-                    {% if race.entry.link != '' %}
-                        <a class="btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
-                    {% else %}
-                        <span class="text-muted card-link">Entry opens soon!</span>
-                    {% endif %}
-                    {% if race.route %}
-                        <a class="card-link" href="{{ race.route }}">View Route</a>
-                    {% endif %}
-                </div>
+            </div>
+            <div class="card-body-no-flex d-flex align-items-bottom">
+                {% if race.entry.link != '' %}
+                    <a class="btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
+                {% else %}
+                    <span class="text-muted card-link">Entry opens soon!</span>
+                {% endif %}
+                {% if race.route %}
+                    <a class="btn btn-link card-link" href="{{ race.route }}">View Route</a>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
     </div>
 </div>
-{% assign sponsors = site.data.sponsors | where:"hidden", false %}
-{% if sponsors.length > 0 %}
-    <div id="sponsors" class="section">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-12">
-                    <p class="text-center text-muted">
-                        Many thanks to our sponsors for making the series possible!<br>
-                        <a href="/sponsors">Find out more about our sponsors.</a>
+
+<div class="container-fluid">
+    <div class="container">
+        <div id="sponsors" class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Sponsors</h4>
+                    <p class="card-text">Many thanks to our sponsors for making the series possible!</p>
+                </div>
+            </div>
+
+            {% assign sponsors = site.data.sponsors | sort: 'order' %}
+            {% for sponsor in sponsors %}
+            <div class="card text-center">
+                    <div class="card-header">
+                        {{ sponsor.tier }} Sponsor
+                    </div>
+                    {% assign proper_link = sponsor.image_link | file_name %}
+                    <a href="{{ sponsor.link }}">
+                        {% asset '{{ proper_link }}' class='card-img-top card-sponsor img-fluid' alt='{{ sponsor.name }}' %}
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">{{ sponsor.description }}</p>
+                    </div>
+                </div>
+            {% else %}
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">We don't have any sponsors at the moment.</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div id="info" class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">What is the West Dunbartonshire 10K?</h4>
+                    <p class="card-text">
+                        {{ content | replace: '<img', '<img class="img-fluid"' }}
+                    </p>
+                    <a href="/about" class="card-link">Read more</a>
+                </div>
+            </div>
+
+            <div class="bg-primary card text-white text-center">
+                <div class="card-body">
+                    <p class="card-text">{{ site.data.social.facebook.text }}</p>
+                    <a href="{{ site.data.social.facebook.link }}" class="btn btn-primary text-white"><strong>Click here!</strong></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Contact Details</h4>
+                    <p class="card-text">
+                        <dl>
+                            <dt>Address</dt>
+                            <dd>{{ site.data.contact.address }}</dd>
+                            <dt>Phone Number</dt>
+                            <dd>{{ site.data.contact.phone }}</dd>
+                            <dt>Email</dt>
+                            <dd><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
+                            <dt>Working Hrs</dt>
+                            <dd>{{ site.data.contact.working_hrs }}</dd>
+                        </dl>
                     </p>
                 </div>
-                {% for sponsor in sponsors %}
-                <div class="col-3">
-                    {% assign proper_link = sponsor.image_link | file_name %}
-                    <a href="{{ sponsor.link }}">{% img '{{ proper_link }}' class:'img-fluid' %}</a>
-                </div>
-                {% else %}
-                We don't have any sponsors at the moment!
-                {% endfor %}
             </div>
-        </div>
-    </div>
-{% else %}
-    <div class="padding-break"></div>
-{% endif %}
-<div class="container">
-    <div id="intro" class="section row">
-        <div class="col-12 col-md-7">
-            <article class="row">
-                <div class="col-12">
-                    {{ content | replace: '<img', '<img class="img-fluid"' }}
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Race Galleries</h4>
+                    <p class="card-text">Check out the photo galleries for previous races!</p>
                 </div>
-            </article>
-            <dl class="row">
-                <dt class="col-sm-3">Address</dt>
-                <dd class="col-sm-9">{{ site.data.contact.address }}</dd>
-                <dt class="col-sm-3">Phone Number</dt>
-                <dd class="col-sm-9">{{ site.data.contact.phone }}</dd>
-                <dt class="col-sm-3">Email</dt>
-                <dd class="col-sm-9"><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
-                <dt class="col-sm-3">Working Hrs</dt>
-                <dd class="col-sm-9">{{ site.data.contact.working_hrs }}</dd>
-            </dl>
-        </div>
-        <div class="col-12 col-md-5">
-            <div id="charity" class="card card-inverse card-danger text-center">
-                <div class="card-block">
+                <ul class="list-group list-group-flush">
+                    {% for gallery in site.data.galleries %}
+                        <li class="list-group-item"><a href="{{ gallery.link }}">{{ gallery.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="card bg-warning text-white text-center">
+                <div class="card-body">
+                    <p class="card-text">We try hard to answers any questions that you might have about the race in our FAQ.</p>
+                    <a href="/faq" class="btn btn-warning text-white"><strong>Visit our FAQ page.</strong></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Race Results</h4>
+                    <p class="card-text">Check out the race results for previous years!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    {% for race in site.data.results %}
+                        <li class="list-group-item"><a href="{{ race.link }}">{{ race.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="bg-danger card text-white text-center">
+                <div class="card-body">
                     <h4 class="card-title">{{ site.data.charity.title }}</h4>
                     <p class="card-text">{{ site.data.charity.description }}</p>
                     {% for link in site.data.charity.link %}
@@ -110,12 +173,30 @@ layout: base
                     {% endfor %}
                 </div>
             </div>
-            <a href="/about" class="btn btn-primary btn-block">View previous race results, galleries and history!</a>
-            <a href="/faq" class="btn btn-primary btn-block">View frequently asked questions!</a>
-            <a href="{{ site.data.social.facebook.link }}" class="btn btn-facebook btn-block">
-                <i class="fa fa-facebook"></i>
-                {{ site.data.social.facebook.text }}
-            </a>
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Links</h4>
+                    <p class="card-text">{{ site.data.resources.links.text }}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    {% for link in site.data.resources.links.links %}
+                        <li class="list-group-item"><a href="{{ link.link }}">{{ link.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Training</h4>
+                    <p class="card-text">{{ site.data.resources.training.text }}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    {% for link in site.data.resources.training.links %}
+                        <li class="list-group-item"><a href="{{ link.link }}">{{ link.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </div>

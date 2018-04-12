@@ -1,0 +1,20 @@
+---
+links:
+  text: |-
+    For more information on local running opportunities, please contact WD Leisure Sports Development. There are lots of opportunities available from JogScotland programmes to local athletics clubs.
+  links:
+    - name: West Dunbartonshire Leisure Sports Development
+      link: http://www.west-dunbarton.gov.uk/leisure-parks-events/west-dunbartonshire-leisure/sports-development/
+    - name: Scottish Athletics
+      link: http://www.scottishathletics.org.uk/
+    - name: Jogscotland
+      link: http://jogscotland.org.uk/
+
+training:
+  text: |-
+    If you are thinking about doing your first road race and don't know where or how to start training, then the below websites may be useful. It's important to find a training plan that suits you and fits into your weekly routine so be aware that there is no 'one size fits all' plan. You can also contact WD Leisure Sports Development for advice.
+  links:
+    - name: WD Leisure Jogscotland
+      link: http://www.west-dunbarton.gov.uk/leisure-parks-events/west-dunbartonshire-leisure/sports-development/adult-sport/
+    - name: BBC Sports Get inspired
+      link: http://www.bbc.co.uk/sport/get-inspired/27281727

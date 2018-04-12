@@ -13,9 +13,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
 
 # Build settings
-gems: [bootstrap, autoprefixer-rails, jekyll-assets]
+plugins: [bootstrap, autoprefixer-rails, jekyll-assets]
 markdown: kramdown
-exclude: ["vendor", "README.md"]
+exclude: ["vendor", "tags", "tags.temp", "tags.lock", "README.md"]
 assets:
   autoprefixer:
     browsers:

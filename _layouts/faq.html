@@ -3,33 +3,27 @@ layout: base
 ---
 <div class="container limited">
     <article>
-    {{ content | replace: '<img', '<img class="img-fluid"' }}
+        {{ content | replace: '<img', '<img class="img-fluid"' }}
     </article>
-    <div class="section row">
-        <div class="col-12">
-            <div class="row">
-                {% assign faqs = site.data.faq | group_by: 'category' %}
-                {% for faqItem in faqs %}
-                    <div class="col-12 col-md-4">
-                        <strong>{{ faqItem.name }}</strong>
-                        <ul>
-                            {% for faq in faqItem.items %}
-                                <li><a href="#faq-{{ faq.question | slugify }}">{{ faq.question }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endfor %}
-
+    <div class="row">
+        {% assign faqs = site.data.faq | group_by: 'category' %}
+        {% for faqItem in faqs %}
+            <div class="col-12">
+                <h3>{{ faqItem.name }}</h3>
+                <p>
+                    <ul>
+                        {% for faq in faqItem.items %}
+                            <li><a href="#faq-{{ faq.question | slugify }}">{{ faq.question }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </p>
+                <dl>
+                    {% for faq in faqItem.items %}
+                        <dt id="faq-{{ faq.question | slugify }}">{{ faq.question }}</dt>
+                        <dd>{{ faq.answer }}</dd>
+                    {% endfor %}
+                </dl>
             </div>
-            
-        </div>
-        <div class="col-12">
-            <dl>
-                {% for faq in site.data.faq %}
-                    <dt id="faq-{{ faq.question | slugify }}"><em>{{ faq.category }}: </em> {{ faq.question }}</dt>
-                    <dd>{{ faq.answer }}</dd>
-                {% endfor %}
-            </dl>
-        </div>
+        {% endfor %}
     </div>
 </div>

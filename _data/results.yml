@@ -1,11 +1,9 @@
 ---
-- name: Vale of Leven 10K
-  results:
-  - year: 2017
-    link: http://www.stuweb.co.uk/race/1zd
-  - year: 2016
-    link: http://www.stuweb.co.uk/race/1cN
-  - year: 2015
-    link: http://www.stuweb.co.uk/race/Vj
-  - year: 2014
-    link: http://www.stuweb.co.uk/race/Db/
+- name: Vale of Leven 10K 2017
+  link: http://www.stuweb.co.uk/race/1zd
+- name: Vale of Leven 10K 2016
+  link: http://www.stuweb.co.uk/race/1cN
+- name: Vale of Leven 10K 2015
+  link: http://www.stuweb.co.uk/race/Vj
+- name: Vale of Leven 10K 2014
+  link: http://www.stuweb.co.uk/race/Db/

@@ -1,1 +1,46 @@
---- []
+---
+- name: 'Chivas Brothers'
+  link: http://www.chivasbrothers.com
+  order: 1
+  tier: Title
+  description: >
+    Chivas Brothers is the Scotch whisky and premium gin business of Pernod
+    Ricard, the world’s No. 2 in wines and spirits.
+  image_link: "/images/Chivas Brothers Logo.jpg"
+  hidden: false
+- name: 'CPR Resurfacing Ltd'
+  link: https://www.cpr-resurfacing.co.uk/
+  order: 2
+  tier: Gold
+  description: >
+    CPR are a leading Resurfacing and Civil Engineering company with over 30 years experience
+    as a contractor to the construction, road and rail industries within the UK.
+  image_link: "/images/cpr_logo_retina.jpg"
+  hidden: false
+- name: Run4it
+  link: http://www.run4it.com/
+  order: 5
+  tier: Silver
+  description: |-
+    Running shoes and athletic apparel, plus a specialist fitting service.
+  image_link: "/images/Logo-Blue-with-web.png"
+  hidden: false
+- name: Loch Lomond Shores
+  link: http://www.lochlomondshores.com/
+  order: 4
+  tier: Silver
+  description: |-
+    Loch Lomond Shores is Scotland’s most spectacular visitor destination,
+    combining the beautiful environment with an outstanding mixture of leisure and
+    shopping experiences overlooking the majesty of Loch Lomond at Balloch.
+  image_link: "/images/LLS LOGO .jpeg"
+  hidden: false
+- name: Alexandria Co-Op
+  link: http://www.co-operativefood.co.uk/
+  order: 3
+  tier: Silver
+  description: |-
+    A Co-Operative (co-op) is a different kind of business. Our Co-op is owned by individual members and other co-ops, not big investors, and our members get a chance to have a say in how we’re run. Alexandria Co-op has provided the Fun Run with water and bananas for the last three years.
+  image_link: "/images/co-op-blue-logo-on-white.png"
+  hidden: false
+

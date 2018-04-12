@@ -1,6 +1,6 @@
 ---
 title: About
-layout: about
+layout: page
 include_in_nav: true
 ---
 The West Dunbartonshire Leisure 10K is a continuation of the highly popular Polaroid Eyewear **Vale of Leven 10K**, which was successfully organised and delivered for thirty years. West Dunbartonshire Leisure Trust is proud to be in a position to maintain the event and build on the legacy left by Polaroid Eyewear.

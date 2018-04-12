@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-@import 'font-awesome-sprockets';
-@import 'font-awesome';
-
 $brand-primary: #0088cc;
 $body-color: #5a6170;
 $text-muted: #8c95a9;
@@ -10,17 +7,47 @@ $text-muted: #8c95a9;
 @import "bootstrap";
 
 body {
-  background: linear-gradient(#fff, #f3f3f3);
-  margin-top: 1em;
+  margin-top: 2em;
+  background: linear-gradient(#FFF, #F3F3F3);
 }
 
-.container.limited {
-  max-width: 45em;
+#races, #sponsors, #info {
+  margin-top: 2em;
 }
 
-.section {
-  margin-top: 1em;
-  margin-bottom: 1em;
+$tiers: (
+    "title": #E5E4E2,
+    "gold": #FFD700,
+    "silver": #C0C0C0,
+    "bronze": #CD7F32,
+);
+
+@each $name, $colour in $tiers {
+  .text-#{$name} { color: $colour; }
+  .border-#{$name} { border-color: $colour; }
+  .bg-#{$name} { background-color: $colour; }
+}
+
+.bg-gold {
+  background: #D4AF37;
+  background: linear-gradient(to bottom, #D4AF37 0%, #C5A028 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D4AF37), color-stop(100%, #C5A028));
+  background: -webkit-linear-gradient(top, #D4AF37 0%, #C5A028 100%);
+  background: -moz-linear-gradient(top, #D4AF37 0%, #C5A028 100%);
+  background: -o-linear-gradient(top, #D4AF37 0%, #C5A028 100%);
+  background: -ms-linear-gradient(top, #D4AF37 0%, #C5A028 100%);
+}
+
+.card.shadow {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.02);
+}
+
+.card-sponsor {
+  padding: 1em;
+}
+
+#footer {
+  .nav-link { color: #AEAEAE; }
 }
 
 #logo {
@@ -31,113 +58,15 @@ body {
   }
 }
 
-#navigation {
-  margin-top: 1em;
-  margin-bottom: 1.5em;
-  border-radius: 0;
-  overflow: overlay;
-  overflow-wrap: break-word;
-
-  ul {
-    flex-direction: row;
-
-    li {
-      margin-right: 0.5em;
-      margin-left: 0.5em;
-    }
-  }
+.container.limited {
+  margin-top: 2em;
+  max-width: 45em;
 }
 
-#sponsors {
-  background-color: #fff;
-
-  border-top: 0.1em solid #cecece;
-  border-bottom: 0.1em solid #cecece;
-
-  margin-top: 0em;
-  margin-bottom: 0.75em;
-
-  .container {
-    padding: 1em 0;
-  }
+.card-body-no-flex {
+  padding: 1.25rem;
 }
 
-#footer {
-  margin-top: 1em;
-  border-radius: 0;
-  overflow: overlay;
-  overflow-wrap: break-word;
-
-  ul {
-    flex-direction: row;
-
-    li {
-      margin-right: 0.5em;
-      margin-left: 0.5em;
-    }
-  }
-
-  a.nav-link {
-    color: $gray-light;
-  }
-}
-
-.card.shadow {
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
-  border: 0;
-  background: white;
-}
-
-.sponsor-header {
-  margin-bottom: 1em;
-  margin-top: 1em;
-}
-
-.btn-facebook {
-    color: #fff;
-    border-color: #005f8f;
-    background-color: #3b5998;
-
-    i {
-      margin-right: 0.5em;
-    }
-
-    &:hover {
-      color: #fff;
-      background-color: darken(#3b5998, 5%);
-    }
-}
-
-.btn-download {
-    color: #fff;
-    border: 0;
-    margin-top: 0.2em;
-    margin-left: 0.25em;
-    background-color: darken(#0088cc, 5%);
-
-    &:hover {
-      color: #fff;
-      background-color: darken(#0088cc, 10%);
-    }
-}
-
-#charity {
-  margin-bottom: 0.5em;
-}
-
-#sponsors {
-  .container {
-    .row {
-      margin-left: 0;
-      margin-right: 0;
-    }
-  }
-}
-
-.btn {
-  white-space: normal;
-}
-
-.padding-break {
-  height: 10px;
+h1, h2, h3, h4, h5, h6, dt {
+  font-weight: 300;
 }

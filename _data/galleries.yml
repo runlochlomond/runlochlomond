@@ -1,13 +1,11 @@
 ---
-- name: Vale of Leven 10K (and Fun Run)
-  galleries:
-  - year: 2017 (and fun run)
-    link: https://www.dropbox.com/sh/lj4zdu7m06mvcl4/AACY7KbkxIZoGfTtdAu-CpBKa?dl=0
-  - year: 2016 (and Fun Run)
-    link: https://www.flickr.com/photos/25425985@N07/albums/72157669409866016
-  - year: 2015 (and Fun Run)
-    link: https://www.flickr.com/photos/25425985@N07/albums/72157651914119123
-  - year: 2014 Part 2
-    link: https://www.flickr.com/photos/25425985@N07/albums/72157645141524521
-  - year: 2014 Part 1 (and Fun Run)
-    link: https://www.flickr.com/photos/25425985@N07/albums/72157645147277564
+- name: Vale of Leven 10K 2017 (and Fun Run)
+  link: https://www.dropbox.com/sh/lj4zdu7m06mvcl4/AACY7KbkxIZoGfTtdAu-CpBKa?dl=0
+- name: Vale of Leven 10K 2016 (and Fun Run)
+  link: https://www.flickr.com/photos/25425985@N07/albums/72157669409866016
+- name: Vale of Leven 10K 2015 (and Fun Run)
+  link: https://www.flickr.com/photos/25425985@N07/albums/72157651914119123
+- name: Vale of Leven 10K 2014 Part 2
+  link: https://www.flickr.com/photos/25425985@N07/albums/72157645141524521
+- name: Vale of Leven 10K 2014 Part 1 (and Fun Run)
+  link: https://www.flickr.com/photos/25425985@N07/albums/72157645147277564

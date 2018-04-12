@@ -1,20 +1,23 @@
-<nav id="footer" class="navbar navbar-dark bg-inverse">
-    <div class="container{% if page.url != '/' %} limited{% endif %}">
-        <ul class="navbar-nav float-none float-md-left">
-            {% assign terms = '/legal/terms-and-conditions' %}
-            {% assign privacy = '/legal/privacy-policy' %}
-            <li class="nav-item{% if page.url == terms %} active{% endif %}">
-                <a class="nav-link" href="{{ terms }}">Terms and Conditions</a>
-            </li>
-            <li class="nav-item{% if page.url == terms %} active{% endif %}">
-                <a class="nav-link" href="{{ privacy }}">Privacy Policy</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav float-none float-md-right">
-            <li class="nav-item">
-                <a class="nav-link" href="https://davidtw.co">Created by David Wood</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-{% js app %}
+<div class="d-flex align-items-center justify-content-center">
+    <nav id="footer" class="navbar navbar-expand-lg text-center">
+        <div class="container">
+            <ul class="navbar-nav">
+                {% assign terms = '/legal/terms-and-conditions' %}
+                <li class="nav-item{% if page.url == terms %} active{% endif %}">
+                    <a class="nav-link" href="{{ terms }}">Terms and Conditions</a>
+                </li>
+
+                {% assign privacy = '/legal/privacy-policy' %}
+                <li class="nav-item{% if page.url == privacy %} active{% endif %}">
+                    <a class="nav-link" href="{{ privacy }}">Privacy Policy</a>
+                </li>
+
+                <li class="nav-item ml-sm-auto">
+                    <a class="nav-link" href="https://davidtw.co">Created by David Wood</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+{% asset app.js %}
