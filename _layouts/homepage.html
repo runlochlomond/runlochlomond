@@ -12,8 +12,9 @@ layout: base
                 {% endif %}
             </div>
             {% if race.sponsor_bar %}
+                {% assign title_sponsor = site.data.sponsors | where: "tier", "Title" | sample %}
                 <div class="card-body card-sponsor-line bg-primary text-center text-white">
-                    <h6 class="card-text"><strong>{{ race.sponsor_bar }}</strong></h6>
+                    <h6 class="card-text">{{ race.sponsor_bar }} - <strong>{{ title_sponsor.name }}</strong>!</h6>
                 </div>
             {% endif %}
             {% assign proper_link = race.image_link | file_name %}
