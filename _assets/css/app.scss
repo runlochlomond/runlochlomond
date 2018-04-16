@@ -63,10 +63,29 @@ $tiers: (
   max-width: 45em;
 }
 
+.container.less-limited {
+  margin-top: 2em;
+  max-width: 65em;
+}
+
 .card-body-no-flex {
   padding: 1.25rem;
 }
 
 h1, h2, h3, h4, h5, h6, dt {
   font-weight: 300;
+}
+
+#sponsor-tier {
+  margin-top: 3em;
+  padding-bottom: 1em;
+}
+
+#sponsor-tier-row {
+  margin-bottom: 1em;
+}
+
+.card-sponsor-line {
+  border-top: 2px solid $brand-primary;
+  border-bottom: 2px solid $brand-primary;
 }

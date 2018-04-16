@@ -1,0 +1,34 @@
+---
+layout: base
+---
+<div class="container less-limited">
+    <article class="text-center">
+        {{ content | replace: '<img', '<img class="img-fluid"' }}
+    </article>
+
+    {% assign sponsors = site.data.sponsors | sort: 'order' | group_by: 'tier' %}
+    {% for tier in sponsors %}
+        <div id="sponsor-tier" class="text-center">
+            <h1>{{ tier.name }} Sponsors</h1>
+        </div>
+        {% for sponsor in tier.items %}
+            <div id="sponsor-tier-row" class="row">
+                <div class="col-sm-4">
+                    {% assign proper_link = sponsor.image_link | file_name %}
+                    <a href="{{ sponsor.link }}">
+                        {% asset '{{ proper_link }}' class='img-fluid mx-auto d-block' alt='{{ sponsor.name }}' %}
+                    </a>
+                </div>
+                <div class="col-sm-8">
+                    <p>{{ sponsor.description | markdownify }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">We don't have any sponsors at the moment.</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

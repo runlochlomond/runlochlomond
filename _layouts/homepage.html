@@ -11,12 +11,6 @@ layout: base
                     <h6 class="card-subtitle text-muted countdown countdown-{{ race.race_date }}">Countdown loading...</h6>
                 {% endif %}
             </div>
-            {% if race.sponsor_bar %}
-                {% assign title_sponsor = site.data.sponsors | where: "tier", "Title" | sample %}
-                <div class="card-body card-sponsor-line bg-primary text-center text-white">
-                    <h6 class="card-text">{{ race.sponsor_bar }} - <strong>{{ title_sponsor.name }}</strong>!</h6>
-                </div>
-            {% endif %}
             {% assign proper_link = race.image_link | file_name %}
             {% asset '{{ proper_link }}' class='card-img-top img-fluid' magick:resize=540x425 %}
             <div class="card-body">
@@ -50,6 +44,24 @@ layout: base
                     </div>
                 </div>
             </div>
+            {% if race.sponsor_bar %}
+                {% assign title_sponsor = site.data.sponsors | where: "tier", "Title" | sample %}
+                <div class="card-body card-sponsor-line">
+                    <div class="row">
+                        <div class="col-sm-9 d-flex align-items-center">
+                            <h6 class="card-text">
+                                {{ race.sponsor_bar }} - <a href="{{ title_sponsor.link }}">{{ title_sponsor.name }}</a>!
+                            </h6>
+                        </div>
+                        <div class="col-sm-3 mt-3 mt-sm-0">
+                            {% assign proper_link = title_sponsor.image_link | file_name %}
+                            <a href="{{ title_sponsor.link }}">
+                                {% asset '{{ proper_link }}' class='img-fluid' alt='{{ title_sponsor.name }}' %}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
             <div class="card-body-no-flex d-flex align-items-bottom">
                 {% if race.entry.link != '' %}
                     <a class="btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
@@ -71,24 +83,27 @@ layout: base
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Sponsors</h4>
-                    <p class="card-text">Many thanks to our sponsors for making the series possible!</p>
+                    <p class="card-text">Many thanks to our title and gold sponsors for making the series possible!</p>
+                    <a href="/sponsors" class="card-link">Check out our other sponsors.</a>
                 </div>
             </div>
 
             {% assign sponsors = site.data.sponsors | sort: 'order' %}
             {% for sponsor in sponsors %}
-            <div class="card text-center">
-                    <div class="card-header">
-                        {{ sponsor.tier }} Sponsor
+                {% if sponsor.show_on_homepage %}
+                    <div class="card text-center">
+                        <div class="card-header">
+                            {{ sponsor.tier }} Sponsor
+                        </div>
+                        {% assign proper_link = sponsor.image_link | file_name %}
+                        <a href="{{ sponsor.link }}">
+                            {% asset '{{ proper_link }}' class='card-img-top card-sponsor img-fluid' alt='{{ sponsor.name }}' %}
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">{{ sponsor.short_description }}</p>
+                        </div>
                     </div>
-                    {% assign proper_link = sponsor.image_link | file_name %}
-                    <a href="{{ sponsor.link }}">
-                        {% asset '{{ proper_link }}' class='card-img-top card-sponsor img-fluid' alt='{{ sponsor.name }}' %}
-                    </a>
-                    <div class="card-body">
-                        <p class="card-text">{{ sponsor.description }}</p>
-                    </div>
-                </div>
+                {% endif %}
             {% else %}
                 <div class="card">
                     <div class="card-body">
