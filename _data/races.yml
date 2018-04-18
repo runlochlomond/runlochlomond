@@ -1,11 +1,14 @@
 ---
 - title: Vale of Leven 10K
+  title_sponsor_text: 'Many thanks to our title sponsor'
   race_date: 2018-06-02 10:00:00 +0000
+  postal_entry_deadline: 2018-05-14 00:00:00 +0000
   entries_closing_date: 2018-05-31 10:00:00 +0000
-  description: 'The West Dunbartonshire Leisure 10K is a continuation of the highly
-    popular Polaroid Eyewear Vale of Leven 10K that they successfully organised over
-    the last thirty years. West Dunbartonshire Leisure Trust is proud to be in a position
-    to maintain the legacy of the Vale of Leven 10K Road Race left by Polaroid Eyewear.  '
+  description: 'The West Dunbartonshire Leisure Vale of Leven 10K is a continuation of
+    the highly popular Vale of Leven 10K, which is now into its 32nd year! Our Title Sponsor
+    this year is Chivas Brothers and Gold Sponsor is CPR Resurfacing. The event starts at 10am
+    in the Moss O’ Balloch Park and is ideal for people who are doing their first ever 10k as
+    well as providing a competitive setting for experienced runners.'
   price:
     sa: '15.50'
     non-sa: '17.50'

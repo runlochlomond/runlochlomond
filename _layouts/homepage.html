@@ -24,6 +24,10 @@ layout: base
                                 <dt>Race Date</dt>
                                 <dd>{{ race.race_date | date: "%-d %B %Y %r" }}</dd>
                             {% endif %}
+                            {% if race.postal_entry_deadline %}
+                                <dt>Postal Entry Deadline</dt>
+                                <dd>{{ race.postal_entry_deadline | date: "%-d %B %Y %r" }}</dd>
+                            {% endif %}
                             {% if race.entries_closing_date %}
                                 <dt>Entry Close Date</dt>
                                 <dd>{{ race.entries_closing_date | date: "%-d %B %Y %r" }}</dd>
@@ -44,13 +48,13 @@ layout: base
                     </div>
                 </div>
             </div>
-            {% if race.sponsor_bar %}
+            {% if race.title_sponsor_text %}
                 {% assign title_sponsor = site.data.sponsors | where: "tier", "Title" | sample %}
                 <div class="card-body card-sponsor-line">
                     <div class="row">
                         <div class="col-sm-9 d-flex align-items-center">
                             <h6 class="card-text">
-                                {{ race.sponsor_bar }} - <a href="{{ title_sponsor.link }}">{{ title_sponsor.name }}</a>!
+                                {{ race.title_sponsor_text }} - <a href="{{ title_sponsor.link }}">{{ title_sponsor.name }}</a>!
                             </h6>
                         </div>
                         <div class="col-sm-3 mt-3 mt-sm-0">
