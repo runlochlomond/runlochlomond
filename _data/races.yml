@@ -1,14 +1,17 @@
 ---
 - title: Vale of Leven 10K
-  title_sponsor_text: 'Many thanks to our title sponsor'
   race_date: 2018-06-02 10:00:00 +0000
-  postal_entry_deadline: 2018-05-14 00:00:00 +0000
   entries_closing_date: 2018-05-31 10:00:00 +0000
-  description: 'The West Dunbartonshire Leisure Vale of Leven 10K is a continuation of
-    the highly popular Vale of Leven 10K, which is now into its 32nd year! Our Title Sponsor
-    this year is Chivas Brothers and Gold Sponsor is CPR Resurfacing. The event starts at 10am
-    in the Moss O’ Balloch Park and is ideal for people who are doing their first ever 10k as
-    well as providing a competitive setting for experienced runners.'
+  description: "The West Dunbartonshire Leisure Vale of Leven 10K is a continuation
+    of the highly popular Vale of Leven 10K, which is now into its 32nd year! Our
+    Title Sponsor this year is Chivas Brothers and Gold Sponsor is CPR Resurfacing.
+    \ The event starts at 10am in the Moss O’ Balloch Park and is ideal for people
+    who are doing their first ever 10k as well as providing a competitive setting
+    for experienced runners. \n\nDEADLINE: 14TH May to receive race pack by post\n
+    \n\n<script type=\"text/javascript\" src=\"//downloads.mailchimp.com/js/signup-forms/popup/embed.js\"
+    data-dojo-config=\"usePlainJson: true, isDebug: false\"></script><script type=\"text/javascript\">require([\"mojo/signup-forms/Loader\"],
+    function(L) { L.start({\"baseUrl\":\"mc.us16.list-manage.com\",\"uuid\":\"0c63c664b6ff47ed93533dc5d\",\"lid\":\"513d1a2b43\"})
+    })</script>"
   price:
     sa: '15.50'
     non-sa: '17.50'
