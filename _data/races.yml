@@ -1,7 +1,7 @@
 ---
 - title: Vale of Leven 10K
-  race_date: 2018-06-02 10:00:00 +0000
-  entries_closing_date: 2018-05-31 10:00:00 +0000
+  race_date:
+  entries_closing_date:
   description: "The West Dunbartonshire Leisure Vale of Leven 10K is a continuation
     of the highly popular Vale of Leven 10K, which is now into its 32nd year! Our
     Title Sponsor this year is Chivas Brothers and Gold Sponsor is CPR Resurfacing.
@@ -21,8 +21,8 @@
     text: Sign up now!
   image_link: "/images/10K 1.jpg"
 - title: Fun Run 2018
-  race_date: 2018-06-02 09:00:00 +0000
-  entries_closing_date: 2018-06-02 08:45:00 +0000
+  race_date:
+  entries_closing_date:
   description: |2-
 
     West Dunbartonshire Leisure Trust is once again organising a Fun Run for young runners alongside the Vale of Leven 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participants finishing through the 10K finishing gantry.
