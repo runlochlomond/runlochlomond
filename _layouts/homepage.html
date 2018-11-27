@@ -84,15 +84,17 @@ layout: base
 <div class="container-fluid">
     <div class="container">
         <div id="sponsors" class="card-columns">
+            {% assign sponsors = site.data.sponsors | sort: 'order' | where: 'hidden', false %}
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Sponsors</h4>
                     <p class="card-text">Many thanks to our title and gold sponsors for making the series possible!</p>
-                    <a href="/sponsors" class="card-link">Check out our other sponsors.</a>
+                    {% if sponsors.size > 0 %}
+                        <a href="/sponsors" class="card-link">Check out our other sponsors.</a>
+                    {% endif %}
                 </div>
             </div>
 
-            {% assign sponsors = site.data.sponsors | sort: 'order' %}
             {% for sponsor in sponsors %}
                 {% if sponsor.show_on_homepage %}
                     <div class="card text-center">
@@ -120,7 +122,7 @@ layout: base
         <div id="info" class="card-columns">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">What is the West Dunbartonshire 10K?</h4>
+                    <h4 class="card-title">What is the Run Loch Lomond 10K?</h4>
                     <p class="card-text">
                         {{ content | replace: '<img', '<img class="img-fluid"' }}
                     </p>

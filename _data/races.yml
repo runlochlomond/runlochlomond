@@ -1,31 +1,23 @@
 ---
-- title: Vale of Leven 10K
-  race_date:
+- title: Loch Lomond 10K
+  race_date: 2019-06-22 10:00:00 +0000
   entries_closing_date:
-  description: "The West Dunbartonshire Leisure Vale of Leven 10K is a continuation
-    of the highly popular Vale of Leven 10K, which is now into its 32nd year! Our
-    Title Sponsor this year is Chivas Brothers and Gold Sponsor is CPR Resurfacing.
-    \ The event starts at 10am in the Moss O’ Balloch Park and is ideal for people
-    who are doing their first ever 10k as well as providing a competitive setting
-    for experienced runners. \n\nDEADLINE: 14TH May to receive race pack by post\n
-    \n\n<script type=\"text/javascript\" src=\"//downloads.mailchimp.com/js/signup-forms/popup/embed.js\"
-    data-dojo-config=\"usePlainJson: true, isDebug: false\"></script><script type=\"text/javascript\">require([\"mojo/signup-forms/Loader\"],
-    function(L) { L.start({\"baseUrl\":\"mc.us16.list-manage.com\",\"uuid\":\"0c63c664b6ff47ed93533dc5d\",\"lid\":\"513d1a2b43\"})
-    })</script>"
+  description: "The Run Loch Lomond 10K is organized by West Dunbartonshire Leisure and is a
+    continuation of the highly popular Vale of Leven 10K, which is now into its 33rd year!"
   price:
-    sa: '15.50'
-    non-sa: '17.50'
+    sa: '16.00'
+    non-sa: '18.00'
   route: https://www.plotaroute.com/route/418093
   entry:
-    link: https://www.entrycentral.com/Vale-of-Leven-10k
-    text: Sign up now!
+    link:
+    text: Opening soon..
   image_link: "/images/10K 1.jpg"
-- title: Fun Run 2018
-  race_date:
+- title: Fun Run 2019
+  race_date: 2019-06-22 09:00:00 +0000
   entries_closing_date:
-  description: |2-
-
-    West Dunbartonshire Leisure Trust is once again organising a Fun Run for young runners alongside the Vale of Leven 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participants finishing through the 10K finishing gantry.
+  description: "West Dunbartonshire Leisure Trust is once again organising a Fun Run for young
+    runners alongside the Run Loch Lomond 10K. The event will take place in the Moss O’ Balloch
+    site (G83 8LE) with all participants finishing through the 10K finishing gantry."
   price:
     non-sa: 2
   entry:
