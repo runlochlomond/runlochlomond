@@ -2,6 +2,7 @@
 title: Fun Run
 layout: page
 include_in_nav: true
+
 ---
 ## WD Leisure Fun Run
 
@@ -9,7 +10,7 @@ include_in_nav: true
 
 <u>Fun Run for babies to primary 7 aged children</u>
 
-<span style="letter-spacing: 0.01em;">West Dunbartonshire Leisure Trust is once again organising a Fun Run for young runners alongside the Vale of Leven 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participants finishing through the 10K finishing gantry.</span>
+<span style="letter-spacing: 0.01em;">West Dunbartonshire Leisure Trust is once again organising a Fun Run for young runners alongside the Loch Lomond 10K. The event will take place in the Moss O’ Balloch site (G83 8LE) with all participants finishing through the 10K finishing gantry.</span>
 
 Please see the following for further information about the event.
 
