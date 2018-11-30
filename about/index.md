@@ -2,10 +2,11 @@
 title: About
 layout: page
 include_in_nav: true
----
-The Run Loch Lomond 10K is organized by West Dunbartonshire Leisure and is a continuation of the highly popular **Vale of Leven 10K**, which was successfully organised and delivered by Polaroid Eyewear for thirty years. West Dunbartonshire Leisure Trust is proud to be in a position to maintain the event and continue to further develop it in the future.
 
-The event will take place on **Saturday 2nd June** starting in the Moss O’ Balloch site and will include the much loved school and pre-school age fun runs which are open to all. Our Title Sponsor this year is Chivas Brothers and Gold Sponsor is CPR Resurfacing.  The event starts at 10am in the Moss O’ Balloch Park and is ideal for people who are doing their first ever 10k as well as providing a competitive setting for experienced runners.
+---
+Run Loch Lomond 10K is organised by West Dunbartonshire Leisure and is a continuation of the highly popular **Vale of Leven 10K**, delivered for thirtythree years. West Dunbartonshire Leisure Trust is proud to be in a position to maintain the event and continue to further develop it in the future.
+
+The event will take place on **Saturday 22nd June** starting in the Moss O’ Balloch site and will include the much loved school and pre-school age fun runs which are open to all. Our Gold Sponsor is CPR Resurfacing.  The event starts at 10am in the Moss O’ Balloch Park and is ideal for people who are doing their first ever 10k as well as providing a competitive setting for experienced runners.
 
 **Online Entry & Race Packs**
 
@@ -27,15 +28,13 @@ We look forward to seeing you
 
 Come & join in the run!
 
- 
-
 ### **West Dunbartonshire Leisure Trust (WDLT)**
 
-WDLT is a charitable trust that has the responsibility to deliver leisure and sport services on behalf of West Dunbartonshire Council. Our Sports Development team has organised and delivered the Children’s Fun run for the last nineteen years with over six hundred children and their parents and grandparents enjoying running the route and finishing through the 10K inflatable gantry. 
+WDLT is a charitable trust that has the responsibility to deliver leisure and sport services on behalf of West Dunbartonshire Council. Our Sports Development team has organised and delivered the Children’s Fun run for the last nineteen years with over six hundred children and their parents and grandparents enjoying running the route and finishing through the 10K inflatable gantry.
 
 # Polaroid Eyewear 10K– a great running tradition
 
-The Polaroid Eyewear 10K Series had grown since its first race in 1987 with around 100 runners, to up to 1,000 runners taking part in each race. Following the decision to close Polaroid Eyewear, West Dunbartonshire Leisure Trust stepped in to lead on the delivery of our Vale of Leven 10K. The race is about participation – recreational and competitive runners enjoying a well organised and friendly event.  
+The Polaroid Eyewear 10K Series had grown since its first race in 1987 with around 100 runners, to up to 1,000 runners taking part in each race. Following the decision to close Polaroid Eyewear, West Dunbartonshire Leisure Trust stepped in to lead on the delivery of our Vale of Leven 10K. The race is about participation – recreational and competitive runners enjoying a well organised and friendly event.
 
 ## History and Background
 
@@ -46,8 +45,6 @@ The first female winner in 1987 was Melissa Wylie, other winners have included l
 Current course records include Keith Anderson’s 29:31 in 1997, Yvonne Murray-Mooney holds the ladies record with 34.04 in 1998. The men’s veteran record of 30:54 is held by Brian Kirkwood from 1995, however Tommy Murray was only 5 seconds outside it in 2001! The female veteran’s record is held by Sandra Branney in a time of 35:08 in 1993.
 
 “See you at the races.”
-
- 
 
 **Online Entry & Race Packs**
 
