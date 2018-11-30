@@ -2,13 +2,10 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
-webhook_url:
+webhook_url: 
 sections:
 - type: jekyll-pages
   label: Pages
-  create: none
-- type: jekyll-posts
-  label: Posts
   create: none
 - type: directory
   path: _data
