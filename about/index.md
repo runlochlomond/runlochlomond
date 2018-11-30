@@ -4,13 +4,13 @@ layout: page
 include_in_nav: true
 
 ---
-Run Loch Lomond 10K is organised by West Dunbartonshire Leisure and is a continuation of the highly popular **Vale of Leven 10K**, delivered for thirtythree years. West Dunbartonshire Leisure Trust is proud to be in a position to maintain the event and continue to further develop it in the future.
+Run Loch Lomond 10K and fun run is organised by West Dunbartonshire Leisure and is a continuation of the highly popular **Vale of Leven 10K**, delivered for thirtythree years. West Dunbartonshire Leisure Trust is proud to be in a position to maintain the event and continue to further develop it in the future.
 
 The event will take place on **Saturday 22nd June** starting in the Moss O’ Balloch site and will include the much loved school and pre-school aged fun run which is open to all. Our Gold Sponsor is CPR Resurfacing.  The event starts at 10am in the Moss O’ Balloch Park and is ideal for people who are doing their first ever 10k as well as providing a competitive setting for experienced runners.
 
 **Online Entry & Race Packs**
 
-**Online entry closes at 10am on 31st May however to receive your race packs by post you need to enter by 1pm on 14th May.**
+**Online entry closes at 10am on Thursday 20th June**     **however to receive your race packs by post you need to enter by 10am on Monday 10th June.**
 
 The race packs will be sent out after this date. If you don't enter in time or don't receive your race packs for some reason then we will sort this out for you when you arrive at the venue. Please report to the large marquee and speak to one of our volunteers at the desk.
 
@@ -32,10 +32,6 @@ Come & join in the run!
 
 WDLT is a charitable trust that has the responsibility to deliver leisure and sport services on behalf of West Dunbartonshire Council. Our Sports Development team has organised and delivered the Children’s Fun run for the last nineteen years with over six hundred children and their parents and grandparents enjoying running the route and finishing through the 10K inflatable gantry.
 
-# Polaroid Eyewear 10K– a great running tradition
-
-The Polaroid Eyewear 10K Series had grown since its first race in 1987 with around 100 runners, to up to 1,000 runners taking part in each race. Following the decision to close Polaroid Eyewear, West Dunbartonshire Leisure Trust stepped in to lead on the delivery of our Vale of Leven 10K. The race is about participation – recreational and competitive runners enjoying a well organised and friendly event.
-
 ## History and Background
 
 Vale of Leven winners over the years have included John Hanratty 1987, Peter Fleming 1990, Nat Muir 1991, Chris Robison 1993/94, Keith Anderson 1997/98, Kenyans Benson Masya 1999 & Stephen Ariga 2001. In 2000 local athlete Glen Stewart took the honours.
@@ -46,22 +42,6 @@ Current course records include Keith Anderson’s 29:31 in 1997, Yvonne Murray-M
 
 “See you at the races.”
 
-**Online Entry & Race Packs**
+#### Polaroid Eyewear 10K– a great running tradition
 
-**Online entry closes at 10am on 31st May however to receive your race packs by post you need to enter by 1pm on 14th May.**
-
-The race packs will be sent out after this date. If you don't enter in time or don't receive your race packs for some reason then we will sort this out for you when you arrive at the venue. Please report to the large marquee and speak to one of our volunteers at the desk.
-
-We pride ourselves in delivering a fun, high quality, safe and well organised experience for all participants and hope that you will come and join us this year. We have a scenic route that takes you through Balloch Castle Country Park (providing the stunning backdrop of Loch Lomond) and along the River Leven. In addition, we are providing every runner with a high quality:
-
-•             Technical event t-shirt
-
-•             Bespoke race medal
-
-•             Goodie bag with gifts, water, snacks and discount vouchers for local services and attractions
-
-•             Prize list for individual winners and teams as well as spot prizes
-
-We look forward to seeing you
-
-Come & join in the run!
+The Polaroid Eyewear 10K Series had grown since its first race in 1987 with around 100 runners, to up to 1,000 runners taking part in each race. Following the decision to close Polaroid Eyewear, West Dunbartonshire Leisure Trust stepped in to lead on the delivery of our Vale of Leven 10K. The race is about participation – recreational and competitive runners enjoying a well organised and friendly event.
