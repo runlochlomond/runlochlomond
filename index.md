@@ -2,7 +2,6 @@
 title: Home
 layout: homepage
 include_in_nav: true
-
 ---
 The Loch Lomond 10K is organised by West Dunbartonshire Leisure and is a continuation of the Vale of Leven 10K that has been successfully organised over the last thirty years.
 

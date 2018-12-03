@@ -84,11 +84,11 @@ layout: base
 <div class="container-fluid">
     <div class="container">
         <div id="sponsors" class="card-columns">
-            {% assign sponsors = site.data.sponsors | sort: 'order' | where: 'hidden', false %}
+            {% assign sponsors = site.data.sponsors.entries | sort: 'order' | where: 'hidden', false %}
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Sponsors</h4>
-                    <p class="card-text">Many thanks to our title and gold sponsors for making the series possible!</p>
+                    <p class="card-text">{{ site.data.sponsors.description }}</p>
                     {% if sponsors.size > 0 %}
                         <a href="/sponsors" class="card-link">Check out our other sponsors.</a>
                     {% endif %}

@@ -6,7 +6,7 @@ layout: base
         {{ content | replace: '<img', '<img class="img-fluid"' }}
     </article>
 
-    {% assign sponsors = site.data.sponsors | where: 'hidden', false | sort: 'order' | group_by: 'tier' %}
+    {% assign sponsors = site.data.sponsors.entries | where: 'hidden', false | sort: 'order' | group_by: 'tier' %}
     {% for tier in sponsors %}
         <div id="sponsor-tier" class="text-center">
             <h1>{{ tier.name }} Sponsors</h1>
