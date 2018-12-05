@@ -3,13 +3,19 @@ description: Many thanks to our sponsors for making the race possible!
 entries:
 - name: Malin Group
   link: http://www.malingroup.com/about-malin-group/
-  order: ''
-  show_on_homepage: ''
+  order: 2
+  show_on_homepage: true
   tier: Bronze
-  short_description: ''
-  description: ''
+  short_description: |
+    Underpinned by the wealth of expertise and knowledge of our staff base, and a presence in
+    the marine industry stretching back over 100 years, Malin Group provide a reliable partner
+    across Marine, Oil & Gas and Renewables markets.
+  description: |
+    Underpinned by the wealth of expertise and knowledge of our staff base, and a presence in
+    the marine industry stretching back over 100 years, Malin Group provide a reliable partner
+    across Marine, Oil & Gas and Renewables markets.
   image_link: "/images/Malin Group.png"
-  hidden: ''
+  hidden: false
 - name: CPR Resurfacing Ltd
   link: https://www.cpr-resurfacing.co.uk/
   order: 1
