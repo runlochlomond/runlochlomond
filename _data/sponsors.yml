@@ -1,20 +1,29 @@
 ---
-description: "Many thanks to our sponsors for making the race possible!"
+description: Many thanks to our sponsors for making the race possible!
 entries:
-  - name: CPR Resurfacing Ltd
-    link: https://www.cpr-resurfacing.co.uk/
-    order: 1
-    show_on_homepage: true
-    tier: Gold
-    short_description: |
-      CPR are a leading Resurfacing and Civil Engineering company with over 30 years experience
-      as a contractor to the construction, road and rail industries within the UK.
-    description: "CPR Scotland Ltd are a Resurfacing and Civils contractor located in
-      Renton,\nWest Dunbartonshire. They are a family ran company who are trusted suppliers
-      to\norganisations such as Network Rail, Morgan Sindall and Argyll & Bute Council.\n90%
-      of their workforce live with 5 miles of the site and CPR are one of the top\n20
-      companies in the area. \n\n\nWilliam Black, Managing Director said, “CPR are proud
-      to be the Gold sponsor\nof Run Loch Lomond and play our part to make the event
-      bigger and\nbetter each year.”\n"
-    image_link: "/images/cpr_logo_retina.jpg"
-    hidden: false
+- name: Malin Group
+  link: http://www.malingroup.com/about-malin-group/
+  order: ''
+  show_on_homepage: ''
+  tier: Bronze
+  short_description: ''
+  description: ''
+  image_link: "/images/Malin Group.png"
+  hidden: ''
+- name: CPR Resurfacing Ltd
+  link: https://www.cpr-resurfacing.co.uk/
+  order: 1
+  show_on_homepage: true
+  tier: Gold
+  short_description: |
+    CPR are a leading Resurfacing and Civil Engineering company with over 30 years experience
+    as a contractor to the construction, road and rail industries within the UK.
+  description: "CPR Scotland Ltd are a Resurfacing and Civils contractor located in
+    Renton,\nWest Dunbartonshire. They are a family ran company who are trusted suppliers
+    to\norganisations such as Network Rail, Morgan Sindall and Argyll & Bute Council.\n90%
+    of their workforce live with 5 miles of the site and CPR are one of the top\n20
+    companies in the area. \n\n\nWilliam Black, Managing Director said, “CPR are proud
+    to be the Gold sponsor\nof Run Loch Lomond and play our part to make the event
+    bigger and\nbetter each year.”\n"
+  image_link: "/images/cpr_logo_retina.jpg"
+  hidden: false
