@@ -6,7 +6,7 @@ include_in_nav: true
 ---
 ## WD Leisure Fun Run
 
-![]({{ site.baseurl }}/images/VOL - 10K -234.jpg)
+![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-79.jpg)
 
 <u>Fun Run for babies to primary 7 aged children</u>
 
@@ -18,7 +18,7 @@ Please see the following for further information about the event.
 
 The fun run will start in the Moss O’ Balloch area. The fun run will be set off in waves, with the oldest age group (P7) going first. The first run will commence at 9am
 
-![]({{ site.baseurl }}/images/IMG_0622.JPG)
+![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-273.jpg)
 
 **What is the age group for the event and can I run with my child?**
 
@@ -28,7 +28,7 @@ The event is open to parents with babies (in buggies) up to primary 7 aged child
 
 The course distance is approx. 1mile for the older age groups and there is a shorter route for younger participants. The route is all off road and goes through Balloch Castle Country Park. The route will be heavily marshalled. It’s all about having fun and inspiring our young people to get fit and stay active!
 
-![]({{ site.baseurl }}/images/on the line.jpg){:style="float: none;"}
+![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-115.jpg){:style="float: none;"}
 
 **My child is already registered via their school, do I need to register again on the day?**
 
@@ -42,9 +42,9 @@ Yes. Any children who have not already registered via their school need to regis
 
 Please ensure you arrive ready to take part no later than 08:45. Holding areas will be in place for the various age groups. Your child will be directed to the relevant area designated for your child’s age group and they should wait there with the supervisors prior to taking part in a mass warm up and walking to the starting line(s). The age groups will be Parent baby, toddlers, P1-3, P4, P5, P6 and P7).
 
-![]({{ site.baseurl }}/images/VOL - 10K -66_preview.jpeg)
+![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-298.jpg)
 
-![]({{ site.baseurl }}/images/run run.jpeg)
+![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-357.jpg)
 
 **Is there an entry fee?**
 
@@ -61,7 +61,7 @@ For the safety of all participants there will be no parking at the event site (M
 * <p>Each age group will be set off in waves (oldest to youngest)</p>
 * <p>Parents will be able to see their children finish and walk with them to receive their goodie bag</p>
 
-![]({{ site.baseurl }}/images/VOL - 10K -265.jpg)
+![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-96.jpg)
 
 Please note that times may vary slightly, but to avoid disappointment please ensure that you are registered before 08.45.
 
