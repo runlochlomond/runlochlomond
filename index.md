@@ -1,5 +1,6 @@
 ---
 title: Home
+subtitle: What is Run Loch Lomond?
 layout: homepage
 include_in_nav: true
 ---
