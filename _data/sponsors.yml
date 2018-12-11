@@ -4,12 +4,12 @@ entries:
 - name: JJR Print Ltd
   link: https://www.jjrprint.co.uk/
   order: 3
-  show_on_homepage: false
+  show_on_homepage: true
   tier: Bronze
   short_description: ''
   description: ''
   image_link: "/images/cbd794_7673ee10177449d08f1f0fc56ff7f799.gif"
-  hidden: ''
+  hidden: false
 - name: Malin Group
   link: http://www.malingroup.com/about-malin-group/
   order: 2
