@@ -4,7 +4,7 @@ entries:
 - name: JJR Print Ltd
   link: https://www.jjrprint.co.uk/
   order: 3
-  show_on_homepage: true
+  show_on_homepage: false
   tier: Bronze
   short_description: ''
   description: JJR Print Ltd offer cost effective full colour print and design for
