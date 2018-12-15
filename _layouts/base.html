@@ -37,6 +37,20 @@
       </nav>
     </div>
 
+    {% if site.data.banner.enabled %}
+      <div class="d-flex align-items-center justify-content-center banner">
+        <nav class="navbar navbar-expand-lg navbar-dark text-center">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="{{ site.data.banner.link }}" class="nav-link">
+                <strong>{{ site.data.banner.text }}</strong>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    {% endif %}
+
     {{ content }}
 
     {% include footer.html %}

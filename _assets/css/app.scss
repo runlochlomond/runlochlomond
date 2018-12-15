@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-$brand-primary: #0088cc;
+$brand-primary: #007bff;
 $body-color: #5a6170;
 $text-muted: #8c95a9;
 
@@ -88,4 +88,9 @@ h1, h2, h3, h4, h5, h6, dt {
 .card-sponsor-line {
   border-top: 2px solid $brand-primary;
   border-bottom: 2px solid $brand-primary;
+}
+
+.banner {
+  background: lighten($brand-primary, 2%);
+  margin-top: 0.5em;
 }
