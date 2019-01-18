@@ -4,7 +4,7 @@ layout: page
 include_in_nav: true
 
 ---
-Run Loch Lomond consists of the Loch Lomond 10K and fun run that is organised by West Dunbartonshire Leisure Trust (WDLT). The events are a continuation of the highly popular **Vale of Leven 10K and fun run**, that have been held over the last thirty two years. WDLT is proud to be in a position to maintain the event and continue to further develop it in the future.
+Run Loch Lomond consists of the Loch Lomond 10K and fun run that is organised by West Dunbartonshire Leisure Trust (WDLT). The events are a continuation of the highly popular Vale of Leven 10K and fun run, that have been held over the last thirty two years. WDLT is proud to be in a position to maintain the event and continue to further develop it in the future.
 
 The event will take place on **Saturday 22nd June** starting in the Moss O’ Balloch site and will include the much loved school and pre-school aged fun run which is open to all. Our **Gold Sponsor is CPR Resurfacing**.  The event starts at 10am and is ideal for people who are doing their first ever 10k as well as providing a competitive setting for experienced runners.
 
