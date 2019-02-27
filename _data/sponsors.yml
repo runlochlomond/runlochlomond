@@ -41,7 +41,7 @@ entries:
   hidden: false
 - name: Malin Group
   link: http://www.malingroup.com/about-malin-group/
-  order: 2
+  order: 4
   show_on_homepage: false
   tier: Bronze
   short_description: ''
