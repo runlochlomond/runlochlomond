@@ -17,7 +17,7 @@ entries:
     its 26 sites including Orkney, Scotland and London. Find out more at www.chivasbrothers.com
     \n"
   image_link: "/images/Chivas_Brothers_Logo.jpg"
-  hidden: ''
+  hidden: false
 - name: The Co-operative Group
   link: https://www.co-operative.coop/
   order: 2
