@@ -7,15 +7,10 @@ entries:
   show_on_homepage: ''
   tier: Silver
   short_description: ''
-  description: "Chivas Brothers is a global drinks producer and exports company steeped
-    in Scottish heritage. It is the only Pernod Ricard business dedicated entirely
-    to Scotch whisky and comprises a prestigious range of single malt and blended
-    whiskies. With a multitude of awards and accolades for its quality, craftsmanship,
-    industry-leading sites and award-winning campaigns, its brands are at the heart
-    of moments of connection across the globe.\nThe company comprises 1,600 employees,
-    14 Scotch distilleries, two bottling facilities and over 300 warehouses across
-    its 26 sites including Orkney, Scotland and London. Find out more at www.chivasbrothers.com
-    \n"
+  description: |
+    Chivas Brothers is a global drinks producer and exports company steeped in Scottish heritage. It is the only Pernod Ricard business dedicated entirely to Scotch whisky and comprises a prestigious range of single malt and blended whiskies. With a multitude of awards and accolades for its quality, craftsmanship and award-winning campaigns, its brands have connections across the globe.
+
+    Jennie Norrish, Global Communications Director for Chivas Brothers, said: “We’re proud to sponsor the Loch Lomond 10K, a great local event in the heart of a community where so many of our employees live and work. We hope that the event raises a great deal for CHAS – a charity Chivas Brothers has strong links to and which is close to the hearts of our employees.”
   image_link: "/images/Chivas_Brothers_Logo.jpg"
   hidden: false
 - name: The Co-operative Group
