@@ -4,7 +4,7 @@ entries:
 - name: Chivas Brother Pernod Ricard
   link: https://www.chivasbrothers.com/
   order: 3
-  show_on_homepage: ''
+  show_on_homepage: false
   tier: Silver
   short_description: ''
   description: |
@@ -12,7 +12,7 @@ entries:
 
     Jennie Norrish, Global Communications Director for Chivas Brothers, said: “We’re proud to sponsor the Loch Lomond 10K, a great local event in the heart of a community where so many of our employees live and work. We hope that the event raises a great deal for CHAS – a charity Chivas Brothers has strong links to and which is close to the hearts of our employees.”
   image_link: "/images/Chivas_Brothers_Logo.jpg"
-  hidden: true
+  hidden: false
 - name: The Co-operative Group
   link: https://www.co-operative.coop/
   order: 2
@@ -21,7 +21,7 @@ entries:
   short_description: ''
   description: ''
   image_link: "/images/co-op-blue-logo-on-white.png"
-  hidden: true
+  hidden: false
 - name: JJR Print Ltd
   link: https://www.jjrprint.co.uk/
   order: 4
@@ -33,7 +33,7 @@ entries:
     Stewart Byron
     Director – JJR Print Ltd.
   image_link: "/images/cbd794_7673ee10177449d08f1f0fc56ff7f799.gif"
-  hidden: true
+  hidden: false
 - name: Malin Group
   link: http://www.malingroup.com/about-malin-group/
   order: 5
@@ -48,7 +48,7 @@ entries:
     Run Loch Lomond event the very best on the day.” John MacSween Managing Director
     Malin Group"
   image_link: "/images/Malin Group.png"
-  hidden: true
+  hidden: false
 - name: CPR Resurfacing Ltd
   link: https://www.cpr-resurfacing.co.uk/
   order: 1
