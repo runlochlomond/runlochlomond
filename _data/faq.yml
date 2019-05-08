@@ -113,7 +113,8 @@
     throughout the route
   category: Race Day
 - question: Is there a water station situated on the route?
-  answer: Yes, there will be one water station after the 6km mark
+  answer: Yes, there will be one water station which is available on both the way
+    out (roughly 4K marker) and the way back (roughly 8K)
   category: Race Day
 - question: What happens if I can’t finish the race?
   answer: 'Alert the nearest marshal available, who will contact support services '
