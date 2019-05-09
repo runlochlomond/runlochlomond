@@ -8,10 +8,13 @@ fields:
   fields:
   - type: text
     name: question
-    label: question
+    label: Question
+    description: What question should be listed in the FAQ?
   - type: text
     name: answer
-    label: answer
+    label: Answer
+    description: What answer should be listed in the FAQ?
   - type: text
     name: category
-    label: category
+    label: Category
+    description: What group is this question in?
