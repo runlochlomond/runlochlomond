@@ -1,0 +1,16 @@
+---
+label: Contact Details
+hide_body: true
+fields:
+- type: text
+  name: address
+  label: address
+- type: text
+  name: phone
+  label: phone
+- type: text
+  name: email
+  label: email
+- type: text
+  name: working_hrs
+  label: working_hrs
