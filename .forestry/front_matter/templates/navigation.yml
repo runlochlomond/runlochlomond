@@ -47,3 +47,5 @@ fields:
   description: What should the title of the website be?
   config:
     required: true
+pages:
+- _data/navigation.yml
