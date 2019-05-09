@@ -20,3 +20,5 @@ fields:
     config:
       required: true
   description: What Facebook page should be linked?
+pages:
+- _data/social.yml
