@@ -36,3 +36,5 @@ fields:
     description: Should the link be highlighted?
     default: true
   description: This section has the information about the link to the charity.
+pages:
+- _data/charity.yml
