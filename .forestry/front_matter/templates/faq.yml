@@ -19,3 +19,5 @@ fields:
     label: Category
     description: What group is this question in?
   description: Add questions to this section.
+pages:
+- _data/faq.yml
