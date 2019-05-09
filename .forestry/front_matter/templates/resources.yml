@@ -1,0 +1,38 @@
+---
+label: Resources
+hide_body: true
+fields:
+- type: field_group
+  name: links
+  label: links
+  fields:
+  - type: textarea
+    name: text
+    label: text
+  - type: field_group_list
+    name: links
+    label: links
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: textarea
+      name: link
+      label: link
+- type: field_group
+  name: training
+  label: training
+  fields:
+  - type: textarea
+    name: text
+    label: text
+  - type: field_group_list
+    name: links
+    label: links
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: textarea
+      name: link
+      label: link
