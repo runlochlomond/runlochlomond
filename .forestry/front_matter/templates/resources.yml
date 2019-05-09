@@ -4,35 +4,51 @@ hide_body: true
 fields:
 - type: field_group
   name: links
-  label: links
   fields:
   - type: textarea
     name: text
-    label: text
+    config:
+      required: true
+    description: Enter a blurb that describes these links.
+    label: Blurb
   - type: field_group_list
     name: links
-    label: links
+    label: Links
     fields:
     - type: text
       name: name
-      label: name
+      label: Link name
+      config:
+        required: true
     - type: textarea
       name: link
-      label: link
+      label: Link
+      config:
+        required: true
+  label: Helpful Links
+  description: Add helpful links to information about running/wdl/the series here.
 - type: field_group
   name: training
-  label: training
+  label: Training Links
   fields:
   - type: textarea
     name: text
-    label: text
+    label: Blurb
+    description: Enter a blurb describing these links.
   - type: field_group_list
     name: links
-    label: links
+    label: Links
     fields:
     - type: text
       name: name
-      label: name
+      label: Name
+      description: Enter the text for the link.
+      config:
+        required: true
     - type: textarea
       name: link
-      label: link
+      label: Link
+      config:
+        required: true
+pages:
+- _data/resources.yml
