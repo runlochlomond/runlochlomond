@@ -8,7 +8,12 @@ fields:
   fields:
   - type: text
     name: name
-    label: name
+    label: Name of results
+    description: Normally something like "Vale of Leven 2018"
+    config:
+      required: true
   - type: text
     name: link
-    label: link
+    label: Link to results
+    config:
+      required: true
