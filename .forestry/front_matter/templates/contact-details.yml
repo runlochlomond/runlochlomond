@@ -26,3 +26,5 @@ fields:
   description: Enter working hours of WDL
   config:
     required: true
+pages:
+- _data/contact.yml
