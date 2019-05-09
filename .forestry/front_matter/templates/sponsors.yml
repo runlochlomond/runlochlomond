@@ -66,3 +66,5 @@ fields:
     description: Should this sponsor show up on the website?
     default: true
   description: Add the individual sponsors to this section.
+pages:
+- _data/sponsors.yml
