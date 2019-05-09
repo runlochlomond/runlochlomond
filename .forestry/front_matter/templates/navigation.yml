@@ -4,30 +4,46 @@ hide_body: true
 fields:
 - type: field_group
   name: options
-  label: options
+  label: Terms navigation link
   fields:
   - type: text
     name: link
-    label: link
+    label: Link
+    description: What should this link go to?
+    config:
+      required: true
   - type: text
     name: text
-    label: text
+    label: Link text
+    description: What should this link say?
+    config:
+      required: true
   - type: boolean
     name: show
-    label: show
+    label: Show "Race Terms" link in Navigation?
+  description: Use this to add a link in the navigation to the race terms.
 - type: field_group
   name: logo
-  label: logo
+  label: Logo
   fields:
   - type: file
     name: wdl_logo
-    label: wdl_logo
+    label: WDL Logo
+    description: Upload the West Dunbartonshire Leisure logo.
   - type: text
     name: wdl_link
-    label: wdl_link
+    label: WDL Link
+    description: Enter a link to West Dunbartonshire Leisure.
+    config:
+      required: true
   - type: file
     name: logo
-    label: logo
+    label: Logo
+    description: Upload the logo for the race series.
+  description: What should the logo of the race series be?
 - type: text
   name: title
-  label: title
+  label: Website Title
+  description: What should the title of the website be?
+  config:
+    required: true
