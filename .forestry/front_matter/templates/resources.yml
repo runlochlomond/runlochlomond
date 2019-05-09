@@ -50,5 +50,6 @@ fields:
       label: Link
       config:
         required: true
+  description: Add links about training here.
 pages:
 - _data/resources.yml
