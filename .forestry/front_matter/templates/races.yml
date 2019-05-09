@@ -66,3 +66,5 @@ fields:
   config:
     labelField: title
   description: List the races here.
+pages:
+- _data/races.yml
