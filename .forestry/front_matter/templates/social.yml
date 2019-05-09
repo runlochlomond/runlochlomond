@@ -4,11 +4,19 @@ hide_body: true
 fields:
 - type: field_group
   name: facebook
-  label: facebook
+  label: Facebook Details
   fields:
   - type: text
     name: link
-    label: link
+    label: Link
+    description: Enter the link to the facebook page.
+    config:
+      required: true
   - type: text
     name: text
-    label: text
+    label: Enter the text that should be linked to Facebook.
+    description: Normally something like " Visit our Facebook to add the races to
+      your diary!".
+    config:
+      required: true
+  description: What Facebook page should be linked?
