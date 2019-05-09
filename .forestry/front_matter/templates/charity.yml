@@ -1,0 +1,23 @@
+---
+label: Charity
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: link
+  label: link
+  fields:
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: text
+    label: text
+  - type: boolean
+    name: highlight
+    label: highlight
