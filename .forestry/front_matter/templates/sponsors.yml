@@ -4,35 +4,65 @@ hide_body: true
 fields:
 - type: text
   name: description
-  label: description
+  label: Description
+  description: Text at the top of the sponsors page, normally something like "Many
+    thanks to our sponsors for making the race possible!"
+  config:
+    required: true
 - type: field_group_list
   name: entries
-  label: entries
+  label: Sponsors
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
+    description: What is the name of this sponsor?
+    config:
+      required: true
   - type: text
     name: link
-    label: link
+    label: Link
+    description: Enter a link to this sponsor's website.
+    config:
+      required: true
   - type: number
     name: order
-    label: order
+    label: Ordering
+    config:
+      min: '1'
+      required: true
+    default: '1'
+    description: Enter a number that will be used to sort this sponsor. Lower will
+      show up first.
   - type: boolean
     name: show_on_homepage
-    label: show_on_homepage
+    label: Should show on homepage?
+    description: Should this sponsor be shown on the homepage?
   - type: text
     name: tier
-    label: tier
+    label: Tier
+    config:
+      required: true
+    description: What tier of sponsor is this? Gold, Silver, Bronze, etc.
   - type: text
     name: short_description
-    label: short_description
+    label: Short Description
+    description: This is the description that will show on the homepage.
+    config:
+      required: true
   - type: textarea
     name: description
-    label: description
+    label: Description
+    description: Enter a longer description that will be shown on the sponsors page.
+    config:
+      required: true
   - type: file
     name: image_link
-    label: image_link
+    label: Logo
+    description: Upload the logo of this sponsor.
   - type: boolean
     name: hidden
-    label: hidden
+    label: Hidden?
+    description: Should this sponsor show up on the website?
+    default: true
+  description: Add the individual sponsors to this section.
