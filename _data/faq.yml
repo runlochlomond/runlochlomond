@@ -133,14 +133,12 @@
   category: Race Day
 - question: Is there food and drink available?
   answer: There are many local cafés and restaurants nearby
-  category:
-  - Race Day
+  category: Race Day
 - question: Can I listen to music during the race?
-  answer: UK Athletics’ rules state that 'in ear’ headphones cannot be used in events
+  answer: UK Athletics’ rules state that 'in ear' headphones cannot be used in events
     where roads are open to traffic. However you may us AfterShokz headphones as it
     delivers stereophonic sound through your cheekbones to the inner ear.
-  category:
-  - Race Day
+  category: Race Day
 - question: What are the prize categories?
   answer: There will be prizes for various categories. Details of the specific prize
     fund will be announced nearer the event date
