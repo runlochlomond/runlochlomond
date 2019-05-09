@@ -1,0 +1,14 @@
+---
+label: Social
+hide_body: true
+fields:
+- type: field_group
+  name: facebook
+  label: facebook
+  fields:
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: text
+    label: text
