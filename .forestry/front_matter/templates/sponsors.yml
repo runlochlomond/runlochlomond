@@ -1,0 +1,38 @@
+---
+label: Sponsors
+hide_body: true
+fields:
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: entries
+  label: entries
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: link
+    label: link
+  - type: number
+    name: order
+    label: order
+  - type: boolean
+    name: show_on_homepage
+    label: show_on_homepage
+  - type: text
+    name: tier
+    label: tier
+  - type: text
+    name: short_description
+    label: short_description
+  - type: textarea
+    name: description
+    label: description
+  - type: file
+    name: image_link
+    label: image_link
+  - type: boolean
+    name: hidden
+    label: hidden
