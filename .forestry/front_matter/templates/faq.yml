@@ -10,14 +10,20 @@ fields:
     name: question
     label: Question
     description: What question should be listed in the FAQ?
+    config:
+      required: true
   - type: text
     name: answer
     label: Answer
     description: What answer should be listed in the FAQ?
+    config:
+      required: true
   - type: text
     name: category
     label: Category
     description: What group is this question in?
+    config:
+      required: true
   description: Add questions to this section.
 pages:
 - _data/faq.yml
