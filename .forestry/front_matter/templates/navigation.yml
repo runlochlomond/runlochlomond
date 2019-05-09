@@ -1,0 +1,33 @@
+---
+label: Navigation
+hide_body: true
+fields:
+- type: field_group
+  name: options
+  label: options
+  fields:
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: text
+    label: text
+  - type: boolean
+    name: show
+    label: show
+- type: field_group
+  name: logo
+  label: logo
+  fields:
+  - type: file
+    name: wdl_logo
+    label: wdl_logo
+  - type: text
+    name: wdl_link
+    label: wdl_link
+  - type: file
+    name: logo
+    label: logo
+- type: text
+  name: title
+  label: title
