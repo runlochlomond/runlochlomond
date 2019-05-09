@@ -4,13 +4,25 @@ hide_body: true
 fields:
 - type: text
   name: address
-  label: address
+  label: Address
+  description: Enter address of WDL
+  config:
+    required: true
 - type: text
   name: phone
-  label: phone
+  label: Phone number
+  description: Enter phone number of WDL
+  config:
+    required: true
 - type: text
   name: email
-  label: email
+  label: Email
+  description: Enter email of WDL
+  config:
+    required: true
 - type: text
   name: working_hrs
-  label: working_hrs
+  label: Working Hours
+  description: Enter working hours of WDL
+  config:
+    required: true
