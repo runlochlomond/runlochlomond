@@ -1,0 +1,46 @@
+---
+label: Races
+hide_body: true
+fields:
+- type: field_group_list
+  name: Races
+  label: Races
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: datetime
+    name: race_date
+    label: race_date
+  - type: datetime
+    name: entries_closing_date
+    label: entries_closing_date
+  - type: textarea
+    name: description
+    label: description
+  - type: field_group
+    name: price
+    label: price
+    fields:
+    - type: text
+      name: sa
+      label: sa
+    - type: text
+      name: non-sa
+      label: non-sa
+  - type: text
+    name: route
+    label: route
+  - type: field_group
+    name: entry
+    label: entry
+    fields:
+    - type: text
+      name: link
+      label: link
+    - type: text
+      name: text
+      label: text
+  - type: file
+    name: image_link
+    label: image_link

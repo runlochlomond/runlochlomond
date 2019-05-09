@@ -17,3 +17,5 @@ fields:
     label: Link to results
     config:
       required: true
+pages:
+- _data/results.yml
