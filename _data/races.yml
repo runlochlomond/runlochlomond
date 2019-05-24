@@ -21,8 +21,8 @@
     the Moss O’ Balloch site (G83 8LE) with all participants finishing through the
     10K finishing gantry.
   price:
-    non-sa: 2
-    sa: ''
+    non-sa: "2"
+    sa: "2"
   entry:
     text: Find out more!
     link: "/fun-run"
