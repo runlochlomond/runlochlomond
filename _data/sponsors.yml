@@ -1,6 +1,18 @@
 ---
 description: Many thanks to our sponsors for making the race possible!
 entries:
+- name: Achilles Heel
+  link: https://www.achillesheel.co.uk/
+  order: 6
+  show_on_homepage: false
+  tier: Bronze
+  short_description: "  "
+  description: |
+    'At Achilles Heel, we’re all about the run. If your aim is 5K or 26.2 miles, on road or trail, we’re here to prepare, empower and equip you from your first training run through to race-day. Our curated and tested range of running kit covering road, trail, track & field, clothing and accessories will get you set, with zero compromise on performance or style.
+
+    We’ll help you find the right fit: drop into our running store in Glasgow, or get in touch with our running experts and we’ll get you ready to get on your marks.'
+  image_link: "/images/ah_black_large.jpg"
+  hidden: false
 - name: Chivas Brother Pernod Ricard
   link: https://www.chivasbrothers.com/
   order: 3
