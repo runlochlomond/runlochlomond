@@ -49,7 +49,7 @@ fields:
     label: Short Description
     description: This is the description that will show on the homepage.
     config:
-      required: true
+      required: false
   - type: textarea
     name: description
     label: Description
