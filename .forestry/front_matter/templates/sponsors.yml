@@ -55,7 +55,7 @@ fields:
     label: Description
     description: Enter a longer description that will be shown on the sponsors page.
     config:
-      required: true
+      required: false
   - type: file
     name: image_link
     label: Logo
