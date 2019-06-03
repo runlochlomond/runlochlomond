@@ -1,6 +1,19 @@
 ---
 description: Many thanks to our sponsors for making the race possible!
 entries:
+- name: Sore Seaweed
+  link: http://www.shoreseaweed.com/
+  order: 7
+  show_on_homepage: false
+  tier: Bronze
+  short_description: ''
+  description: "Our mission is to create an edible Seaweed industry of scale in Scotland,
+    that is 100% sustainable, good for the coastal environment and beneficial for
+    our local rural communities. \n\nSHORE takes this super healthy ingredient and
+    makes it appealing & accessible to consumers; with innovative, nutritious and
+    tasty vegan products made with our clean & trusted source of local seaweed.\n"
+  image_link: "/images/shore seaweed.jpg"
+  hidden: true
 - name: Achilles Heel
   link: https://www.achillesheel.co.uk/
   order: 6
@@ -31,7 +44,9 @@ entries:
   show_on_homepage: false
   tier: Silver
   short_description: ''
-  description: ''
+  description: We’ve always stood for something different. For our members and customers
+    we represent community and fairness. A business that genuinely cares about the
+    world around it.
   image_link: "/images/co-op-blue-logo-on-white.png"
   hidden: false
 - name: JJR Print Ltd
