@@ -3,7 +3,7 @@ description: Many thanks to our sponsors for making the race possible!
 entries:
 - name: Shore Seaweed
   link: http://www.shoreseaweed.com/
-  order: 7
+  order: 8
   show_on_homepage: false
   tier: Bronze
   short_description: ''
@@ -13,7 +13,7 @@ entries:
     makes it appealing & accessible to consumers; with innovative, nutritious and
     tasty vegan products made with our clean & trusted source of local seaweed.\n"
   image_link: "/images/shore seaweed.jpg"
-  hidden: true
+  hidden: false
 - name: Achilles Heel
   link: https://www.achillesheel.co.uk/
   order: 6
