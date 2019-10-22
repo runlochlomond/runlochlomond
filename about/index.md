@@ -4,13 +4,13 @@ layout: page
 include_in_nav: true
 
 ---
-Run Loch Lomond consists of the Loch Lomond 10K and fun run that is organised by West Dunbartonshire Leisure Trust (WDLT). The events are a continuation of the highly popular Vale of Leven 10K and fun run, that have been held over the last thirty two years. WDLT is proud to be in a position to maintain the event and continue to further develop it in the future.
+Run Loch Lomond consists of the Loch Lomond 10K and fun run that is organised by West Dunbartonshire Leisure Trust (WDLT). The events are a continuation of the highly popular Vale of Leven 10K and fun run, that have been held over the last thirty three years. WDLT is proud to be in a position to maintain the event and continue to further develop it in the future.
 
-The event will take place on **Saturday 22nd June** starting in the Moss O’ Balloch site and will include the much loved school and pre-school aged fun run which is open to all. Our **Gold Sponsor is CPR Resurfacing**.  The event starts at 10am and is ideal for people who are doing their first ever 10k as well as providing a competitive setting for experienced runners.
+The event will take place on **Saturday 20th June** starting in the Moss O’ Balloch site and will include the much loved school and pre-school aged fun run which is open to all. Our **Gold Sponsor is CPR Resurfacing**.  The event starts at 10am and is ideal for people who are doing their first ever 10k as well as providing a competitive setting for experienced runners.
 
 **Online Entry & Race Packs**
 
-**Online entry closes at 10am on Thursday 20th June**     **however to receive your race packs by post you need to enter by 10am on Monday 10th June.**
+**Online entry closes at 10am on Thursday 18th June**     **however to receive your race packs by post you need to enter by 10am on Monday 8th June.**
 
 The race packs will be sent out after this date. If you don't enter in time or don't receive your race packs for some reason then we will sort this out for you when you arrive at the venue. Please report to the large marquee and speak to one of our volunteers at the desk.
 
