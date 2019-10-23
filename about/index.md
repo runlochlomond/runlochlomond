@@ -8,7 +8,7 @@ Run Loch Lomond consists of the Loch Lomond 10K and fun run that is organised by
 
 The event will take place on **Saturday 20th June** starting in the Moss O’ Balloch site and will include the much loved school and pre-school aged fun run which is open to all. Our **Gold Sponsor is CPR Resurfacing**.  The event starts at 10am and is ideal for people who are doing their first ever 10k as well as providing a competitive setting for experienced runners.
 
-**Online Entry & Race Packs**
+# Online Entry & Race Packs
 
 **Online entry closes at 10am on Thursday 18th June**     **however to receive your race packs by post you need to enter by 10am on Monday 8th June.**
 
@@ -16,17 +16,15 @@ The race packs will be sent out after this date. If you don't enter in time or d
 
 We pride ourselves in delivering a fun, high quality, safe and well organised experience for all participants and hope that you will come and join us this year. We have a scenic route that takes you through Balloch Castle Country Park (providing the stunning backdrop of Loch Lomond) and along the River Leven. In addition, we are providing every runner with a high quality:
 
-•           Technical event t-shirt
+* Technical event t-shirt
 
-•           Bespoke race medal
+* Bespoke race medal
 
-•           Goodie bag with gifts, water, snacks and discount vouchers for local services and attractions
+* Goodie bag with gifts, water, snacks and discount vouchers for local services and attractions
 
-•           Prize list for individual winners and teams as well as spot prizes
+* Prize list for individual winners and teams as well as spot prizes
 
-We look forward to seeing you
-
-Come & join in the run!
+We look forward to seeing you. Come & join in the run!
 
 ### **West Dunbartonshire Leisure Trust (WDLT)**
 

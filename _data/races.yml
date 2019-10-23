@@ -13,9 +13,21 @@
     link: "   "
     text: Entries open soon
   image_link: "/images/d_9lchtg.jpeg.jpg"
+- title: Loch Lomond 5K 2020
+  race_date: 2020-06-20 11:00:00 +0100
+  entries_closing_date: 2020-06-18 10:00:01 +0100
+  description: The Loch Lomond 5K is organised by West Dunbartonshire Leisure!
+  price:
+    sa: '16.50'
+    non-sa: '18.50'
+  route: https://www.plotaroute.com/route/791558
+  entry:
+    link: "   "
+    text: Entries open soon
+  image_link: "/images/d_9lchtg.jpeg.jpg"
 - title: Fun Run 2020
   race_date: 2020-06-20 10:00:00 +0100
-  entries_closing_date: 
+  entries_closing_date:
   description: West Dunbartonshire Leisure Trust is once again organising a Fun Run
     for young runners alongside the Loch Lomond 10K. The event will take place in
     the Moss O’ Balloch site (G83 8LE) with all participants finishing through the

@@ -15,10 +15,12 @@ layout: base
             {% asset '{{ proper_link }}' class='card-img-top img-fluid' magick:resize=540x425 %}
             <div class="card-body">
                 <div class="row">
-                    <div class="col-sm-7">
+                    <div class="col-sm-12">
                         <p class="card-text">{{ race.description }}</p>
                     </div>
-                    <div class="col-sm-5">
+                </div>
+                <div class="row race-metadata">
+                    <div class="col-sm-12">
                         <dl>
                             {% if race.race_date %}
                                 <dt>Race Date</dt>
