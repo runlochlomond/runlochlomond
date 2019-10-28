@@ -18,8 +18,8 @@
   entries_closing_date: 2020-06-18T09:00:01.000+00:00
   description: The Loch Lomond 5K is organised by West Dunbartonshire Leisure!
   price:
-    sa: '16.50'
-    non-sa: '18.50'
+    sa: tbc
+    non-sa: tbc
   route: https://www.plotaroute.com/route/791558
   entry:
     link: "   "
