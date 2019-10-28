@@ -1,7 +1,7 @@
 ---
 - title: Loch Lomond 10K 2020
-  race_date: 2020-06-20 11:00:00 +0100
-  entries_closing_date: 2020-06-18 10:00:01 +0100
+  race_date: 2020-06-20T10:00:00.000+00:00
+  entries_closing_date: 2020-06-18T09:00:01.000+00:00
   description: The Loch Lomond 10K is organised by West Dunbartonshire Leisure and
     is a continuation of the highly popular Vale of Leven 10K, which is now into its
     34th year!
@@ -14,8 +14,8 @@
     text: Entries open soon
   image_link: "/images/d_9lchtg.jpeg.jpg"
 - title: Loch Lomond 5K 2020
-  race_date: 2020-06-20 11:00:00 +0100
-  entries_closing_date: 2020-06-18 10:00:01 +0100
+  race_date: 2020-06-20 11:20:00 +0100
+  entries_closing_date: 2020-06-18T09:00:01.000+00:00
   description: The Loch Lomond 5K is organised by West Dunbartonshire Leisure!
   price:
     sa: '16.50'
@@ -26,8 +26,8 @@
     text: Entries open soon
   image_link: "/images/d_9lchtg.jpeg.jpg"
 - title: Fun Run 2020
-  race_date: 2020-06-20 10:00:00 +0100
-  entries_closing_date:
+  race_date: 2020-06-20T09:00:00.000+00:00
+  entries_closing_date: 
   description: West Dunbartonshire Leisure Trust is once again organising a Fun Run
     for young runners alongside the Loch Lomond 10K. The event will take place in
     the Moss O’ Balloch site (G83 8LE) with all participants finishing through the
