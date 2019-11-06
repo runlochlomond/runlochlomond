@@ -2,9 +2,10 @@
 - title: Loch Lomond 10K 2020
   race_date: 2020-06-20T10:00:00.000+00:00
   entries_closing_date: 2020-06-18T09:00:01.000+00:00
-  description: The Loch Lomond 10K is organised by West Dunbartonshire Leisure and
-    is a continuation of the highly popular Vale of Leven 10K, which is now into its
-    34th year!
+  description: |-
+    The Loch Lomond 10K is organised by West Dunbartonshire Leisure and is a continuation of the highly popular Vale of Leven 10K, which is now into its 34th year!
+
+    15+ years welcome
   price:
     sa: '16.50'
     non-sa: '18.50'
