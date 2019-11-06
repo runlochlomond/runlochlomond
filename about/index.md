@@ -17,12 +17,9 @@ The race packs will be sent out after this date. If you don't enter in time or d
 We pride ourselves in delivering a fun, high quality, safe and well organised experience for all participants and hope that you will come and join us this year. We have a scenic route that takes you through Balloch Castle Country Park (providing the stunning backdrop of Loch Lomond) and along the River Leven. In addition, we are providing every runner with a high quality:
 
 * Technical event t-shirt
-
 * Bespoke race medal
-
-* Goodie bag with gifts, water, snacks and discount vouchers for local services and attractions
-
-* Prize list for individual winners and teams as well as spot prizes
+* Gifts, water, snacks and discount vouchers for local services and attractions
+* Generous prize list for individual winners and teams in various categories
 
 We look forward to seeing you. Come & join in the run!
 
