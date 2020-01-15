@@ -67,7 +67,7 @@ Please note that times may vary slightly, but to avoid disappointment please ens
 
 For further information contact WD Leisure Sports Development via:
 
-wdleisure-10k@west-dunbarton.gov.uk or 01389 753557
+[runlochlomond@west-dunbarton.gov.uk](mailto:runlochlomond@west-dunbarton.gov.uk) or 01389 757806
 
 ![]({{ site.baseurl }}/images/WD-Leisure-Logo_landscape-4.jpg)
 <p class=""></p>
