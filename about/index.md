@@ -6,13 +6,13 @@ include_in_nav: true
 ---
 Run Loch Lomond is a festival of running organised by West Dunbartonshire Leisure Trust. The event consists of the Loch Lomond 10K, 5K and Fun Run. The 10k and Fun Run have been in existence for over thirty years however 2020 marks the first ever Loch Lomond 5k. All races start and finish in the same location within the picturesque village of Balloch and take in the stunning surroundings of Loch Lomond and Trossachs National Park.
 
-The events takes place on **Saturday 20th June 2020**, starting in the Moss O’ Balloch site and will include the much loved school and pre-school aged fun run that is open to all. The 10k starts at 10am and the 5k at 10.20am. Both races are ideal for people who are doing their first ever 5 or 10k as well as providing a competitive setting for experienced runners.
+The events takes place on **Saturday 5th September 2020**, starting in the Moss O’ Balloch site and will include the much loved school and pre-school aged fun run that is open to all. The 10k starts at 10am and the 5k at 10.20am. Both races are ideal for people who are doing their first ever 5 or 10k as well as providing a competitive setting for experienced runners.
 
 # Online Entry & Race Packs
 
-Online entry closes at **10am on Thursday 18th June** however to receive your race packs **by post** you need to enter by **10am on Monday 8th June**. Entries after this date will need to collect their race pack when they arrive at the event.
+Online entry closes at **10am on Thursday 3rd September** however to receive your race packs **by post** you need to enter by **10am on Monday 24th August**. Entries after this date will need to collect their race pack when they arrive at the event.
 
-The race packs will be sent out on 10th June. If you don’t receive your race packs before the race then we will sort this out for you when you arrive at the venue.
+The race packs will be sent out on 26th August. If you don’t receive your race packs before the race then we will sort this out for you when you arrive at the venue.
 
 We pride ourselves in delivering a fun, high quality, safe and well organised experience for all participants and hope that you will come and join us this year. All races have stunning routes that take you through Balloch Castle Country Park, along the banks of Loch Lomond and along the River Leven.
 
