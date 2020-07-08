@@ -4,26 +4,17 @@ layout: page
 include_in_nav: true
 
 ---
+**It is with a heavy heart that we announce that this year’s Run Loch Lomond event is cancelled. This has been an extremely difficult decision, but unfortunately as current government guidance does not give an indicative date of when mass participation events like ours will be permitted, we feel we have no other option.**
+
+**Even if the guidance changes within the coming weeks, it is unlikely that it would leave us adequate time or resources to deliver the event on the re-scheduled date of 5th September. We know this will be disappointing for all of the runners looking forward to taking part in the 10k, 5k or fun run and we are extremely grateful for your continued support and understanding in what has been a challenging time.**
+
+**We will be issuing refunds to all participants including those who previously chose to defer to 2021 as soon as we possibly can. To provide a rough timescale, we hope that all entrants will be refunded by the end of July.**
+
+**The Run Loch Lomond team are now determined to work even harder to ensure that the 2021 Loch Lomond 10k, 5k and fun run are even more welcoming and rewarding for all participants.**
+
+**Thanks once again for your continued support and patience. Stay healthy, happy and positive – and we hope to see you running with us in 2021.**
+
 Run Loch Lomond is a festival of running organised by West Dunbartonshire Leisure Trust. The event consists of the Loch Lomond 10K, 5K and Fun Run. The 10k and Fun Run have been in existence for over thirty years however 2020 marks the first ever Loch Lomond 5k. All races start and finish in the same location within the picturesque village of Balloch and take in the stunning surroundings of Loch Lomond and Trossachs National Park.
-
-The events takes place on **Saturday 5th September 2020**, starting in the Moss O’ Balloch site and will include the much loved school and pre-school aged fun run that is open to all. The 10k starts at 10am and the 5k at 10.20am. Both races are ideal for people who are doing their first ever 5 or 10k as well as providing a competitive setting for experienced runners.
-
-# Online Entry & Race Packs
-
-Online entry closes at **10am on Thursday 3rd September** however to receive your race packs **by post** you need to enter by **10am on Monday 24th August**. Entries after this date will need to collect their race pack when they arrive at the event.
-
-The race packs will be sent out on 26th August. If you don’t receive your race packs before the race then we will sort this out for you when you arrive at the venue.
-
-We pride ourselves in delivering a fun, high quality, safe and well organised experience for all participants and hope that you will come and join us this year. All races have stunning routes that take you through Balloch Castle Country Park, along the banks of Loch Lomond and along the River Leven.
-
-Upon completion of the race all participants will receive a high quality:
-
-* Technical event t-shirt
-* Bespoke race medal
-* Gifts, water, snacks and discount vouchers for local services and attractions
-* Prize list for individual winners and teams as well as spot prizes
-
-We look forward to seeing you and welcoming you to Run Loch Lomond. Come & join in the run!
 
 ## History and Background
 
