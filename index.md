@@ -5,10 +5,10 @@ layout: homepage
 include_in_nav: true
 
 ---
-**IMPORTANT CORONAVIRUS UPDATE**  
-  
-**All races postponed to Saturday 5th September 2020**
+**IMPORTANT ANNOUNCEMENT –** 
 
-The Loch Lomond 10K is organised by West Dunbartonshire Leisure and is a continuation of the Vale of Leven 10K that has been successfully organised over the last thirty years.
+**All races are unfortunately cancelled due to the Covid-19 pandemic**
+
+Run Loch Lomond is a festival of running organised by West Dunbartonshire Leisure Trust. The event consists of the Loch Lomond 10K, 5K and Fun Run.
 
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(\["mojo/signup-forms/Loader"\], function(L) { L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"0c63c664b6ff47ed93533dc5d","lid":"513d1a2b43"}) })</script>
