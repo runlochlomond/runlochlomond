@@ -1,5 +1,5 @@
 ---
-- title: Loch Lomond 10K - 2021 Date coming soon
+- title: Loch Lomond 10K - 19th June 2021
   race_date: 2020-09-05 11:00:00 +0100
   entries_closing_date: 
   description: |-
@@ -7,8 +7,8 @@
 
     15+ years welcome
   price:
-    sa: '16.50'
-    non-sa: '18.50'
+    sa: "18"
+    non-sa: "20"
   route: https://www.plotaroute.com/route/791558
   entry:
     link: http://runlochlomond.com/about/
