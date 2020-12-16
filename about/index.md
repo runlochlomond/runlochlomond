@@ -4,7 +4,7 @@ layout: page
 include_in_nav: true
 
 ---
-**After the unfortunate cancellation in 2020 the Run Loch Lomond team are now determined to work even harder to ensure that the 2021 Loch Lomond 10k, 5k and fun run are even more welcoming and rewarding for all participants.**
+**After the unfortunate cancellation in 2020 the Run Loch Lomond team are now determined to work even harder to ensure that the 2021 Loch Lomond 10k, 5k and Fun Run are even more welcoming and rewarding for all participants.**
 
 **Thanks once again for your continued support and patience. Stay healthy, happy and positive – and we hope to see you running with us in 2021.**
 
