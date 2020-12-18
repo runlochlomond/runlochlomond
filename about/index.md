@@ -4,6 +4,8 @@ layout: page
 include_in_nav: true
 
 ---
+**Coronavirus update:** Please note that the Run Loch Lomond team will continue to monitor and abide by government guidance for hosting outdoor running events. Should Run Loch Lomond have to be cancelled or rescheduled as a result of this guidance, we guarantee deferral to a new date or a refund of entry fees. We hope to be in a position to launch the event and accept entries in early 2021.
+
 **After the unfortunate cancellation in 2020 the Run Loch Lomond team are now determined to work even harder to ensure that the 2021 Loch Lomond 10k, 5k and Fun Run are even more welcoming and rewarding for all participants.**
 
 **Thanks once again for your continued support and patience. Stay healthy, happy and positive – and we hope to see you running with us in 2021.**
