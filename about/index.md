@@ -4,8 +4,6 @@ layout: page
 include_in_nav: true
 
 ---
-**Coronavirus update:** Please note that the Run Loch Lomond team will continue to monitor and abide by government guidance for hosting outdoor running events.  We hope to be in a position to launch the event and accept entries soon.
-
 **After the unfortunate cancellation in 2020 & 2021 the Run Loch Lomond team are now determined to work even harder to ensure that the 2022 Loch Lomond 10k, 5k and Fun Run are even more welcoming and rewarding for all participants.**
 
 **Thanks once again for your continued support and patience. Stay healthy, happy and positive – and we hope to see you running with us in 2022.**
@@ -14,7 +12,7 @@ Run Loch Lomond is a festival of running organised by West Dunbartonshire Leisur
 
 ## History and Background
 
-The Loch Lomond 10k replaced the Vale of Leven 10k in 2019. The Vale of Leven 10k was managed by Polaroid Eyewear from 1986 until 2016 with West Dunbartonshire Leisure Trust taking over the event in 2017. WDLT continued the event in it’s same form until changing the route, rebranding and further developing it in 2019.
+The Loch Lomond 10k replaced the Vale of Leven 10k in 2019. The Vale of Leven 10k was managed by Polaroid Eyewear from 1986 until 2016 with West Dunbartonshire Leisure Trust taking over the event in 2017. WDLT continued the event in it’s same form until changing the route, rebranding and further developing it in 2019. CPR Resurfacing Ltd has been the Gold sponsor of the event since 2018.
 
 The previous winners over the years have included John Hanratty 1987, Peter Fleming 1990, Nat Muir 1991, Chris Robison 1993/94, Keith Anderson 1997/98, Kenyans Benson Masya 1999 & Stephen Ariga 2001. In 2000 local athlete Glen Stewart took the honours.
 
