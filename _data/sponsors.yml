@@ -49,21 +49,6 @@ entries:
     Director – JJR Print Ltd.
   image_link: "/images/cbd794_7673ee10177449d08f1f0fc56ff7f799.gif"
   hidden: false
-- name: Malin Group
-  link: http://www.malingroup.com/about-malin-group/
-  order: 5
-  show_on_homepage: false
-  tier: Bronze
-  short_description: ''
-  description: "Malin Group Ltd are a group of companies specialising in design, manufacturing
-    and operations in the marine industry and support a worldwide client base. We
-    have recently bought the brownfield site at Carless in West Dunbartonshire and
-    are committed to seeing this rejuvenated as a hub for the development of marine
-    technology on the Clyde. \n\n“We would like to wish all the participants in the
-    Run Loch Lomond event the very best on the day.” John MacSween Managing Director
-    Malin Group"
-  image_link: "/images/Malin Group.png"
-  hidden: false
 - name: CPR Resurfacing Ltd
   link: https://www.cpr-resurfacing.co.uk/
   order: 1
