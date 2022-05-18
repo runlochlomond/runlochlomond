@@ -26,7 +26,7 @@
   price:
     sa: "12"
     non-sa: "14"
-  route: https://www.plotaroute.com/route/961936
+  route: https://www.plotaroute.com/route/961936?units=km
   entry:
     link: https://www.entrycentral.com/loch-lomond-10k-and-5k
     text: Enter now!
