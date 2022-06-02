@@ -59,7 +59,7 @@ For the safety of all participants there will be no parking at the event site (M
 * <p>A mass warm up will take place after 08.45 for all young children to get ready for the fun run.</p>
 * <p>After the warm up the children will be taken to the starting line for their age group</p>
 * <p>Each age group will be set off in waves (oldest to youngest)</p>
-* <p>Parents will be able to see their children finish and walk with them to receive their goodie bag</p>
+* <p>Parents will be able to see their children finish and walk with them to receive their medal</p>
 
 ![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-96.jpg)
 
