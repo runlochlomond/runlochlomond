@@ -1,19 +1,6 @@
 ---
 description: Many thanks to our sponsors for making the race possible!
 entries:
-- name: Shore Seaweed
-  link: http://www.shoreseaweed.com/
-  order: 7
-  show_on_homepage: false
-  tier: Bronze
-  short_description: ''
-  description: "Our mission is to create an edible Seaweed industry of scale in Scotland,
-    that is 100% sustainable, good for the coastal environment and beneficial for
-    our local rural communities. \n\nSHORE takes this super healthy ingredient and
-    makes it appealing & accessible to consumers; with innovative, nutritious and
-    tasty vegan products made with our clean & trusted source of local seaweed.\n"
-  image_link: "/images/shore seaweed.jpg"
-  hidden: false
 - name: Achilles Heel
   link: https://www.achillesheel.co.uk/
   order: 6
