@@ -10,7 +10,7 @@
     Please see FAQ for all details.
   price:
     sa: 21 (Early Bird Offer - £19)
-    non-sa: 23  (Early Bird Offer - £21)
+    non-sa: '23 (Early Bird Offer - £21) '
   route: https://www.plotaroute.com/route/791558
   entry:
     link: https://www.entrycentral.com/loch-lomond-10k-and-5k
