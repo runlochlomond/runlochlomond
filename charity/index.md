@@ -12,6 +12,6 @@ CHAS runs Scotland’s only 2 children’s’ hospices  - Rachel House in Kinro
 
 Last year their positive impact was felt by more children and families than ever before. This year, they need to do so much more and they won’t stop until every family in Scotland has the choice and opportunity to use their services. Its support like yours which enables them to create joy in so many ways - from creating happy memories in their hospices and in family homes; to providing opportunities that would be impossible to fulfil from a hospital bed.
 
-For some families, this will be the last year they have with their child, let’s keep working together to make it the very best we can. If you would like to help support families across Scotland please email [maxinecampbell@chas.org.uk]() to get your fundraising pack which includes a CHAS Technical t-shirt.
+For some families, this will be the last year they have with their child, let’s keep working together to make it the very best we can. If you would like to help support families across Scotland please email support@chas.org.uk to get your fundraising pack.
 
 More information about CHAS can be found at [www.chas.org.uk](http://www.chas.org.uk).
