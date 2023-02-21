@@ -14,4 +14,4 @@ Last year their positive impact was felt by more children and families than ever
 
 For some families, this will be the last year they have with their child, let’s keep working together to make it the very best we can. If you would like to help support families across Scotland please email support@chas.org.uk to get your fundraising pack.
 
-More information about CHAS can be found at [www.chas.org.uk](http://www.chas.org.uk).
+More information about CHAS can be found at [www.chas.org.uk](http://www.chas.org.uk)
