@@ -2,7 +2,6 @@
 title: Charity
 layout: page
 include_in_nav: false
-published: false
 
 ---
 ![]({{ site.baseurl }}/images/CHAS_LOGO_4_PTS.PNG)
