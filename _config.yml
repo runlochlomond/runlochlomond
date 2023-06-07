@@ -1,48 +1,56 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
 title: Run Loch Lomond 10K
-description: > # this means to ignore newlines until "baseurl:"
-  Enter the Run Loch Lomond 10K.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: 'Enter the Run Loch Lomond 10K.
 
-# Build settings
-plugins: [bootstrap, autoprefixer-rails, jekyll-assets]
+'
+baseurl: ''
+url: "/"
+plugins:
+- bootstrap
+- autoprefixer-rails
+- jekyll-assets
 markdown: kramdown
-exclude: ["vendor", "tags", "tags.temp", "tags.lock", "README.md"]
+exclude:
+- vendor
+- tags
+- tags.temp
+- tags.lock
+- README.md
 assets:
   autoprefixer:
     browsers:
-      - "last 2 versions"
-      - "IE > 9"
+    - last 2 versions
+    - IE > 9
   prefix: "/assets"
   digest: true
   compress:
     css: true
     js: true
   assets:
-    - app.scss
-    - app.js
-    - "*.png"
-    - "*.jpeg"
-    - "*.svg"
-    - "*.jpg"
-    - "*.gif"
+  - app.scss
+  - app.js
+  - "*.png"
+  - "*.jpeg"
+  - "*.svg"
+  - "*.jpg"
+  - "*.gif"
   sources:
-    - _assets/css
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/fonts
-    - _assets/img
-    - _assets/js
-    - images/
+  - _assets/css
+  - _assets/images
+  - _assets/javascripts
+  - _assets/stylesheets
+  - _assets/fonts
+  - _assets/img
+  - _assets/js
+  - images/
   features:
     automatic_img_size: true
-    automatic_img_alt : true
+    automatic_img_alt: true

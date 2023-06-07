@@ -2,8 +2,8 @@
 title: Charity
 layout: page
 include_in_nav: false
-
 ---
+
 ![]({{ site.baseurl }}/images/CHAS_LOGO_4_PTS.PNG)
 
 Children’s Hospices Across Scotland (CHAS) is the only provider of respite and end of life care to children in Scotland with a life shortening condition, and their families. Today, CHAS can only reach 1 in 3 of the families across Scotland who need their support. They are determined to reach them all. But to do that, they need more specialist nurses and doctors, more trained carers, more volunteers, more specialist equipment and facilities. And that means, quite simply, that they need to raise more money. Only then can they keep the joy alive for every family as they face the cruelest challenge of all.

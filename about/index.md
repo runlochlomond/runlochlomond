@@ -2,8 +2,8 @@
 title: About
 layout: page
 include_in_nav: true
-
 ---
+
 Run Loch Lomond is a festival of running organised by West Dunbartonshire Leisure Trust. The event consists of the Loch Lomond 10K, 5K and Fun Run. The 10k and Fun Run have been in existence for over thirty years however 2022 marks the first ever Loch Lomond 5k. All races start and finish in the same location within the picturesque village of Balloch and take in the stunning surroundings of Loch Lomond and Trossachs National Park.
 
 ## History and Background
