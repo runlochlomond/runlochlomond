@@ -1,7 +1,20 @@
 ---
 title: Run Loch Lomond 10K
-description: 'Enter the Run Loch Lomond 10K'
-
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  races:
+    title: Races
+    output: false
+  sponsors:
+    title: Sponsors
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+description: Enter the Run Loch Lomond 10K
 banner:
   enabled: true
   text: 'Run Loch Lomond 2023 - Saturday 17th June  '
@@ -17,15 +30,6 @@ navigation:
     wdl_link: http://www.west-dunbarton.gov.uk/leisure-parks-events/west-dunbartonshire-leisure/
     logo: "/images/Run Loch Lomond.jpg"
   title: Run Loch Lomond 10K and Fun Run
-
-collections:
-  sponsors:
-    output: false
-  races:
-    output: false
-  uploads:
-    title: Uploads
-    output: true
 baseurl: ''
 exclude:
 - vendor
@@ -36,6 +40,5 @@ exclude:
 markdown: kramdown
 sass:
   load_paths:
-    - './vendor/bundle/ruby/3.1.0/gems/bootstrap-5.2.3/assets/stylesheets/'
-timezone: UTC
+  - "./vendor/bundle/ruby/3.1.0/gems/bootstrap-5.2.3/assets/stylesheets/"
 url: "/"

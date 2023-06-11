@@ -3,7 +3,6 @@ title: Home
 subtitle: What is Run Loch Lomond?
 layout: homepage
 include_in_nav: true
-
 charity:
   title: Run for Charity!
   description: West Dunbartonshire Leisure encourages runners to run for our chosen

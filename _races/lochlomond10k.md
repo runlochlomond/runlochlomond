@@ -1,7 +1,7 @@
 ---
-title: 'Loch Lomond 10K - Saturday 17th June'
-race_date: 2023-06-17 11:00:00 +0100
-entries_closing_date:
+title: Loch Lomond 10K - Saturday 17th June
+race_date: 2023-06-17 10:00:00 Z
+entries_closing_date: 
 price:
   sa: 21 (Early Bird Offer - £19)
   non-sa: '23 (Early Bird Offer - £21) '
@@ -11,6 +11,7 @@ entry:
   text: Enter now!
 image_link: "/images/d_9lchtg.jpeg.jpg"
 ---
+
 The Loch Lomond 10K is organised by West Dunbartonshire Leisure and is a continuation of the highly popular Vale of Leven 10K, which is now into its 36th year!
 
 15+ years welcome.
