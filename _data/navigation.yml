@@ -1,13 +1,10 @@
 ---
----
-
----
 options:
   link: https://google.co.uk
   text: Race Terms
   show: false
 logo:
-  wdl_logo: wd_leisure.jpg
+  wdl_logo: "/images/wd_leisure.jpg"
   wdl_link: http://www.west-dunbarton.gov.uk/leisure-parks-events/west-dunbartonshire-leisure/
   logo: "/images/Run Loch Lomond.jpg"
 title: Run Loch Lomond 10K and Fun Run

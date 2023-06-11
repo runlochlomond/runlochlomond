@@ -13,10 +13,9 @@ description: 'Enter the Run Loch Lomond 10K.
 '
 baseurl: ''
 url: "/"
-plugins:
-- bootstrap
-- autoprefixer-rails
-- jekyll-assets
+sass:
+  load_paths:
+  - './vendor/bundle/ruby/3.1.0/gems/bootstrap-5.2.3/assets/stylesheets/'
 markdown: kramdown
 exclude:
 - vendor
@@ -24,33 +23,3 @@ exclude:
 - tags.temp
 - tags.lock
 - README.md
-assets:
-  autoprefixer:
-    browsers:
-    - last 2 versions
-    - IE > 9
-  prefix: "/assets"
-  digest: true
-  compress:
-    css: true
-    js: true
-  assets:
-  - app.scss
-  - app.js
-  - "*.png"
-  - "*.jpeg"
-  - "*.svg"
-  - "*.jpg"
-  - "*.gif"
-  sources:
-  - _assets/css
-  - _assets/images
-  - _assets/javascripts
-  - _assets/stylesheets
-  - _assets/fonts
-  - _assets/img
-  - _assets/js
-  - images/
-  features:
-    automatic_img_size: true
-    automatic_img_alt: true

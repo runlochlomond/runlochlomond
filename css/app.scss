@@ -1,10 +1,13 @@
+---
+---
+
 @charset "UTF-8";
 
 $brand-primary: #007bff;
 $body-color: #5a6170;
 $text-muted: #8c95a9;
 
-@import "bootstrap";
+@import "_bootstrap.scss";
 
 body {
   margin-top: 2em;

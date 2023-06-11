@@ -3,82 +3,80 @@ layout: base
 ---
 
 <div class="container">
-    <div id="races" class="card-deck">
+    <div id="races" class="row row-cols-1 row-cols-md-3 g-4">
         {% for race in site.data.races %}
-        <div class="card shadow">
-            <div class="card-body-no-flex">
-                <h4 class="card-title">{{ race.title }}</h4>
-                {% if race.race_date %}
-                    <h6 class="card-subtitle text-muted countdown countdown-{{ race.race_date }}">Countdown loading...</h6>
-                {% endif %}
-            </div>
-            {% assign proper_link = race.image_link | file_name %}
-            {% asset '{{ proper_link }}' class='card-img-top img-fluid' magick:resize=540x425 %}
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="card-text">{{ race.description }}</p>
-                    </div>
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-body-no-flex">
+                    <h4 class="card-title">{{ race.title }}</h4>
+                    {% if race.race_date %}
+                        <h6 class="card-subtitle text-muted countdown" data-countdown="{{ race.race_date }}">Countdown loading...</h6>
+                    {% endif %}
                 </div>
-                <div class="row race-metadata">
-                    <div class="col-sm-12">
-                        <dl>
-                            {% if race.race_date %}
-                                <dt>Race Date</dt>
-                                <dd>{{ race.race_date | date: "%-d %B %Y %r" }}</dd>
-                            {% endif %}
-                            {% if race.postal_entry_deadline %}
-                                <dt>Postal Entry Deadline</dt>
-                                <dd>{{ race.postal_entry_deadline | date: "%-d %B %Y %r" }}</dd>
-                            {% endif %}
-                            {% if race.entries_closing_date %}
-                                <dt>Entry Close Date</dt>
-                                <dd>{{ race.entries_closing_date | date: "%-d %B %Y %r" }}</dd>
-                            {% endif %}
-                            {% if race.price.sa %}
-                                <dt>SA Affiliated Price</dt>
-                                <dd>£{{ race.price.sa }}</dd>
-                            {% endif %}
-                            {% if race.price.non-sa %}
-                                <dt>{% if race.price.sa %}Non-SA Affiliated {% endif %}Price</dt>
-                                <dd>£{{ race.price.non-sa }}</dd>
-                            {% endif %}
-                            {% if race.minimum_age %}
-                                <dt>Minimum Age</dt>
-                                <dd>{{ race.minimum_age }} yrs old on day of race</dd>
-                            {% endif %}
-                        </dl>
-                    </div>
-                </div>
-            </div>
-            {% if race.title_sponsor_text %}
-                {% assign title_sponsor = site.data.sponsors | where: "tier", "Title" | sample %}
-                <div class="card-body card-sponsor-line">
+                <img src="{{ race.image_link }}"/>
+                <div class="card-body">
                     <div class="row">
-                        <div class="col-sm-9 d-flex align-items-center">
-                            <h6 class="card-text">
-                                {{ race.title_sponsor_text }} - <a href="{{ title_sponsor.link }}">{{ title_sponsor.name }}</a>!
-                            </h6>
+                        <div class="col-sm-12">
+                            <p class="card-text">{{ race.description }}</p>
                         </div>
-                        <div class="col-sm-3 mt-3 mt-sm-0">
-                            {% assign proper_link = title_sponsor.image_link | file_name %}
-                            <a href="{{ title_sponsor.link }}">
-                                {% asset '{{ proper_link }}' class='img-fluid' alt='{{ title_sponsor.name }}' %}
-                            </a>
+                    </div>
+                    <div class="row race-metadata">
+                        <div class="col-sm-12">
+                            <dl>
+                                {% if race.race_date %}
+                                    <dt>Race Date</dt>
+                                    <dd>{{ race.race_date | date: "%-d %B %Y %r" }}</dd>
+                                {% endif %}
+                                {% if race.postal_entry_deadline %}
+                                    <dt>Postal Entry Deadline</dt>
+                                    <dd>{{ race.postal_entry_deadline | date: "%-d %B %Y %r" }}</dd>
+                                {% endif %}
+                                {% if race.entries_closing_date %}
+                                    <dt>Entry Close Date</dt>
+                                    <dd>{{ race.entries_closing_date | date: "%-d %B %Y %r" }}</dd>
+                                {% endif %}
+                                {% if race.price.sa %}
+                                    <dt>SA Affiliated Price</dt>
+                                    <dd>£{{ race.price.sa }}</dd>
+                                {% endif %}
+                                {% if race.price.non-sa %}
+                                    <dt>{% if race.price.sa %}Non-SA Affiliated {% endif %}Price</dt>
+                                    <dd>£{{ race.price.non-sa }}</dd>
+                                {% endif %}
+                                {% if race.minimum_age %}
+                                    <dt>Minimum Age</dt>
+                                    <dd>{{ race.minimum_age }} yrs old on day of race</dd>
+                                {% endif %}
+                            </dl>
                         </div>
                     </div>
                 </div>
-            {% endif %}
-            <div class="card-body-no-flex d-flex align-items-bottom">
-                {% if race.entry.link != '' %}
-                    <a class="btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
-                {% else %}
-                    <span class="text-muted card-link">Entry opens soon!</span>
+                {% if race.title_sponsor_text %}
+                    {% assign title_sponsor = site.data.sponsors | where: "tier", "Title" | sample %}
+                    <div class="card-body card-sponsor-line">
+                        <div class="row">
+                            <div class="col-sm-9 d-flex align-items-center">
+                                <h6 class="card-text">
+                                    {{ race.title_sponsor_text }} - <a href="{{ title_sponsor.link }}">{{ title_sponsor.name }}</a>!
+                                </h6>
+                            </div>
+                            <div class="col-sm-3 mt-3 mt-sm-0">
+                                <a href="{{ title_sponsor.link }}"><img src="{{ title_sponsor.image_link }}"/></a>
+                            </div>
+                        </div>
+                    </div>
                 {% endif %}
-                {% if race.route %}
-                    <a class="btn btn-link card-link" href="{{ race.route }}">View Route</a>
-                {% endif %}
-            </div>
+                <div class="card-body-no-flex d-flex align-items-bottom">
+                    {% if race.entry.link != '' %}
+                        <a class="btn btn-primary card-link" href="{{ race.entry.link }}">{{ race.entry.text }}</a>
+                    {% else %}
+                        <span class="text-muted card-link">Entry opens soon!</span>
+                    {% endif %}
+                    {% if race.route %}
+                        <a class="btn btn-link card-link" href="{{ race.route }}">View Route</a>
+                    {% endif %}
+                </div>
+            </div>    
         </div>
         {% endfor %}
     </div>
@@ -86,142 +84,164 @@ layout: base
 
 <div class="container-fluid">
     <div class="container">
-        <div id="sponsors" class="card-columns">
+        <div id="sponsors" class="row row-cols-1 row-cols-md-3 g-4">
             {% assign sponsors = site.data.sponsors.entries | sort: 'order' | where: 'hidden', false %}
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Sponsors</h4>
-                    <p class="card-text">{{ site.data.sponsors.description }}</p>
-                    {% if sponsors.size > 0 %}
-                        <a href="/sponsors" class="card-link">Check out our other sponsors.</a>
-                    {% endif %}
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Sponsors</h4>
+                        <p class="card-text">{{ site.data.sponsors.description }}</p>
+                        {% if sponsors.size > 0 %}
+                            <a href="/sponsors" class="card-link">Check out our other sponsors.</a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
 
             {% for sponsor in sponsors %}
                 {% if sponsor.show_on_homepage %}
-                    <div class="card text-center">
-                        <div class="card-header">
-                            {{ sponsor.tier }} Sponsor
-                        </div>
-                        {% assign proper_link = sponsor.image_link | file_name %}
-                        <a href="{{ sponsor.link }}">
-                            {% asset '{{ proper_link }}' class='card-img-top card-sponsor img-fluid' alt='{{ sponsor.name }}' %}
-                        </a>
-                        <div class="card-body">
-                            <p class="card-text">{{ sponsor.short_description }}</p>
+                    <div class="col">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                {{ sponsor.tier }} Sponsor
+                            </div>
+                            <a href="{{ sponsor.link }}"><img style="width: 100%" src="{{ sponsor.image_link }}"/></a>
+                            <div class="card-body">
+                                <p class="card-text">{{ sponsor.short_description }}</p>
+                            </div>
                         </div>
                     </div>
                 {% endif %}
             {% else %}
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">We don't have any sponsors at the moment.</p>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">We don't have any sponsors at the moment.</p>
+                        </div>
                     </div>
                 </div>
             {% endfor %}
         </div>
 
-        <div id="info" class="card-columns">
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">{{ page.subtitle }}</h4>
-                    <p class="card-text">
-                        {{ content | replace: '<img', '<img class="img-fluid"' }}
-                    </p>
-                    <a href="/about" class="card-link">Read more</a>
+        <div id="info" class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ page.subtitle }}</h4>
+                        <p class="card-text">{{ content | replace: '<img', '<img class="img-fluid"' }}</p>
+                        <a href="/about" class="card-link">Read more</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="bg-primary card text-white text-center">
-                <div class="card-body">
-                    <p class="card-text">{{ site.data.social.facebook.text }}</p>
-                    <a href="{{ site.data.social.facebook.link }}" class="btn btn-primary text-white"><strong>Click here!</strong></a>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Contact Details</h4>
+                        <p class="card-text">
+                            <dl>
+                                <dt>Address</dt>
+                                <dd>{{ site.data.contact.address }}</dd>
+                                <dt>Phone Number</dt>
+                                <dd>{{ site.data.contact.phone }}</dd>
+                                <dt>Email</dt>
+                                <dd><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
+                                <dt>Working Hrs</dt>
+                                <dd>{{ site.data.contact.working_hrs }}</dd>
+                            </dl>
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Contact Details</h4>
-                    <p class="card-text">
-                        <dl>
-                            <dt>Address</dt>
-                            <dd>{{ site.data.contact.address }}</dd>
-                            <dt>Phone Number</dt>
-                            <dd>{{ site.data.contact.phone }}</dd>
-                            <dt>Email</dt>
-                            <dd><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
-                            <dt>Working Hrs</dt>
-                            <dd>{{ site.data.contact.working_hrs }}</dd>
-                        </dl>
-                    </p>
+            <div class="col">
+                <div class="bg-primary card text-white text-center">
+                    <div class="card-body">
+                        <p class="card-text">{{ site.data.social.facebook.text }}</p>
+                        <a href="{{ site.data.social.facebook.link }}" class="btn btn-primary text-white"><strong>Click here!</strong></a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Race Galleries</h4>
-                    <p class="card-text">Check out the photo galleries for previous races!</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    {% for gallery in site.data.galleries %}
-                        <li class="list-group-item"><a href="{{ gallery.link }}">{{ gallery.name }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-
-            <div class="card bg-warning text-white text-center">
-                <div class="card-body">
-                    <p class="card-text">We try hard to answers any questions that you might have about the race in our FAQ.</p>
-                    <a href="/faq" class="btn btn-warning text-white"><strong>Visit our FAQ page.</strong></a>
+            <div class="col">
+                <div class="card bg-warning text-white text-center">
+                    <div class="card-body">
+                        <p class="card-text">We try hard to answers any questions that you might have about the race in our FAQ.</p>
+                        <a href="/faq" class="btn btn-warning text-white"><strong>Visit our FAQ page.</strong></a>
+                    </div>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Race Results</h4>
-                    <p class="card-text">Check out the race results for previous years!</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    {% for race in site.data.results %}
-                        <li class="list-group-item"><a href="{{ race.link }}">{{ race.name }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-
-            <div class="bg-danger card text-white text-center">
-                <div class="card-body">
-                    <h4 class="card-title">{{ site.data.charity.title }}</h4>
-                    <p class="card-text">{{ site.data.charity.description }}</p>
-                    {% for link in site.data.charity.link %}
-                        <a href="{{ link.url }}" class="btn btn-danger">{% if link.highlight %}<strong>{% endif %}{{ link.text }}{% if link.highlight %}</strong>{% endif %}</a>
-                    {% endfor %}
+            
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Race Galleries</h4>
+                        <p class="card-text">Check out the photo galleries for previous races!</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        {% for gallery in site.data.galleries %}
+                            <li class="list-group-item"><a href="{{ gallery.link }}">{{ gallery.name }}</a></li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Links</h4>
-                    <p class="card-text">{{ site.data.resources.links.text }}</p>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Race Results</h4>
+                        <p class="card-text">Check out the race results for previous years!</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        {% for race in site.data.results %}
+                            <li class="list-group-item"><a href="{{ race.link }}">{{ race.name }}</a></li>
+                        {% endfor %}
+                    </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                    {% for link in site.data.resources.links.links %}
-                        <li class="list-group-item"><a href="{{ link.link }}">{{ link.name }}</a></li>
-                    {% endfor %}
-                </ul>
             </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Training</h4>
-                    <p class="card-text">{{ site.data.resources.training.text }}</p>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Links</h4>
+                        <p class="card-text">{{ site.data.resources.links.text }}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        {% for link in site.data.resources.links.links %}
+                            <li class="list-group-item"><a href="{{ link.link }}">{{ link.name }}</a></li>
+                        {% endfor %}
+                    </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                    {% for link in site.data.resources.training.links %}
-                        <li class="list-group-item"><a href="{{ link.link }}">{{ link.name }}</a></li>
-                    {% endfor %}
-                </ul>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Training</h4>
+                        <p class="card-text">{{ site.data.resources.training.text }}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        {% for link in site.data.resources.training.links %}
+                            <li class="list-group-item"><a href="{{ link.link }}">{{ link.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="bg-danger card text-white text-center">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ site.data.charity.title }}</h4>
+                        <p class="card-text">{{ site.data.charity.description }}</p>
+                        {% for link in site.data.charity.link %}
+                            <a href="{{ link.url }}" class="btn btn-danger">{% if link.highlight %}<strong>{% endif %}{{ link.text }}{% if link.highlight %}</strong>{% endif %}</a>
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"0c63c664b6ff47ed93533dc5d","lid":"513d1a2b43"}) })</script>
