@@ -4,7 +4,7 @@ layout: base
 
 <div class="container">
     <div id="races" class="row row-cols-1 row-cols-md-3 g-4">
-        {% for race in site.data.races %}
+        {% for race in site.races %}
         <div class="col">
             <div class="card shadow">
                 <div class="card-body-no-flex">
@@ -17,7 +17,7 @@ layout: base
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p class="card-text">{{ race.description }}</p>
+                            <p class="card-text">{{ race.content }}</p>
                         </div>
                     </div>
                     <div class="row race-metadata">
@@ -85,7 +85,7 @@ layout: base
 <div class="container-fluid">
     <div class="container">
         <div id="sponsors" class="row row-cols-1 row-cols-md-3 g-4">
-            {% assign sponsors = site.data.sponsors.entries | sort: 'order' | where: 'hidden', false %}
+            {% assign sponsors = site.sponsors | sort: 'order' | where: 'hidden', false %}
             <div class="col">
                 <div class="card">
                     <div class="card-body">
@@ -141,13 +141,13 @@ layout: base
                         <p class="card-text">
                             <dl>
                                 <dt>Address</dt>
-                                <dd>{{ site.data.contact.address }}</dd>
+                                <dd>{{ site.contact.address }}</dd>
                                 <dt>Phone Number</dt>
-                                <dd>{{ site.data.contact.phone }}</dd>
+                                <dd>{{ site.contact.phone }}</dd>
                                 <dt>Email</dt>
-                                <dd><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></dd>
+                                <dd><a href="mailto:{{ site.contact.email }}">{{ site.data.contact.email }}</a></dd>
                                 <dt>Working Hrs</dt>
-                                <dd>{{ site.data.contact.working_hrs }}</dd>
+                                <dd>{{ site.contact.working_hrs }}</dd>
                             </dl>
                         </p>
                     </div>
@@ -157,8 +157,8 @@ layout: base
             <div class="col">
                 <div class="bg-primary card text-white text-center">
                     <div class="card-body">
-                        <p class="card-text">{{ site.data.social.facebook.text }}</p>
-                        <a href="{{ site.data.social.facebook.link }}" class="btn btn-primary text-white"><strong>Click here!</strong></a>
+                        <p class="card-text">{{ page.facebook.text }}</p>
+                        <a href="{{ page.facebook.link }}" class="btn btn-primary text-white"><strong>Click here!</strong></a>
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@ layout: base
                         <p class="card-text">Check out the photo galleries for previous races!</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        {% for gallery in site.data.galleries %}
+                        {% for gallery in page.galleries %}
                             <li class="list-group-item"><a href="{{ gallery.link }}">{{ gallery.name }}</a></li>
                         {% endfor %}
                     </ul>
@@ -193,7 +193,7 @@ layout: base
                         <p class="card-text">Check out the race results for previous years!</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        {% for race in site.data.results %}
+                        {% for race in page.results %}
                             <li class="list-group-item"><a href="{{ race.link }}">{{ race.name }}</a></li>
                         {% endfor %}
                     </ul>
@@ -204,10 +204,10 @@ layout: base
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Links</h4>
-                        <p class="card-text">{{ site.data.resources.links.text }}</p>
+                        <p class="card-text">{{ page.links.text }}</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        {% for link in site.data.resources.links.links %}
+                        {% for link in page.links.links %}
                             <li class="list-group-item"><a href="{{ link.link }}">{{ link.name }}</a></li>
                         {% endfor %}
                     </ul>
@@ -218,10 +218,10 @@ layout: base
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Training</h4>
-                        <p class="card-text">{{ site.data.resources.training.text }}</p>
+                        <p class="card-text">{{ page.training.text }}</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        {% for link in site.data.resources.training.links %}
+                        {% for link in page.training.links %}
                             <li class="list-group-item"><a href="{{ link.link }}">{{ link.name }}</a></li>
                         {% endfor %}
                     </ul>
@@ -231,9 +231,9 @@ layout: base
             <div class="col">
                 <div class="bg-danger card text-white text-center">
                     <div class="card-body">
-                        <h4 class="card-title">{{ site.data.charity.title }}</h4>
-                        <p class="card-text">{{ site.data.charity.description }}</p>
-                        {% for link in site.data.charity.link %}
+                        <h4 class="card-title">{{ page.charity.title }}</h4>
+                        <p class="card-text">{{ page.charity.description }}</p>
+                        {% for link in page.charity.link %}
                             <a href="{{ link.url }}" class="btn btn-danger">{% if link.highlight %}<strong>{% endif %}{{ link.text }}{% if link.highlight %}</strong>{% endif %}</a>
                         {% endfor %}
                     </div>

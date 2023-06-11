@@ -27,11 +27,11 @@
   <body>
     <div class="container">
       <div id="logo" class="d-flex align-items-center justify-content-center">
-        {% assign logo = site.data.navigation.logo.logo %}
+        {% assign logo = site.navigation.logo.logo %}
         <a href="/"><img src="{{ logo }}"></img></a>
 
-        {% assign wdl_logo = site.data.navigation.logo.wdl_logo %}
-        <a href="{{ site.data.navigation.logo.wdl_link }}"><img src="{{ wdl_logo }}"></img></a>
+        {% assign wdl_logo = site.navigation.logo.wdl_logo %}
+        <a href="{{ site.navigation.logo.wdl_link }}"><img src="{{ wdl_logo }}"></img></a>
       </div>
     </div>
 
@@ -50,23 +50,17 @@
               </li>
             {% endif %}
           {% endfor %}
-
-          {% if site.data.navigation.options.show %}
-            <li class="nav-item">
-              <a href="{{ site.data.navigation.options.link }}" class="btn btn-download">{{ site.data.navigation.options.text }}</a>
-            </li>
-          {% endif %}
         </ul>
       </nav>
     </div>
 
-    {% if site.data.banner.enabled %}
+    {% if site.banner.enabled %}
       <div class="d-flex align-items-center justify-content-center banner">
         <nav class="navbar navbar-expand-lg navbar-dark text-center">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a href="{{ site.data.banner.link }}" class="nav-link">
-                <strong>{{ site.data.banner.text }}</strong>
+              <a href="{{ site.banner.link }}" class="nav-link">
+                <strong>{{ site.banner.text }}</strong>
               </a>
             </li>
           </ul>

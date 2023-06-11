@@ -1,25 +1,41 @@
 ---
 title: Run Loch Lomond 10K
-timezone: UTC
+description: 'Enter the Run Loch Lomond 10K'
+
+banner:
+  enabled: true
+  text: 'Run Loch Lomond 2023 - Saturday 17th June  '
+  link: https://runlochlomond.com/
+contact:
+  address: West Dunbartonshire Leisure - Alexandria Community Centre - G83 0NU
+  phone: '01389 757806'
+  email: runlochlomond@west-dunbarton.gov.uk
+  working_hrs: Mon - Fri / 8:30AM - 4:30PM
+navigation:
+  logo:
+    wdl_logo: "/images/wd_leisure.jpg"
+    wdl_link: http://www.west-dunbarton.gov.uk/leisure-parks-events/west-dunbartonshire-leisure/
+    logo: "/images/Run Loch Lomond.jpg"
+  title: Run Loch Lomond 10K and Fun Run
+
 collections:
-  posts:
-    title: Posts
-    output: true
+  sponsors:
+    output: false
+  races:
+    output: false
   uploads:
     title: Uploads
     output: true
-description: 'Enter the Run Loch Lomond 10K.
-
-'
 baseurl: ''
-url: "/"
-sass:
-  load_paths:
-  - './vendor/bundle/ruby/3.1.0/gems/bootstrap-5.2.3/assets/stylesheets/'
-markdown: kramdown
 exclude:
 - vendor
 - tags
 - tags.temp
 - tags.lock
 - README.md
+markdown: kramdown
+sass:
+  load_paths:
+    - './vendor/bundle/ruby/3.1.0/gems/bootstrap-5.2.3/assets/stylesheets/'
+timezone: UTC
+url: "/"
