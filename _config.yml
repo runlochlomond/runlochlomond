@@ -41,6 +41,5 @@ markdown: kramdown
 sass:
   load_paths:
   - "./vendor/bundle/ruby/3.1.0/gems/bootstrap-5.2.3/assets/stylesheets/"
-  # CI uses Ruby 2.7.0
   - "./vendor/bundle/ruby/2.7.0/gems/bootstrap-5.2.3/assets/stylesheets/"
 url: "/"
