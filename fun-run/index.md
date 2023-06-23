@@ -1,10 +1,10 @@
 ---
 title: Fun Run
-layout: page
 include_in_nav: true
+layout: page
 ---
 
-## WD Leisure Fun Run
+## WD Leisure Fun Run 2023
 
 ![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-79.jpg)
 
