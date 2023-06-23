@@ -1,5 +1,6 @@
 ---
 title: Loch Lomond 10K - Saturday 17th June
+published: false
 race_date: 2023-06-17 10:00:00 Z
 entries_closing_date: 
 price:
