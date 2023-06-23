@@ -1,7 +1,6 @@
 ---
 title: Home
 subtitle: What is Run Loch Lomond?
-layout: homepage
 include_in_nav: true
 charity:
   title: Run for Charity!
@@ -52,6 +51,8 @@ results:
   link: http://www.stuweb.co.uk/race/Vj
 - name: Vale of Leven 10K 2014
   link: http://www.stuweb.co.uk/race/Db/
+- name: Fun Run 2023
+  link: https://flic.kr/s/aHBqjAJmmG
 links:
   text: For more information on local running opportunities, please contact WD Leisure
     Sports Development. There are lots of opportunities available from JogScotland
@@ -70,6 +71,7 @@ training:
   links:
   - name: BBC Sports Get inspired
     link: http://www.bbc.co.uk/sport/get-inspired/27281727
+layout: homepage
 ---
 
 Run Loch Lomond is a festival of running organised by West Dunbartonshire Leisure Trust. The event consists of the Loch Lomond 10K, 5K and Fun Run.
