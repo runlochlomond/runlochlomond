@@ -14,6 +14,8 @@ facebook:
   link: https://www.facebook.com/lochlomond10K5K
   text: Visit our Facebook to add the races to your diary!
 galleries:
+- name: Fun Run 2023
+  link: https://flic.kr/s/aHBqjAJmmG
 - name: Fun Run 2022
   link: https://www.flickr.com/photos/25425985@N07/sets/72177720299913325/?fbclid=IwAR202nOTVjRABKnkUYIYXRVQWXpE4uLw3-lC02tMzFPc-fmiUPE_9Lboh-g
 - name: Run Loch Lomond 10K & 5K 2022
@@ -51,8 +53,6 @@ results:
   link: http://www.stuweb.co.uk/race/Vj
 - name: Vale of Leven 10K 2014
   link: http://www.stuweb.co.uk/race/Db/
-- name: Fun Run 2023
-  link: https://flic.kr/s/aHBqjAJmmG
 links:
   text: For more information on local running opportunities, please contact WD Leisure
     Sports Development. There are lots of opportunities available from JogScotland
