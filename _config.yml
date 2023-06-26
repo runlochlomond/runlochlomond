@@ -38,8 +38,4 @@ exclude:
 - tags.lock
 - README.md
 markdown: kramdown
-sass:
-  load_paths:
-  - "./vendor/bundle/ruby/3.1.0/gems/bootstrap-5.2.3/assets/stylesheets/"
-  - "./vendor/bundle/ruby/2.7.0/gems/bootstrap-5.2.3/assets/stylesheets/"
 url: "/"
