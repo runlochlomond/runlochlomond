@@ -1,6 +1,6 @@
 ---
-title: Fun Run 2023 –  Saturday 17th June
-race_date: 2023-06-17 09:00:00 Z
+title: Fun Run 2024 –  Saturday 15th June
+race_date: 2024-06-15 09:00:00 Z
 entries_closing_date: 
 description: 
 price:
