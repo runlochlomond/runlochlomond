@@ -1,8 +1,8 @@
 ---
-title: Loch Lomond 5K - Saturday 17th June
+title: Loch Lomond 5K - Saturday 15th June
 race_date: 2023-06-17 10:20:00 Z
 entries_closing_date: 
-description: ''
+description: 
 price:
   sa: 14 (Early Bird Offer - £12)
   non-sa: '16 (Early Bird Offer - £14) '
