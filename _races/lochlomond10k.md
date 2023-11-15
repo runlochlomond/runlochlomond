@@ -1,6 +1,6 @@
 ---
-title: Loch Lomond 10K - Saturday 15th June
-race_date: 2023-06-17 10:00:00 Z
+title: Loch Lomond 10K 2024 - Saturday 15th June
+race_date: 2024-06-15 10:00:00 Z
 entries_closing_date: 
 price:
   sa: 23 (Early Bird Offer - £21)
