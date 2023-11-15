@@ -1,7 +1,7 @@
 ---
 title: Terms and Conditions
-layout: page
 include_in_nav: false
+layout: page
 ---
 
 # Terms and Conditions
