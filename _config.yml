@@ -17,7 +17,7 @@ collections:
 description: Enter the Run Loch Lomond 10K
 banner:
   enabled: true
-  text: 'Run Loch Lomond 2023 - Saturday 17th June  '
+  text: 'Run Loch Lomond 2024 - Saturday 15th June  '
   link: https://runlochlomond.com/
 contact:
   address: West Dunbartonshire Leisure - Alexandria Community Centre - G83 0NU
@@ -30,7 +30,7 @@ navigation:
     wdl_link: http://www.west-dunbarton.gov.uk/leisure-parks-events/west-dunbartonshire-leisure/
     logo: "/images/Run Loch Lomond.jpg"
   title: Run Loch Lomond 10K and Fun Run
-baseurl: ''
+baseurl: 
 exclude:
 - vendor
 - tags
