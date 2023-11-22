@@ -1,5 +1,5 @@
 ---
-title: Run Loch Lomond 10K
+title: Run Loch Lomond 10K, 5K + Fun Run
 timezone: UTC
 collections:
   posts:
@@ -14,7 +14,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: Enter the Run Loch Lomond 10K
+description: Enter the Run Loch Lomond Event
 banner:
   enabled: true
   text: 'Run Loch Lomond 2024 - Saturday 15th June  '
