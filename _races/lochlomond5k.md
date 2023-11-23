@@ -4,8 +4,8 @@ race_date: 2024-06-15 10:20:00 Z
 entries_closing_date: 
 description: 
 price:
-  sa: 16 (Early Bird Offer - £14)
-  non-sa: '18 (Early Bird Offer - £16) '
+  sa: 16 (Early Bird Offer - £13)
+  non-sa: '18 (Early Bird Offer - £15) '
 route: https://www.plotaroute.com/route/961936?units=km
 entry:
   link: https://www.entrycentral.com/loch-lomond-10k-and-5k
