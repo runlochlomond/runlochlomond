@@ -26,7 +26,7 @@ Minimum age for the 10K is 15 years on the day of the event and 11 years on the 
 Please select 'Home' and click 'View Route'
 
 **Am I insured for the event?**
-If you have a valid SA membership you are automatically insured / if you are not a member of SA, part of your payment will be used for insurance. Please be aware if you select the £21 for the 10K or £14 for the 5K and you are not a member of SA you will not be insured
+If you have a valid SA membership you are automatically insured / if you are not a member of SA, part of your payment will be used for insurance. Please be aware if you select the £23 for the 10K or £16 for the 5K and you are not a member of SA you will not be insured
 
 **When will I receive my race pack?**
 The deadline to receive your race pack by post is Monday 3rd June 2024 10:00am. Race packs will be posted shortly after this date. If you enter after this date please collect your number from the WDL main tent on the morning of the race.
