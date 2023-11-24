@@ -9,7 +9,7 @@ route: https://www.plotaroute.com/route/791558
 entry:
   link: https://www.entrycentral.com/loch-lomond-10k-and-5k
   text: Enter now!
-image_link: "/images/d_9lchtg.jpeg.jpg"
+image_link: "/uploads/52987107881_b3f778fb5b_k.jpg"
 ---
 
 The Loch Lomond 10K is organised by West Dunbartonshire Leisure and is a continuation of the highly popular Vale of Leven 10K, which is now into its 37th year!
