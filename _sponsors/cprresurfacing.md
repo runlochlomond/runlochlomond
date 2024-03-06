@@ -13,4 +13,4 @@ hidden: false
 
 CPR Scotland Ltd are a Civil Engineering contractor located in Renton, West Dunbartonshire. They are a family ran company who are trusted suppliers to Network Rail, Rail Systems Alliance Scotland, Amey, ESD and more. They support community programmes which encourage young people to participate in positive activities.
 
-William Black, Managing Director said, “CPR are delighted to be involved in Run Loch Lomond 2022, a fantastic event set in beautiful surroundings on our doorstep. It takes place in the heart of our community, and this year we will support local young people to take part.”
+William Black, Managing Director said, “CPR are delighted to be involved in Run Loch Lomond, a fantastic event set in beautiful surroundings on our doorstep. It takes place in the heart of our community, and this year we will support local young people to take part.”
