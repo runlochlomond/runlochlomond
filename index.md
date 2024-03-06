@@ -40,6 +40,10 @@ galleries:
 - name: Vale of Leven 10K 2014 Part 1 (and Fun Run)
   link: https://www.flickr.com/photos/25425985@N07/albums/72157645147277564
 results:
+- name: Loch Lomond 5K 2023
+  link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1055&EId=2&dt=0
+- name: Loch Lomond 10K 2023
+  link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1055&EId=1&dt=0
 - name: Loch Lomond 5K 2022
   link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=143&EId=2
 - name: Loch Lomond 10K 2022
