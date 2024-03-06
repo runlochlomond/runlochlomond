@@ -15,6 +15,8 @@ facebook:
   link: https://www.facebook.com/lochlomond10K5K
   text: Visit our Facebook to add the races to your diary!
 galleries:
+- name: Run Loch Lomomd 2023
+  link: https://flic.kr/s/aHBqjAJKuR
 - name: Fun Run 2023
   link: https://flic.kr/s/aHBqjAJmmG
 - name: Fun Run 2022
