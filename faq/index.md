@@ -55,7 +55,7 @@ No, as per Scottish Athletics event rules there will be no unauthorised wheeled 
 **Is it a tough course?**
 Our beautiful 10K route is relatively flat and fast with stunning views of Loch Lomond. The route uses paths within Balloch Castle Country Park as well as the cycle path along the River Leven providing a relatively traffic free race.
     
-Our 5K route is held completely within Balloch Country Park and is challenging with inclines and mixed terrain but very rewarding with amazing views from Balloch Castle. You will need to work hard to achieve the 5K but it will be worth it!
+Our 5K route is held completely within Balloch Castle Country Park. The route has a steady incline from 2-3K, but runners are rewarded with amazing views from Balloch Castle and a fantastic long downhill finish. It's worth the effort!
 
 ## Race Day
 **Where is the start/finish?**
