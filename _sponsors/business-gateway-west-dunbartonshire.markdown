@@ -4,7 +4,7 @@ date: 2024-03-06 11:48:00 Z
 name: Business Gateway West Dunbartonshire
 link: https://www.bgateway.com/
 tier: Bronze
-show_on_homepage: 'Yes'
+show_on_homepage: true
 layout: sponsors
 ---
 
