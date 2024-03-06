@@ -69,6 +69,8 @@ links:
     link: http://www.scottishathletics.org.uk/
   - name: Jogscotland
     link: https://jogscotland.org.uk/
+  - name: 'Levengrove Park Run '
+    link: https://www.parkrun.org.uk/levengrove/
 training:
   text: If you are thinking about doing your first road race and don't know where
     or how to start training, then the below websites may be useful. It's important
