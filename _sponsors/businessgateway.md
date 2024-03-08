@@ -10,4 +10,4 @@ tier: bronze
 layout: sponsors
 ---
 
-> > Business Gateway provide advice and support to start-up and existing businesses to assist them to grow and create local jobs. Business Gateway are pleased to sponsor Run Loch Lomond 2024 and wish everyone the very best of luck on the day!
+> > Business Gateway provide advice and support to start-up and existing businesses to assist them to grow and create local jobs. Business Gateway are pleased to sponsor Run Loch Lomond 2024 and wish everyone the very best of luck on the day
