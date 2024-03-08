@@ -10,7 +10,7 @@ collections:
     output: false
   sponsors:
     title: Sponsors
-    output: false
+    output: true
   uploads:
     title: Uploads
     output: true
