@@ -4,8 +4,8 @@ race_date: 2024-06-15 09:00:00 Z
 entries_closing_date: 
 description: 
 price:
-  non-sa: 2
-  sa: 2
+  non-sa: 3
+  sa: 3
 entry:
   text: Find out more!
   link: "/fun-run"
