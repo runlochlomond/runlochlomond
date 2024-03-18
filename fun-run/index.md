@@ -48,7 +48,7 @@ Please ensure you arrive ready to take part no later than 08:45. Holding areas w
 
 **Is there an entry fee?**
 
-Yes. The entry fee is £2.
+Yes. The entry fee is £3.
 
 **Is there parking available at the event?**
 
