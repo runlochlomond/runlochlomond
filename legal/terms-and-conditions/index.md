@@ -10,19 +10,17 @@ layout: page
 
 The following event rules and guidelines are intended to help produce an event which ensures the safety of all participants and meets the requirements of local government permits. West Dunbartonshire Leisure (WDL) retains the right to refuse entry to anyone declaring false information on their application, not making the required payment, or otherwise failing to meet the entry requirements. In any and all circumstances WDL retains the right to refuse entry to any person. IN THE INTEREST OF SAFETY: The Race Director and the Emergency Services reserve the right to stop the event at any time, if deemed necessary. These would be in circumstances beyond our control and no refunds would be given.
 
-## Participation
+Participation
 
-• An email address is required for all entries. All correspondence will be via email. A separate email address for each participant is preferred but not required.
+• An email address is required for all entries. All correspondence will be via email. A separate email address for each participant is preferred but not essential.
 
-• To register for the 10k you must be 15 years of age or older on event day.
+• The minimum age required to enter the 5K is 11 years old and 15 years old for the 10K. Organisers hold the right to exclude participants from any event who are deemed to be acting inappropriately or causing health and safety concerns for themselves or others without refund. All participants agree to abide by the rules of the race set by the race directors, organisers (including medical staff, police and race day stewards) and that of affiliated organisations Scottish Athletics and UK Athletics (where appropriate).
 
-• Each participant must agree to the disclaimer and Terms & Conditions before participating in the event.
+• Each participant must agree to the disclaimer and Terms & Conditions before participating in the event. If you do not agree with our terms and conditions, then please do not take part in the event.
 
-• All participants take part at their own risk.
+• All entrants understand that they bear all the risks associated with the stress and strains of the event from a physical perspective. All participants agree that they are fit and healthy enough to compete in the event and will not hold the event organisers responsible for health failures that arise during/following the event. Additionally, entrants will not hold the organisers responsible for the loss or damage of any personal equipment left without care.
 
-• Registrants must be capable of completing the full distance, start line to finish line.
-
-• The event time requirement and age minimum apply to all forms of entry and event participation.
+• Participants must be capable of completing the full distance, start line to finish line before the maximum time allocated.
 
 • All participants must provide their full name and confirm that they have no health concerns or medication that would stop them from participating in the event they are entering.
 
@@ -30,13 +28,13 @@ The following event rules and guidelines are intended to help produce an event w
 
 • All participants need to complete the personal information section on the back of their race number.
 
-• Participant race number bibs are specific personal identifiers and may not be exchanged with or transferred / sold to any other person. Sale and/or transfer of race entry/bibs are strictly prohibited and will result in the disqualification and/or banning of any individuals involved from future events.
+• Participant race numbers are specific personal identifiers and may not be exchanged with or transferred / sold to any other person. Sale and/or transfer of race entry/bibs are strictly prohibited and will result in the disqualification and/or banning of any individuals involved from future events.
 
-• All entry fees are non-refundable and may not be deferred toward a future event.
+• We are willing to offer a refund minus 20% admin fee if cancellation is made by 31st March. Deferrals can be made up to 30th April however after this date, no refunds or deferrals can be processed
+
+• The organisers hold the rights to amend/cancel any event at late notice. This includes any aspect of the event such as race time, date, venue, fees or prizes. In the event of a cancellation that is beyond the control of the organisers, such as adverse weather conditions and communicable diseases, attempts will be made to reschedule the event and entries will be automatically transferred. Where an event cannot be rescheduled, we will either offer a deferral to the following year or a full refund for the event only. Please note we are not liable to cover any other cost you may have incurred due to the cancellation such as travel or accommodation
 
 • Registration closure is determined and announced when event participation reaches the established capacity.
-
-• Customers have the right to cancel any entry made over the internet as long as it is done within 14 days of the original entry.
 
 ## Event Day
 
