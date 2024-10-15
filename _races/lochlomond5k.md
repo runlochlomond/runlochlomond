@@ -1,6 +1,6 @@
 ---
 title: Loch Lomond 5K 2024 - Saturday 15th June
-race_date: 2024-06-15 10:20:00 Z
+race_date: 2025-06-21 10:20:00 Z
 entries_closing_date: 
 description: 
 price:
