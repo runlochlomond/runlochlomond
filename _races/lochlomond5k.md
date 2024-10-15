@@ -15,8 +15,10 @@ entry:
 image_link: "/uploads/LL10K%20-%202022-22.jpg"
 ---
 
-Loch Lomond 5K is organised by West Dunbartonshire Leisure. The 5k route is held completely within Balloch Castle Country Park offering stunning     scenery and even more stunning views of Loch Lomond. 
-    
-11+ years welcome.
-    
+Loch Lomond 5K is organised by West Dunbartonshire Leisure. The 5k route is held completely within Balloch Castle Country Park offering stunning     scenery and even more stunning views of Loch Lomond.
+
+11\+ years welcome.
+
+Early Bird Offer - First 50 entries recieve a £3.00 discount!
+
 Please see FAQ for all details.
