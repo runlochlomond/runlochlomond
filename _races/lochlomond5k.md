@@ -4,8 +4,6 @@ race_date: 2025-06-21 10:20:00 Z
 entries_closing_date: 
 description: Early Bird Offer - First 50 entries recieve a £3.00 discount
 price:
-  sa - Early Bird: 15
-  non-sa - Early Bird: 17
   sa: 18
   non-sa: 20
 route: https://www.plotaroute.com/route/961936?units=km
