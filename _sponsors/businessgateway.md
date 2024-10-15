@@ -5,7 +5,7 @@ position: 0
 name: Business Gateway
 link: https://www.bgateway.com/
 order: 4
-image: "/uploads/Business%20Gateway%20logo.jpg"
+image_link: "/uploads/Business%20Gateway%20logo.jpg"
 hidden: false
 layout: sponsors
 ---
