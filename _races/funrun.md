@@ -1,5 +1,5 @@
 ---
-title: Fun Run 2024 –  Saturday 15th June
+title: Fun Run 2025 –  Saturday 21st June
 race_date: 2024-06-15 09:00:00 Z
 entries_closing_date: 
 description: 
