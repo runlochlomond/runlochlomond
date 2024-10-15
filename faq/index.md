@@ -7,11 +7,18 @@ layout: page
 Here are some frequently asked questions about the race:
 
 ## Pre-Event
+
 **How do I enter?**
 Entry not yet available. When available please select ‘home’ and click ‘Enter Now’
 
 **How much is it to enter?**
-10K £23 for runners affiliated with Scottish Athletics / £25 for runners not affiliated with Scottish Athletics. 5K £16 for runners affiliated with Scottish Athletics / £18 for runners not affiliated with Scottish Athletics
+The 10K is £25 for runners affiliated with Scottish Athletics / £27 for runners not affiliated with Scottish Athletics. 
+
+**10K - Early Bird Offer** - First 150 entries will recieve a £3.00 discount.
+
+The 5K is £18 for runners affiliated with Scottish Athletics / £20 for runners not affiliated with Scottish Athletics.
+
+**5K - Early Bird Offer** - First 50 entries will recieve a £3.00 discount.
 
 **When is the online entry closing date?**
 Entries close Thursday 19th June 2025 10:00am. To receive your race pack by post the deadline is Monday 9th June 2025 10:00am
@@ -54,10 +61,11 @@ No, as per Scottish Athletics event rules there will be no unauthorised wheeled 
 
 **Is it a tough course?**
 Our beautiful 10K route is relatively flat and fast with stunning views of Loch Lomond. The route uses paths within Balloch Castle Country Park as well as the cycle path along the River Leven providing a relatively traffic free race.
-    
+
 Our 5K route is held completely within Balloch Castle Country Park. The route has a steady incline from 2-3K, but runners are rewarded with amazing views from Balloch Castle and a fantastic long downhill finish. It's worth the effort!
 
 ## Race Day
+
 **Where is the start/finish?**
 Moss O’ Balloch (G83 8LE). The 10K starts at 10am with the 5K starting at 10:20am
 
@@ -112,6 +120,7 @@ There are many local cafés and restaurants nearby.
 UK Athletics’ rules state that 'in ear' headphones cannot be used in events where roads are open to traffic. However you may us AfterShokz headphones as it delivers stereophonic sound through your cheekbones to the inner ear.
 
 ## Other
+
 **What are the prize categories?**
 There will be prizes for various categories. Details of the specific prize fund will be announced nearer the event date.
 
