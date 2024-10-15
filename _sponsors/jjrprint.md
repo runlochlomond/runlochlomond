@@ -3,7 +3,7 @@ title: Jjrprint
 position: 2
 name: JJR Print Ltd
 link: https://www.jjrprint.co.uk/
-order: 4
+order: 3
 show_on_homepage: false
 tier: Bronze
 short_description: 
