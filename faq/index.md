@@ -14,7 +14,7 @@ Entry not yet available. When available please select ‘home’ and click ‘En
 10K £23 for runners affiliated with Scottish Athletics / £25 for runners not affiliated with Scottish Athletics. 5K £16 for runners affiliated with Scottish Athletics / £18 for runners not affiliated with Scottish Athletics
 
 **When is the online entry closing date?**
-Entries close Thursday 13th June 2024 10:00am. To receive your race pack by post the deadline is Monday 3rd June 2024 10:00am
+Entries close Thursday 19th June 2025 10:00am. To receive your race pack by post the deadline is Monday 9th June 2025 10:00am
 
 **Can I enter on the day?**
 This is not recommended as on the day entry cannot be guaranteed, however     we will strive to help anyone that wants to run the race
@@ -29,7 +29,7 @@ Please select 'Home' and click 'View Route'
 If you have a valid SA membership you are automatically insured / if you are not a member of SA, part of your payment will be used for insurance. Please be aware if you select the £23 for the 10K or £16 for the 5K and you are not a member of SA you will not be insured
 
 **When will I receive my race pack?**
-The deadline to receive your race pack by post is Monday 3rd June 2024 10:00am. Race packs will be posted shortly after this date. If you enter after this date please collect your number from the WDL main tent on the morning of the race.
+The deadline to receive your race pack by post is Monday 9th June 2025 10:00am. Race packs will be posted shortly after this date. If you enter after this date please collect your number from the WDL main tent on the morning of the race.
 
 **What will I receive in my race pack?**
 All runners will receive a race pack including their race number and an information letter. Each number also contains your chip for that race, please look after this carefully and do not bend, crease or fold it. You must wear it on the front of your running top so our MC can give you a mention and be recognised as an official runner. Please add your personal details to the space provided on the rear of your number – this is essential information for us in case of an incident.
