@@ -6,7 +6,6 @@ name: Business Gateway
 link: https://www.bgateway.com/
 order: 4
 image: "/uploads/Business%20Gateway%20logo.jpg"
-tier: bronze
 hidden: false
 layout: sponsors
 ---
