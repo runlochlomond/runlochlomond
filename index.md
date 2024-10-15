@@ -42,6 +42,8 @@ galleries:
 results:
 - name: Loch Lomond 10K 2024
   link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1138&EId=1
+- name: Loch Lomond 5k 2024
+  link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1138&EId=2
 - name: Loch Lomond 5K 2023
   link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1055&EId=2&dt=0
 - name: Loch Lomond 10K 2023
