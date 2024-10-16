@@ -30,7 +30,7 @@ Participation
 
 • Participant race numbers are specific personal identifiers and may not be exchanged with or transferred / sold to any other person. Sale and/or transfer of race entry/bibs are strictly prohibited and will result in the disqualification and/or banning of any individuals involved from future events.
 
-• We are willing to offer a refund minus 20% admin fee if cancellation is made by 31st March. Deferrals can be made up to 30th April however after this date, no refunds or deferrals can be processed
+• Please note, we are willing to offer a refund minus 20% admin fee if cancellation is made by 31st March 2025. No refunds can be processed after this date however deferrals can be made up to 30th April 2025.
 
 • The organisers hold the rights to amend/cancel any event at late notice. This includes any aspect of the event such as race time, date, venue, fees or prizes. In the event of a cancellation that is beyond the control of the organisers, such as adverse weather conditions and communicable diseases, attempts will be made to reschedule the event and entries will be automatically transferred. Where an event cannot be rescheduled, we will either offer a deferral to the following year or a full refund for the event only. Please note we are not liable to cover any other cost you may have incurred due to the cancellation such as travel or accommodation
 
