@@ -20,6 +20,9 @@ The 5K is £18 for runners affiliated with Scottish Athletics / £20 for runners
 
 **5K - Early Bird Offer** - First 50 entries will recieve a £3.00 discount.
 
+**Refunds + Deferrals**
+Please note, we are willing to offer a refund minus 20% admin fee if cancellation is made by 31st March 2025. No refunds can be processed after this date however deferrals can be made up to 30th April 2025.
+
 **When is the online entry closing date?**
 Entries close Thursday 19th June 2025 10:00am. To receive your race pack by post the deadline is Monday 9th June 2025 10:00am
 
