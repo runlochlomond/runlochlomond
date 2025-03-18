@@ -6,7 +6,7 @@ description: Early Bird Offer - First 50 entries recieve a £3.00 discount
 price:
   sa: 18
   non-sa: 20
-route: https://www.plotaroute.com/route/961936?units=km
+route: https://www.plotaroute.com/route/961936
 entry:
   link: https://www.entrycentral.com/loch-lomond-10k-and-5k
   text: Enter now!
