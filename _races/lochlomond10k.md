@@ -5,7 +5,7 @@ entries_closing_date:
 price:
   sa: 25
   non-sa: 27
-route: https://www.plotaroute.com/route/2891942?units=km
+route: https://www.plotaroute.com/route/2891942
 entry:
   link: https://www.entrycentral.com/loch-lomond-10k-and-5k
   text: Enter now!
