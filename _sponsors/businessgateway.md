@@ -1,7 +1,7 @@
 ---
 title: BusinessGateway
 date: 2024-03-08 13:30:00 Z
-position: 0
+position: 3
 name: Business Gateway
 link: https://www.bgateway.com/
 order: 4

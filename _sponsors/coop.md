@@ -1,6 +1,6 @@
 ---
 title: Coop
-position: 1
+position: 4
 name: The Co-operative Group
 link: https://www.co-operative.coop/
 order: 2
