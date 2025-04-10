@@ -1,7 +1,7 @@
 ---
 title: Start Fitness
 date: 2025-04-10 08:21:00 Z
-position: 3
+position: 4
 ---
 
 Our retail partner for Run Loch Lomond 2025 is START FITNESS. 
