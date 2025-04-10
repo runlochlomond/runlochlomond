@@ -1,6 +1,6 @@
 ---
 title: Jjrprint
-position: 1
+position: 2
 name: JJR Print Ltd
 link: https://www.jjrprint.co.uk/
 order: 3
