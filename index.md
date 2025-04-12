@@ -23,7 +23,7 @@ galleries:
   link: https://www.flickr.com/photos/25425985@N07/sets/72177720299913325/?fbclid=IwAR202nOTVjRABKnkUYIYXRVQWXpE4uLw3-lC02tMzFPc-fmiUPE_9Lboh-g
 - name: Run Loch Lomond 10K & 5K 2022
   link: https://www.flickr.com/photos/25425985@N07/albums/72177720299951874?fbclid=IwAR0DnzGovHYUhWZlkozP8fR_fvuaadSv0pqN9rxiohbvQBArLp0jaNfgxZw
-- name: Loch Lomond 10K 2019
+- name: Run Loch Lomond 10K 2019
   link: https://www.flickr.com/photos/25425985@N07/albums/72157709312868872/page8
 - name: Fun Run 2019
   link: https://www.flickr.com/photos/25425985@N07/albums/72157709267656387
@@ -44,14 +44,14 @@ results:
   link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1138&EId=1
 - name: Loch Lomond 5k 2024
   link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1138&EId=2
-- name: Loch Lomond 5K 2023
-  link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1055&EId=2&dt=0
 - name: Loch Lomond 10K 2023
   link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1055&EId=1&dt=0
-- name: Loch Lomond 5K 2022
-  link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=143&EId=2
+- name: Loch Lomond 5K 2023
+  link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=1055&EId=2&dt=0
 - name: Loch Lomond 10K 2022
   link: http://results.perfecttimingscotland.co.uk/Results.aspx?CId=20065&RId=143
+- name: Loch Lomond 5K 2022
+  link: http://results.perfecttimingscotland.co.uk/results.aspx?CId=20065&RId=143&EId=2
 - name: Loch Lomond 10K 2019
   link: http://results.perfecttimingscotland.co.uk/Results.aspx?CId=20065&RId=6012
 - name: Vale of Leven 10K 2018

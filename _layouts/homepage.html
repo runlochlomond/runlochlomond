@@ -10,7 +10,8 @@ layout: base
                 <div class="card-body-no-flex">
                     <h4 class="card-title">{{ race.title }}</h4>
                     {% if race.race_date %}
-                        <h6 class="card-subtitle text-muted countdown" data-countdown="{{ race.race_date }}">Countdown loading...</h6>
+                        <h6 style="margin-bottom: 0.5em" class="card-subtitle text-muted">{{ race.race_date | date: '%B %d %Y' }}</h6>
+                        <h6 class="card-subtitle text-muted countdown" data-countdown="{{ race.race_date | date: '%F' }}">Countdown loading...</h6>
                     {% endif %}
                 </div>
                 <img src="{{ race.image_link }}"/>
@@ -57,7 +58,7 @@ layout: base
                         <div class="row">
                             <div class="col-sm-9 d-flex align-items-center">
                                 <h6 class="card-text">
-                                    {{ race.title_sponsor_text }} - <a href="{{ title_sponsor.link }}">{{ title_sponsor.name }}</a>!
+                                    {{ race.title_sponsor_text }} - <a href="{{ title_sponsor.link }}">{{ title_sponsor.title }}</a>!
                                 </h6>
                             </div>
                             <div class="col-sm-3 mt-3 mt-sm-0">
@@ -84,16 +85,15 @@ layout: base
 
 <div class="container-fluid">
     <div class="container">
+        {% assign sponsors = site.sponsors | sort: 'position' | where: 'hidden', false | where: 'show_on_homepage', true %}
+        {% if sponsors.size > 0 %}
         <div id="sponsors" class="row row-cols-1 row-cols-md-3 g-4">
-            {% assign sponsors = site.sponsors | sort: 'order' | where: 'hidden', false %}
             <div class="col">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Sponsors</h4>
                         <p class="card-text">{{ site.data.sponsors.description }}</p>
-                        {% if sponsors.size > 0 %}
                             <a href="/sponsors" class="card-link">Check out our other sponsors.</a>
-                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -107,21 +107,14 @@ layout: base
                             </div>
                             <a href="{{ sponsor.link }}"><img style="width: 100%" src="{{ sponsor.image_link }}"/></a>
                             <div class="card-body">
-                                <p class="card-text">{{ sponsor.short_description }}</p>
+                                <p class="card-text">{{ sponsor.description }}</p>
                             </div>
                         </div>
                     </div>
                 {% endif %}
-            {% else %}
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <p class="card-text">We don't have any sponsors at the moment.</p>
-                        </div>
-                    </div>
-                </div>
             {% endfor %}
         </div>
+        {% endif %}
 
         <div id="info" class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">

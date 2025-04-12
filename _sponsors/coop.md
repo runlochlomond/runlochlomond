@@ -1,12 +1,9 @@
 ---
-title: Coop
+title: The Co-operative Group
 position: 1
-name: The Co-operative Group
 link: https://www.co-operative.coop/
-order: 2
 show_on_homepage: false
 tier: Silver
-short_description: ''
 image_link: "/images/co-op-blue-logo-on-white.png"
 hidden: false
 ---

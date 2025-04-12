@@ -1,5 +1,5 @@
 ---
-title: Loch Lomond 10K 2025 - Saturday 21st June
+title: Loch Lomond 10K 2025
 race_date: 2025-06-21 10:00:00 Z
 entries_closing_date: 
 price:

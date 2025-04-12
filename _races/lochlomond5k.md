@@ -1,5 +1,5 @@
 ---
-title: Loch Lomond 5K 2025 - Saturday 21st June
+title: Loch Lomond 5K 2025
 race_date: 2025-06-21 10:20:00 Z
 entries_closing_date: 
 description: Early Bird Offer - First 50 entries recieve a £3.00 discount
