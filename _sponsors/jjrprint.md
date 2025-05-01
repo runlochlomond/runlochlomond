@@ -1,6 +1,6 @@
 ---
 title: JJR Print Ltd
-position: 3
+position: 1
 link: https://www.jjrprint.co.uk/
 show_on_homepage: false
 tier: Silver

@@ -1,6 +1,6 @@
 ---
 title: The Co-operative Group
-position: 1
+position: 0
 link: https://www.co-operative.coop/
 show_on_homepage: false
 tier: Silver
