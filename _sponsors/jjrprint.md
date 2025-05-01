@@ -3,7 +3,7 @@ title: JJR Print Ltd
 position: 3
 link: https://www.jjrprint.co.uk/
 show_on_homepage: false
-tier: Bronze
+tier: Silver
 image_link: "/images/cbd794_7673ee10177449d08f1f0fc56ff7f799.gif"
 hidden: false
 ---
