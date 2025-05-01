@@ -3,7 +3,7 @@ title: Business Gateway
 position: 2
 link: https://www.bgateway.com/
 show_on_homepage: false
-tier: Silver
+tier: Bronze
 image_link: "/uploads/Business%20Gateway%20logo.jpg"
 hidden: false
 ---
