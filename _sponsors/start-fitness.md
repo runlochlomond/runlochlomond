@@ -3,7 +3,7 @@ title: Start Fitness
 position: 4
 link: https://startfitness.co.uk
 show_on_homepage: false
-tier: Silver
+tier: 'Retail Partner '
 image_link: "/uploads/start fitness.jpeg"
 hidden: false
 ---
