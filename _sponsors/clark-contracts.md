@@ -3,7 +3,7 @@ title: Clark Contracts
 position: 3
 link: https://www.co-operative.coop/
 show_on_homepage: false
-tier: Silver
+tier: Bronze
 image_link: "/uploads/Clark%20Contracts%20PNG%20Logo(1.0.png"
 hidden: false
 ---
