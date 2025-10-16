@@ -1,5 +1,5 @@
 ---
-title: Loch Lomond 5K 2025
+title: Loch Lomond 5K 2026
 race_date: 2026-06-26 10:20:00 Z
 entries_closing_date: 
 description: Early Bird Offer - First 25 entries recieve a £3.00 discount
