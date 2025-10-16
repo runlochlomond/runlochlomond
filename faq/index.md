@@ -24,7 +24,7 @@ The 5K is £19.50 for runners affiliated with Scottish Athletics / £21.50 for r
 Please note, we are willing to offer a refund minus 20% admin fee if cancellation is made by 31st March 2026. No refunds can be processed after this date however deferrals can be made up to 30th April 2026.
 
 **When is the online entry closing date?**
-Entries close Thursday 18th June 2025 10:00am. To receive your race pack by post the deadline is Monday 8th June 2025 10:00am
+Entries close Thursday 18th June 2026 10:00am. To receive your race pack by post the deadline is Monday 8th June 2026 10:00am
 
 **Can I enter on the day?**
 This is not recommended as on the day entry cannot be guaranteed, however     we will strive to help anyone that wants to run the race
