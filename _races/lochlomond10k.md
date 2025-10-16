@@ -1,10 +1,10 @@
 ---
 title: Loch Lomond 10K 2025
-race_date: 2025-06-21 10:00:00 Z
+race_date: 2026-06-20 10:00:00 Z
 entries_closing_date: 
 price:
-  sa: 25
-  non-sa: 27
+  sa: 26.5
+  non-sa: 28.5
 route: https://www.plotaroute.com/route/2891942?units=km
 entry:
   link: https://www.entrycentral.com/loch-lomond-10k-and-5k
