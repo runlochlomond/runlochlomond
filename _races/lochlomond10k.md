@@ -1,5 +1,5 @@
 ---
-title: Loch Lomond 10K 2025
+title: Loch Lomond 10K 2026
 race_date: 2026-06-20 10:00:00 Z
 entries_closing_date: 
 price:
