@@ -4,7 +4,7 @@ include_in_nav: true
 layout: page
 ---
 
-## WD Leisure Fun Run 2025!
+## WD Leisure Fun Run 2026!
 
 ![]({{ site.baseurl }}/images/VOL 2018 - Fun Run-79.jpg)
 
