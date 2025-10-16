@@ -1,11 +1,11 @@
 ---
 title: Loch Lomond 5K 2025
-race_date: 2025-06-21 10:20:00 Z
+race_date: 2026-06-26 10:20:00 Z
 entries_closing_date: 
-description: Early Bird Offer - First 50 entries recieve a £3.00 discount
+description: Early Bird Offer - First 25 entries recieve a £3.00 discount
 price:
-  sa: 18
-  non-sa: 20
+  sa: 19.5
+  non-sa: 21.5
 route: https://www.plotaroute.com/route/961936
 entry:
   link: https://www.entrycentral.com/loch-lomond-10k-and-5k
@@ -17,6 +17,6 @@ Loch Lomond 5K is organised by West Dunbartonshire Leisure. The 5k route is held
 
 11\+ years welcome.
 
-**Early Bird Offer - First 50 entries recieve a £3.00 discount!**
+**Early Bird Offer - First 25 entries recieve a £3.00 discount!**
 
 Please see FAQ for all details.
