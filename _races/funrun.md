@@ -1,5 +1,5 @@
 ---
-title: Fun Run 2025
+title: Fun Run 2026
 race_date: 2026-06-20 09:00:00 Z
 entries_closing_date: 
 description: 
