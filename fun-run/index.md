@@ -1,6 +1,5 @@
 ---
 title: Fun Run
-published: false
 include_in_nav: true
 layout: page
 ---
