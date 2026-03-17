@@ -16,6 +16,4 @@ The Loch Lomond 10K is organised by West Dunbartonshire Leisure and is a continu
 
 15\+ years welcome.
 
-**Early Bird Offer - First 150 entries recieve a £3.00 discount**
-
 Please see FAQ for all details.
