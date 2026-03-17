@@ -17,6 +17,4 @@ Loch Lomond 5K is organised by West Dunbartonshire Leisure. The 5k route is held
 
 11\+ years welcome.
 
-**Early Bird Offer - First 25 entries recieve a £3.00 discount!**
-
 Please see FAQ for all details.
