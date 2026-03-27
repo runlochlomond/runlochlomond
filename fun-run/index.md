@@ -14,6 +14,10 @@ layout: page
 
 Please see the following for further information about the event.
 
+**How do I regsiter my child for the fun run?**
+
+Details of how to register will be added over the coming weeks.
+
 **When and where does the fun run start?**
 
 The fun run will start in the Moss O’ Balloch area. The fun run will be set off in waves, with the oldest age group (P7) going first. The first run will commence at 9am
@@ -30,13 +34,13 @@ The course distance is approx. 1mile for the older age groups and there is a sho
 
 ![Fun Run 3 .jpg](/uploads/Fun%20Run%203%20.jpg)
 
-**My child is already registered via their school, do I need to register again on the day?**
+**My child is already registered, do I need to register again on the day?**
 
-Anyone who has pre-registered via their school and already has a race number does not need to register again on the day. Pre-registered participants should go to the holding area for their age group (this will be marked on the day)
+Anyone who has pre-registered and already has a race number does not need to register again on the day. Pre-registered participants should go to the holding area for their age group (this will be marked on the day)
 
 **I’ve not pre-registered my child, can I register on the day of the event?**
 
-Yes. Any children who have not already registered via their school need to register at the WD Leisure Gazebo between 08:00 to 08:45 on the day.
+Yes. We encourage everyone to pre-register however any children who have not already registered need can register at the WD Leisure Gazebo between 08:00 to 08:45 on the day.
 
 **I’m pre-registered. Where should my child go when they arrive?**
 
