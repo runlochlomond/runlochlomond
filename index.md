@@ -15,6 +15,8 @@ facebook:
   link: https://www.facebook.com/lochlomond10K5K
   text: Visit our Facebook to add the races to your diary!
 galleries:
+- name: Run Loch Lomond 10K, 5K and Fun Run 2025
+  link: https://www.flickr.com/photos/25425985@N07/albums/72177720327077563/
 - name: Run Loch Lomond 2024
   link: https://flic.kr/s/aHBqjBvDgv
 - name: Fun Run 2024
