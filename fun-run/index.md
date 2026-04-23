@@ -16,7 +16,7 @@ Please see the following for further information about the event.
 
 **How do I regsiter my child for the fun run?**
 
-Details of how to register will be added over the coming weeks.
+Enter here how - https://wdl-sportsdevelopment.classforkids.io/term/81
 
 **When and where does the fun run start?**
 
