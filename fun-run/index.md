@@ -60,7 +60,7 @@ For the safety of all participants there will be no parking at the event site (M
 
 **Other important information**
 
-* The children will be taken to the starting line for their age group</p>
+* The children will be taken to the starting line for their age group
 * <p>Each age group will be set off in waves (oldest to youngest)</p>
 * <p>Parents will be able to see their children finish and walk with them to receive their medal</p>
 
