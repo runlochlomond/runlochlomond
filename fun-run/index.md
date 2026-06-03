@@ -36,7 +36,7 @@ The course distance is approx. 1mile for the older age groups and there is a sho
 
 **My child is already registered, do I need to register again on the day?**
 
-Anyone who has pre-registered and already has a race number does not need to register again on the day. Pre-registered participants should go to the holding area for their age group (this will be marked on the day)
+Anyone who has pre-registered and already has a race number does not need to register again on the day. Pre-registered participants should go straight to the holding area for their age group (this will be marked on the day)
 
 **I’ve not pre-registered my child, can I register on the day of the event?**
 
@@ -44,7 +44,7 @@ Yes. We encourage everyone to pre-register however any children who have not alr
 
 **I’m pre-registered. Where should my child go when they arrive?**
 
-Please ensure you arrive ready to take part no later than 08:45. Holding areas will be in place for the various age groups. Your child will be directed to the relevant area designated for your child’s age group and they should wait there with the supervisors prior to taking part in a mass warm up and walking to the starting line(s). The age groups will be Parent baby, toddlers, P1-3, P4, P5, P6 and P7).
+Please ensure you arrive ready to take part no later than 08:45. Holding areas will be in place for the various age groups. Your child will be directed to the relevant area designated for your child’s age group and they should wait there with the supervisors prior to walking to the starting line(s). The age groups will be Parent baby, toddlers, P1-3, P4, P5, P6 and P7).
 
 ![Fun Run 6.jpg](/uploads/Fun%20Run%206.jpg)
 
@@ -60,8 +60,7 @@ For the safety of all participants there will be no parking at the event site (M
 
 **Other important information**
 
-* <p>A mass warm up will take place after 08.45 for all young children to get ready for the fun run.</p>
-* <p>After the warm up the children will be taken to the starting line for their age group</p>
+* The children will be taken to the starting line for their age group</p>
 * <p>Each age group will be set off in waves (oldest to youngest)</p>
 * <p>Parents will be able to see their children finish and walk with them to receive their medal</p>
 
