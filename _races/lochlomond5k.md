@@ -1,11 +1,11 @@
 ---
 title: Loch Lomond 5K 2026
-race_date: 2026-06-20 10:20:00 Z
+race_date: 2027-06-05 10:20:00 Z
 entries_closing_date: 
 description: Early Bird Offer - First 25 entries recieve a £3.00 discount
 price:
-  sa: 19.5
-  non-sa: 21.5
+  sa: 20
+  non-sa: 22
 route: https://www.plotaroute.com/route/961936
 entry:
   link: https://www.entrycentral.com/loch-lomond-10k-and-5k
