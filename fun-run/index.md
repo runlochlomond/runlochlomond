@@ -4,7 +4,7 @@ include_in_nav: true
 layout: page
 ---
 
-## WD Leisure Fun Run 2026!
+## WD Leisure Fun Run 2027!
 
 ![Fun Run 10.jpg](/uploads/Fun%20Run%2010.jpg)
 
@@ -52,7 +52,7 @@ Please ensure you arrive ready to take part no later than 08:45. Holding areas w
 
 **Is there an entry fee?**
 
-Yes. The entry fee is £3.
+Yes. The entry fee is £4.
 
 **Is there parking available at the event?**
 
