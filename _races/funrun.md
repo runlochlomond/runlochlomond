@@ -1,11 +1,11 @@
 ---
-title: Fun Run 2026
-race_date: 2026-06-20 09:00:00 Z
+title: Fun Run 2027
+race_date: 2027-06-05 09:00:00 Z
 entries_closing_date: 
 description: 
 price:
-  non-sa: 3
-  sa: 3
+  non-sa: 4
+  sa: 4
 entry:
   text: Find out more!
   link: "/fun-run"
