@@ -12,19 +12,19 @@ Here are some frequently asked questions about the race:
 Entry not yet available. When available please select ‘home’ and click ‘Enter Now’
 
 **How much is it to enter?**
-The 10K is £26.50 for runners affiliated with Scottish Athletics / £28.50 for runners not affiliated with Scottish Athletics. 
+The 10K is £27.00 for runners affiliated with Scottish Athletics / £29.00 for runners not affiliated with Scottish Athletics. 
 
 **10K - Early Bird Offer** - First 150 entries will recieve a £3.00 discount.
 
-The 5K is £19.50 for runners affiliated with Scottish Athletics / £21.50 for runners not affiliated with Scottish Athletics.
+The 5K is £20.00 for runners affiliated with Scottish Athletics / £22.00 for runners not affiliated with Scottish Athletics.
 
 **5K - Early Bird Offer** - First 25 entries will recieve a £3.00 discount.
 
 **Refunds + Deferrals**
-Please note, we are willing to offer a refund minus 20% admin fee if cancellation is made by 31st March 2026. No refunds can be processed after this date however deferrals can be made up to 30th April 2026.
+Please note, we are willing to offer a refund minus 20% admin fee if cancellation is made by 31st March 2027. No refunds can be processed after this date however deferrals can be made up to 30th April 2027.
 
 **When is the online entry closing date?**
-Entries close Thursday 18th June 2026 10:00am. To receive your race pack by post the deadline is Monday 8th June 2026 10:00am
+Entries close at 10.00am on Thursday 3rd June 2027. To receive your race pack by post the deadline is 10.00am on Monday 24th May 2027.
 
 **Can I enter on the day?**
 This is not recommended as on the day entry cannot be guaranteed, however     we will strive to help anyone that wants to run the race
@@ -36,10 +36,11 @@ Minimum age for the 10K is 15 years on the day of the event and 11 years on the 
 Please select 'Home' and click 'View Route'
 
 **Am I insured for the event?**
-If you have a valid SA membership you are automatically insured / if you are not a member of SA, part of your payment will be used for insurance. Please be aware if you select the £26.50 for the 10K or £19.50 for the 5K and you are not a member of SA you will not be insured
+If you have a valid SA membership you are automatically insured / if you are not a member of SA, part of your payment will be used for insurance. Please be aware if you select the £27.00 entry for the 10K or the £20.00 entry for the 5K and you are not a member of SA, you will not be insured
 
 **When will I receive my race pack?**
-The deadline to receive your race pack by post is Monday 8th June 2025 10:00am. Race packs will be posted shortly after this date. If you enter after this date please collect your number from the WDL main tent on the morning of the race.
+The deadline for entries to receive your race pack by post is 10.00am on Monday 24th May 2027.
+Race packs will be posted shortly after this date. If you enter after this date, please collect your number from the WDL main tent on the morning of the race.
 
 **What will I receive in my race pack?**
 All runners will receive a race pack including their race number and an information letter. Each number also contains your chip for that race, please look after this carefully and do not bend, crease or fold it. You must wear it on the front of your running top so our MC can give you a mention and be recognised as an official runner. Please add your personal details to the space provided on the rear of your number – this is essential information for us in case of an incident.
@@ -48,7 +49,8 @@ All runners will receive a race pack including their race number and an informat
 Please email runlochlomond@west-dunbarton.gov.uk or call 01389 757806
 
 **I have misplaced all or part of my race pack, can I still take part?**
-Yes, please email runlochlomond@west-dunbarton.gov.uk or call 01389 757806 on the day, visit our information area and StuWeb will do their best to provide a new race number and timing chip. A charge of £1 will be enforced for the new number and timing chip.
+Prior to the event, please email runlochlomond@west-dunbarton.gov.uk  
+On the day, visit our information area and StuWeb will do their best to provide a new race number and timing chip. A charge of £1 will be enforced for the new number and timing chip.
 
 **Can I amend my personal details?**
 People can update their personal details up until the closing date for postage of race packs (note: this is different to the online closing date – see    below). They can update their details by logging into their account on entry central.
