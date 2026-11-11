@@ -17,7 +17,7 @@ collections:
 description: Enter the Run Loch Lomond Event
 banner:
   enabled: true
-  text: 'Run Loch Lomond 2027 - Saturday 5th June  '
+  text: 'Run Loch Lomond 2027 - Saturday 5th JunE  '
   link: https://runlochlomond.com/
 contact:
   address: West Dunbartonshire Leisure - Alexandria Community Centre - G83 0NU
