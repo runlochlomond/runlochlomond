@@ -8,7 +8,7 @@ Run Loch Lomond is a festival of running organised by West Dunbartonshire Leisur
 
 ## History and Background
 
-The Loch Lomond 10K replaced the Vale of Leven 10k in 2019. The Vale of Leven 10K was managed by Polaroid Eyewear from 1986 until 2016 with West Dunbartonshire Leisure Trust taking over the event in 2017. WDLT continued the event in it’s same form until changing the route, rebranding and further developing it in 2019. CPR Resurfacing Ltd has been the Gold sponsor of the event since 2018.
+The Loch Lomond 10K replaced the Vale of Leven 10k in 2019. The Vale of Leven 10K was managed by Polaroid Eyewear from 1986 until 2016 with West Dunbartonshire Leisure Trust taking over the event in 2017. WDLT continued the event in it’s same form until changing the route, rebranding and further developing it in 2019. 
 
 The previous winners over the years have included John Hanratty 1987, Peter Fleming 1990, Nat Muir 1991, Chris Robison 1993/94, Keith Anderson 1997/98, Kenyans Benson Masya 1999 & Stephen Ariga 2001. In 2000 local athlete Glen Stewart took the honours.
 
